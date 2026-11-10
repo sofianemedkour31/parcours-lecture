@@ -2,18 +2,16 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import test from 'node:test';
 import { fusionnerCorpus } from '../src/donnees.js';
+import { erreursTexte } from '../src/lib/validation.js';
 
 const corpus = JSON.parse(readFileSync(new URL('../public/contenu/parcours.json', import.meta.url), 'utf8'));
 
-test('les quatre parcours contiennent chacun 15 textes prêts pour la génération', () => {
+test('les quatre parcours conservent leurs textes et les textes validés sont publiables', () => {
   assert.deepEqual(corpus.parcours.map((p) => p.textes.length), [15, 15, 15, 15]);
   for (const p of corpus.parcours) for (const [index, t] of p.textes.entries()) {
     assert.equal(t.id, `p${p.id}-texte-${String(index + 1).padStart(2, '0')}`);
     assert.ok(t.titre && t.texte.length >= 100);
-    assert.equal(t.valide, false);
-    assert.deepEqual(t.activites.dictee.mots, []);
-    assert.deepEqual(t.activites.comprehension.questions, []);
-    assert.deepEqual(t.activites.motsMeles.mots, []);
+    if (t.valide) assert.deepEqual(erreursTexte(t, p), []);
   }
 });
 

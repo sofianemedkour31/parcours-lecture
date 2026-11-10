@@ -7,9 +7,9 @@
       "couleur": "vert",
       "reglages": {
         "niveau": "CP",
-        "nbMotsDictee": 6,
-        "nbQuestions": 4,
-        "nbMotsMeles": 6,
+        "nbMotsDictee": 8,
+        "nbQuestions": 6,
+        "nbMotsMeles": 8,
         "directions": "simple",
         "vitesse": 45
       },
@@ -18,29 +18,204 @@
           "id": "p1-texte-01",
           "titre": "Blanche-Neige",
           "texte": "Dans la maisonnette, tout était minuscule, gracieux et propre. On y voyait une petite table couverte d'une nappe blanche, avec sept petites assiettes et sept petites cuillères, sept petites fourchettes et sept petits couteaux, et aussi sept petits gobelets. Contre le mur, il y avait sept petits lits alignés.",
-          "valide": false,
+          "valide": true,
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [
+                "Dans la maisonnette,",
+                "tout était minuscule,",
+                "gracieux et propre.",
+                "On y voyait",
+                "une petite table couverte",
+                "d'une nappe blanche,",
+                "avec sept petites assiettes",
+                "et sept petites cuillères,",
+                "sept petites fourchettes",
+                "et sept petits couteaux,",
+                "et aussi sept petits gobelets.",
+                "Contre le mur,",
+                "il y avait sept petits lits alignés."
+              ],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "une petite table",
+                  "phrase": "On y voyait une petite table couverte d'une nappe blanche."
+                },
+                {
+                  "mot": "sept petites assiettes",
+                  "phrase": "avec sept petites assiettes et sept petites cuillères"
+                },
+                {
+                  "mot": "propre",
+                  "phrase": "tout était minuscule, gracieux et propre."
+                },
+                {
+                  "mot": "blanche",
+                  "phrase": "une petite table couverte d'une nappe blanche"
+                },
+                {
+                  "mot": "petits lits",
+                  "phrase": "il y avait sept petits lits alignés."
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "Comment est la maisonnette ?",
+                  "indice": "Regarde les trois adjectifs au début du texte.",
+                  "extrait": "Dans la maisonnette, tout était minuscule, gracieux et propre.",
+                  "bonne": 0,
+                  "choix": [
+                    "minuscule et propre",
+                    "grande et sale",
+                    "sombre et froide"
+                  ]
+                },
+                {
+                  "question": "De quelle couleur est la nappe ?",
+                  "indice": "Relis la phrase qui parle de la table.",
+                  "extrait": "On y voyait une petite table couverte d'une nappe blanche",
+                  "bonne": 0,
+                  "choix": [
+                    "blanche",
+                    "rouge",
+                    "bleue"
+                  ]
+                },
+                {
+                  "question": "Combien y a-t-il d'assiettes ?",
+                  "indice": "Cherche le nombre écrit devant le mot assiettes.",
+                  "extrait": "avec sept petites assiettes",
+                  "bonne": 0,
+                  "choix": [
+                    "sept",
+                    "six",
+                    "huit"
+                  ]
+                },
+                {
+                  "question": "Qu'est-ce qu'on utilise pour boire ?",
+                  "indice": "Cherche l'objet qui sert à boire à la fin de la liste.",
+                  "extrait": "et aussi sept petits gobelets.",
+                  "bonne": 0,
+                  "choix": [
+                    "les gobelets",
+                    "les couteaux",
+                    "les fourchettes"
+                  ]
+                },
+                {
+                  "question": "Où sont placés les lits ?",
+                  "indice": "Relis la dernière phrase du texte.",
+                  "extrait": "Contre le mur, il y avait sept petits lits alignés.",
+                  "bonne": 0,
+                  "choix": [
+                    "contre le mur",
+                    "sous la table",
+                    "dans la cuisine"
+                  ]
+                },
+                {
+                  "question": "Qui habite dans cette maison ?",
+                  "indice": "Compte le nombre d'assiettes et de lits.",
+                  "extrait": "avec sept petites assiettes et sept petites cuillères, sept petites fourchettes et sept petits couteaux, et aussi sept petits gobelets. Contre le mur, il y avait sept petits lits alignés.",
+                  "bonne": 0,
+                  "choix": [
+                    "sept personnes",
+                    "une seule personne",
+                    "deux personnes"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "minuscule",
+                "gracieux",
+                "table",
+                "nappe",
+                "assiettes",
+                "lits",
+                "alignés"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 6,
+                  "bonne": 0,
+                  "choix": [
+                    "gracieux",
+                    "énorme",
+                    "triste"
+                  ]
+                },
+                {
+                  "index": 13,
+                  "bonne": 0,
+                  "choix": [
+                    "petite",
+                    "haute",
+                    "lourde"
+                  ]
+                },
+                {
+                  "index": 20,
+                  "bonne": 0,
+                  "choix": [
+                    "sept",
+                    "deux",
+                    "dix"
+                  ]
+                },
+                {
+                  "index": 27,
+                  "bonne": 0,
+                  "choix": [
+                    "sept",
+                    "trois",
+                    "cent"
+                  ]
+                },
+                {
+                  "index": 33,
+                  "bonne": 0,
+                  "choix": [
+                    "couteaux",
+                    "verres",
+                    "livres"
+                  ]
+                },
+                {
+                  "index": 41,
+                  "bonne": 0,
+                  "choix": [
+                    "mur",
+                    "toit",
+                    "sol"
+                  ]
+                },
+                {
+                  "index": 48,
+                  "bonne": 0,
+                  "choix": [
+                    "alignés",
+                    "cassés",
+                    "perdus"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -48,29 +223,210 @@
           "id": "p1-texte-02",
           "titre": "La chèvre de Monsieur Seguin",
           "texte": "M. Seguin avait derrière sa maison un clos entouré d'aubépines. C'est là qu'il mit la nouvelle pensionnaire. Il l'attacha à un pieu, au plus bel endroit du pré, en ayant soin de lui laisser beaucoup de corde, et de temps en temps, il venait voir si elle était bien.",
-          "valide": false,
+          "valide": true,
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [
+                "M. Seguin avait derrière sa maison",
+                "un clos entouré d'aubépines.",
+                "C'est là qu'il mit",
+                "la nouvelle pensionnaire.",
+                "Il l'attacha à un pieu,",
+                "au plus bel endroit du pré,",
+                "en ayant soin de lui laisser",
+                "beaucoup de corde,",
+                "et de temps en temps,",
+                "il venait voir",
+                "si elle était bien."
+              ],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "un clos",
+                  "phrase": "M. Seguin avait derrière sa maison un clos entouré d'aubépines."
+                },
+                {
+                  "mot": "un pieu",
+                  "phrase": "Il l'attacha à un pieu, au plus bel endroit du pré,"
+                },
+                {
+                  "mot": "beaucoup",
+                  "phrase": "en ayant soin de lui laisser beaucoup de corde,"
+                },
+                {
+                  "mot": "de temps",
+                  "phrase": "de temps en temps,"
+                },
+                {
+                  "mot": "venait",
+                  "phrase": "il venait voir si elle était bien."
+                },
+                {
+                  "mot": "bien",
+                  "phrase": "il venait voir si elle était bien."
+                },
+                {
+                  "mot": "entouré",
+                  "phrase": "M. Seguin avait derrière sa maison un clos entouré d'aubépines."
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "Où se trouve le clos de Monsieur Seguin ?",
+                  "choix": [
+                    "derrière sa maison",
+                    "devant son jardin",
+                    "à côté du village"
+                  ],
+                  "bonne": 0,
+                  "indice": "Regarde le début de la première phrase.",
+                  "extrait": "M. Seguin avait derrière sa maison un clos entouré d'aubépines."
+                },
+                {
+                  "question": "Qu'est-ce qu'un « clos » ?",
+                  "choix": [
+                    "un terrain fermé",
+                    "un grand chemin",
+                    "un petit pont"
+                  ],
+                  "bonne": 0,
+                  "indice": "Le texte dit que le clos est entouré d'aubépines.",
+                  "extrait": "M. Seguin avait derrière sa maison un clos entouré d'aubépines."
+                },
+                {
+                  "question": "Qui est la « nouvelle pensionnaire » ?",
+                  "choix": [
+                    "une chèvre",
+                    "une poule",
+                    "une vache"
+                  ],
+                  "bonne": 0,
+                  "indice": "Regarde le titre de l'histoire.",
+                  "extrait": "C'est là qu'il mit la nouvelle pensionnaire."
+                },
+                {
+                  "question": "Comment Monsieur Seguin retient-il l'animal ?",
+                  "choix": [
+                    "avec une corde",
+                    "avec une cage",
+                    "avec un collier"
+                  ],
+                  "bonne": 0,
+                  "indice": "Relis le passage où il l'attache au pieu.",
+                  "extrait": "Il l'attacha à un pieu, au plus bel endroit du pré, en ayant soin de lui laisser beaucoup de corde"
+                },
+                {
+                  "question": "Où a-t-il attaché la chèvre ?",
+                  "choix": [
+                    "dans le pré",
+                    "dans la grange",
+                    "dans la forêt"
+                  ],
+                  "bonne": 0,
+                  "indice": "Cherche le mot qui désigne l'endroit avec de l'herbe.",
+                  "extrait": "Il l'attacha à un pieu, au plus bel endroit du pré"
+                },
+                {
+                  "question": "Pourquoi Monsieur Seguin vient-il voir la chèvre ?",
+                  "choix": [
+                    "pour s'occuper d'elle",
+                    "pour la faire partir",
+                    "pour lui donner un nom"
+                  ],
+                  "bonne": 0,
+                  "indice": "Relis la toute dernière phrase du texte.",
+                  "extrait": "et de temps en temps, il venait voir si elle était bien."
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "maison",
+                "clos",
+                "aubépines",
+                "pieu",
+                "pré",
+                "corde",
+                "temps"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 7,
+                  "choix": [
+                    "clos",
+                    "livre",
+                    "chien"
+                  ],
+                  "bonne": 0
+                },
+                {
+                  "index": 13,
+                  "choix": [
+                    "mit",
+                    "vit",
+                    "dit"
+                  ],
+                  "bonne": 0
+                },
+                {
+                  "index": 21,
+                  "choix": [
+                    "pieu",
+                    "arbre",
+                    "mur"
+                  ],
+                  "bonne": 0
+                },
+                {
+                  "index": 27,
+                  "choix": [
+                    "pré",
+                    "lac",
+                    "toit"
+                  ],
+                  "bonne": 0
+                },
+                {
+                  "index": 34,
+                  "choix": [
+                    "beaucoup",
+                    "peu",
+                    "trop"
+                  ],
+                  "bonne": 0
+                },
+                {
+                  "index": 41,
+                  "choix": [
+                    "temps",
+                    "jour",
+                    "vent"
+                  ],
+                  "bonne": 0
+                },
+                {
+                  "index": 48,
+                  "choix": [
+                    "bien",
+                    "grande",
+                    "seule"
+                  ],
+                  "bonne": 0
+                }
+              ]
             }
           }
         },
@@ -82,25 +438,205 @@
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [
+                "Le Bûcheron se mit à couper du bois",
+                "et ses enfants à ramasser les broutilles",
+                "pour faire des fagots.",
+                "Le père et la mère,",
+                "les voyant occupés à travailler,",
+                "s'éloignèrent d'eux insensiblement,",
+                "puis s'enfuirent tout à coup",
+                "par un petit sentier détourné.",
+                "Lorsque ces enfants se virent seuls,",
+                "ils se mirent à crier."
+              ],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "du bois",
+                  "phrase": "Le Bûcheron se mit à couper du bois."
+                },
+                {
+                  "mot": "travailler",
+                  "phrase": "les voyant occupés à travailler."
+                },
+                {
+                  "mot": "s'éloignèrent",
+                  "phrase": "s'éloignèrent d'eux insensiblement."
+                },
+                {
+                  "mot": "s'enfuirent",
+                  "phrase": "s'enfuirent tout à coup par un petit sentier."
+                },
+                {
+                  "mot": "seuls",
+                  "phrase": "Lorsque ces enfants se virent seuls."
+                },
+                {
+                  "mot": "se mirent",
+                  "phrase": "ils se mirent à crier."
+                },
+                {
+                  "mot": "crier",
+                  "phrase": "ils se mirent à crier."
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "Que fait le bûcheron ?",
+                  "indice": "Regarde le début de la première phrase.",
+                  "extrait": "Le Bûcheron se mit à couper du bois",
+                  "bonne": 0,
+                  "choix": [
+                    "Il coupe du bois",
+                    "Il ramasse des branches",
+                    "Il fait des fagots"
+                  ]
+                },
+                {
+                  "question": "Que ramassent les enfants ?",
+                  "indice": "Cherche le mot juste après 'ramasser'.",
+                  "extrait": "et ses enfants à ramasser les broutilles pour faire des fagots.",
+                  "bonne": 0,
+                  "choix": [
+                    "Des broutilles",
+                    "Des cailloux",
+                    "Des fleurs"
+                  ]
+                },
+                {
+                  "question": "Que sont les broutilles ?",
+                  "indice": "Pense à ce qu'on ramasse pour faire un fagot.",
+                  "extrait": "ses enfants à ramasser les broutilles pour faire des fagots.",
+                  "bonne": 0,
+                  "choix": [
+                    "De petites branches",
+                    "De grosses bûches",
+                    "Des feuilles mortes"
+                  ]
+                },
+                {
+                  "question": "Pourquoi les parents s'éloignent-ils ?",
+                  "indice": "Le texte dit qu'ils 's'enfuirent'. Pourquoi font-ils cela ?",
+                  "extrait": "Le père et la mère, les voyant occupés à travailler, s'éloignèrent d'eux insensiblement, puis s'enfuirent tout à coup",
+                  "bonne": 0,
+                  "choix": [
+                    "Pour quitter les enfants",
+                    "Pour chercher du bois",
+                    "Pour aller dormir"
+                  ]
+                },
+                {
+                  "question": "Par où s'enfuient les parents ?",
+                  "indice": "Relis la fin de la deuxième phrase.",
+                  "extrait": "puis s'enfuirent tout à coup par un petit sentier détourné.",
+                  "bonne": 0,
+                  "choix": [
+                    "Par un petit sentier",
+                    "Par la grande route",
+                    "Par la forêt"
+                  ]
+                },
+                {
+                  "question": "Comment se sentent les enfants à la fin ?",
+                  "indice": "Pourquoi se mettent-ils à crier ?",
+                  "extrait": "Lorsque ces enfants se virent seuls, ils se mirent à crier.",
+                  "bonne": 0,
+                  "choix": [
+                    "Ils ont très peur",
+                    "Ils sont contents",
+                    "Ils sont fatigués"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "bûcheron",
+                "enfants",
+                "bois",
+                "travailler",
+                "seuls",
+                "crier",
+                "sentier"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 7,
+                  "bonne": 0,
+                  "choix": [
+                    "bois",
+                    "fer",
+                    "pain"
+                  ]
+                },
+                {
+                  "index": 14,
+                  "bonne": 0,
+                  "choix": [
+                    "broutilles",
+                    "pommes",
+                    "pierres"
+                  ]
+                },
+                {
+                  "index": 20,
+                  "bonne": 0,
+                  "choix": [
+                    "père",
+                    "chien",
+                    "frère"
+                  ]
+                },
+                {
+                  "index": 28,
+                  "bonne": 0,
+                  "choix": [
+                    "travailler",
+                    "dormir",
+                    "chanter"
+                  ]
+                },
+                {
+                  "index": 36,
+                  "bonne": 0,
+                  "choix": [
+                    "coup",
+                    "jour",
+                    "vent"
+                  ]
+                },
+                {
+                  "index": 41,
+                  "bonne": 0,
+                  "choix": [
+                    "détourné",
+                    "large",
+                    "propre"
+                  ]
+                },
+                {
+                  "index": 47,
+                  "bonne": 0,
+                  "choix": [
+                    "seuls",
+                    "grands",
+                    "prêts"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -112,25 +648,217 @@
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [
+                "Dans le ruisseau,",
+                "poussaient beaucoup de nénuphars",
+                "dont les larges feuilles vertes",
+                "semblaient flotter à la surface de l'eau.",
+                "C'est là que la vieille grenouille",
+                "nagea et plaça la coque de noix",
+                "avec Poucette.",
+                "La pauvre petite mignonne",
+                "se réveilla de très bonne heure",
+                "le matin,",
+                "et lorsqu'elle vit où elle était,",
+                "elle se mit à pleurer."
+              ],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "beaucoup de nénuphars",
+                  "phrase": "Dans le ruisseau poussaient beaucoup de nénuphars."
+                },
+                {
+                  "mot": "la surface",
+                  "phrase": "flotter à la surface de l'eau."
+                },
+                {
+                  "mot": "la vieille grenouille",
+                  "phrase": "la vieille grenouille nagea."
+                },
+                {
+                  "mot": "la coque",
+                  "phrase": "plaça la coque de noix."
+                },
+                {
+                  "mot": "petite",
+                  "phrase": "La pauvre petite mignonne se réveilla."
+                },
+                {
+                  "mot": "se réveilla",
+                  "phrase": "La pauvre petite mignonne se réveilla."
+                },
+                {
+                  "mot": "pleurer",
+                  "phrase": "elle se mit à pleurer."
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "Où poussent les nénuphars ?",
+                  "indice": "Regarde le tout début du texte.",
+                  "extrait": "Dans le ruisseau poussaient beaucoup de nénuphars",
+                  "bonne": 0,
+                  "choix": [
+                    "dans le ruisseau",
+                    "dans la forêt",
+                    "dans un jardin"
+                  ]
+                },
+                {
+                  "question": "De quelle couleur sont les feuilles ?",
+                  "indice": "Cherche le mot qui décrit la couleur des feuilles.",
+                  "extrait": "dont les larges feuilles vertes semblaient flotter à la surface de l'eau",
+                  "bonne": 0,
+                  "choix": [
+                    "elles sont vertes",
+                    "elles sont rouges",
+                    "elles sont jaunes"
+                  ]
+                },
+                {
+                  "question": "Qui a déplacé la coque de noix ?",
+                  "indice": "Relis la phrase où l'on parle de nager.",
+                  "extrait": "c'est là que la vieille grenouille nagea et plaça la coque de noix avec Poucette.",
+                  "bonne": 0,
+                  "choix": [
+                    "la grenouille",
+                    "un petit poisson",
+                    "un oiseau"
+                  ]
+                },
+                {
+                  "question": "Que signifie le mot « plaça » ?",
+                  "indice": "La grenouille installe la coque de noix à un endroit.",
+                  "extrait": "la vieille grenouille nagea et plaça la coque de noix avec Poucette.",
+                  "bonne": 0,
+                  "choix": [
+                    "elle a posé",
+                    "elle a mangé",
+                    "elle a cassé"
+                  ]
+                },
+                {
+                  "question": "À quel moment de la journée Poucette se réveille-t-elle ?",
+                  "indice": "Cherche le mot qui indique le moment du réveil.",
+                  "extrait": "La pauvre petite mignonne se réveilla de très bonne heure le matin",
+                  "bonne": 0,
+                  "choix": [
+                    "le matin",
+                    "le soir",
+                    "à midi"
+                  ]
+                },
+                {
+                  "question": "Pourquoi Poucette se met-elle à pleurer ?",
+                  "indice": "Poucette voit où elle se trouve et cela l'attriste.",
+                  "extrait": "lorsqu'elle vit où elle était, elle se mit à pleurer.",
+                  "bonne": 0,
+                  "choix": [
+                    "elle a peur",
+                    "elle a faim",
+                    "elle a sommeil"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "ruisseau",
+                "nénuphars",
+                "feuilles",
+                "grenouille",
+                "coque",
+                "noix",
+                "réveilla",
+                "pleurer"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 6,
+                  "bonne": 0,
+                  "choix": [
+                    "nénuphars",
+                    "cailloux",
+                    "poissons"
+                  ]
+                },
+                {
+                  "index": 13,
+                  "bonne": 0,
+                  "choix": [
+                    "flotter",
+                    "tomber",
+                    "marcher"
+                  ]
+                },
+                {
+                  "index": 23,
+                  "bonne": 0,
+                  "choix": [
+                    "vieille",
+                    "grande",
+                    "bleue"
+                  ]
+                },
+                {
+                  "index": 27,
+                  "bonne": 0,
+                  "choix": [
+                    "plaça",
+                    "prit",
+                    "vit"
+                  ]
+                },
+                {
+                  "index": 35,
+                  "bonne": 0,
+                  "choix": [
+                    "pauvre",
+                    "belle",
+                    "forte"
+                  ]
+                },
+                {
+                  "index": 42,
+                  "bonne": 0,
+                  "choix": [
+                    "bonne",
+                    "mauvaise",
+                    "petite"
+                  ]
+                },
+                {
+                  "index": 48,
+                  "bonne": 0,
+                  "choix": [
+                    "vit",
+                    "dit",
+                    "fit"
+                  ]
+                },
+                {
+                  "index": 56,
+                  "bonne": 0,
+                  "choix": [
+                    "pleurer",
+                    "chanter",
+                    "danser"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -142,25 +870,216 @@
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [
+                "Mes vers fuiraient,",
+                "doux et frêles,",
+                "Vers votre jardin si beau,",
+                "Si mes vers avaient des ailes,",
+                "Des ailes comme l'oiseau.",
+                "Ils voleraient, étincelles,",
+                "Vers votre foyer qui rit,",
+                "Si mes vers avaient des ailes,",
+                "Des ailes comme l'esprit.",
+                "Près de vous, purs et fidèles,",
+                "Ils accourraient, nuit et jour,",
+                "Si mes vers avaient des ailes,",
+                "Des ailes comme l'amour !"
+              ],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "Mes vers",
+                  "phrase": "Mes vers fuiraient, doux et frêles,"
+                },
+                {
+                  "mot": "avaient",
+                  "phrase": "Si mes vers avaient des ailes,"
+                },
+                {
+                  "mot": "des ailes",
+                  "phrase": "Des ailes comme l'oiseau."
+                },
+                {
+                  "mot": "voleraient",
+                  "phrase": "Ils voleraient, étincelles,"
+                },
+                {
+                  "mot": "votre foyer",
+                  "phrase": "Vers votre foyer qui rit,"
+                },
+                {
+                  "mot": "purs",
+                  "phrase": "Près de vous, purs et fidèles,"
+                },
+                {
+                  "mot": "accourraient",
+                  "phrase": "Ils accourraient, nuit et jour,"
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "Où les vers veulent-ils aller ?",
+                  "indice": "Regarde la deuxième ligne du texte.",
+                  "extrait": "Vers votre jardin si beau,",
+                  "bonne": 0,
+                  "choix": [
+                    "dans le jardin",
+                    "dans la forêt",
+                    "dans la maison"
+                  ]
+                },
+                {
+                  "question": "Que faudrait-il aux vers pour voyager ?",
+                  "indice": "Cherche le mot qui permet de voler.",
+                  "extrait": "Si mes vers avaient des ailes,",
+                  "bonne": 0,
+                  "choix": [
+                    "des ailes",
+                    "des pattes",
+                    "des plumes"
+                  ]
+                },
+                {
+                  "question": "À quoi les vers ressembleraient-ils en volant ?",
+                  "indice": "Relis le début de la deuxième strophe.",
+                  "extrait": "Ils voleraient, étincelles,",
+                  "bonne": 0,
+                  "choix": [
+                    "à des étincelles",
+                    "à des étoiles",
+                    "à des nuages"
+                  ]
+                },
+                {
+                  "question": "Que signifie le mot « foyer » dans le texte ?",
+                  "indice": "C'est l'endroit où l'on habite avec sa famille.",
+                  "extrait": "Vers votre foyer qui rit,",
+                  "bonne": 0,
+                  "choix": [
+                    "une maison",
+                    "un feu",
+                    "un jardin"
+                  ]
+                },
+                {
+                  "question": "Quand les vers viendraient-ils ?",
+                  "indice": "Le texte parle de la nuit et du jour.",
+                  "extrait": "Ils accourraient, nuit et jour,",
+                  "bonne": 0,
+                  "choix": [
+                    "tout le temps",
+                    "seulement le soir",
+                    "seulement le matin"
+                  ]
+                },
+                {
+                  "question": "Comment se sent l'auteur envers la personne à qui il écrit ?",
+                  "indice": "Regarde le tout dernier mot du poème.",
+                  "extrait": "Des ailes comme l'amour !",
+                  "bonne": 0,
+                  "choix": [
+                    "il l'aime beaucoup",
+                    "il a peur d'elle",
+                    "il ne la connaît pas"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "fuiraient",
+                "jardin",
+                "voleraient",
+                "foyer",
+                "purs",
+                "fidèles"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 6,
+                  "bonne": 0,
+                  "choix": [
+                    "Vers",
+                    "Dans",
+                    "Avec"
+                  ]
+                },
+                {
+                  "index": 13,
+                  "bonne": 0,
+                  "choix": [
+                    "vers",
+                    "chats",
+                    "bois"
+                  ]
+                },
+                {
+                  "index": 22,
+                  "bonne": 0,
+                  "choix": [
+                    "voleraient",
+                    "marcheraient",
+                    "dormiraient"
+                  ]
+                },
+                {
+                  "index": 28,
+                  "bonne": 0,
+                  "choix": [
+                    "rit",
+                    "pleure",
+                    "dort"
+                  ]
+                },
+                {
+                  "index": 34,
+                  "bonne": 0,
+                  "choix": [
+                    "ailes",
+                    "mains",
+                    "yeux"
+                  ]
+                },
+                {
+                  "index": 42,
+                  "bonne": 0,
+                  "choix": [
+                    "purs",
+                    "grands",
+                    "lents"
+                  ]
+                },
+                {
+                  "index": 49,
+                  "bonne": 0,
+                  "choix": [
+                    "jour",
+                    "mois",
+                    "vent"
+                  ]
+                },
+                {
+                  "index": 55,
+                  "bonne": 0,
+                  "choix": [
+                    "ailes",
+                    "pieds",
+                    "mots"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -172,25 +1091,213 @@
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "le Roi",
+                  "phrase": "Le Roi vint à passer"
+                },
+                {
+                  "mot": "passer",
+                  "phrase": "Le Roi vint à passer"
+                },
+                {
+                  "mot": "crier",
+                  "phrase": "le Chat se mit à crier"
+                },
+                {
+                  "mot": "toute sa force",
+                  "phrase": "le Chat se mit à crier de toute sa force"
+                },
+                {
+                  "mot": "Monsieur le Marquis",
+                  "phrase": "voilà Monsieur le Marquis de Carabas qui se noie !"
+                },
+                {
+                  "mot": "se noie",
+                  "phrase": "voilà Monsieur le Marquis de Carabas qui se noie !"
+                },
+                {
+                  "mot": "la portière",
+                  "phrase": "le Roi mit la tête à la portière"
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "Qui passe devant le Chat ?",
+                  "indice": "Regarde le tout début du texte.",
+                  "extrait": "Le Roi vint à passer et le Chat se mit à crier de toute sa force",
+                  "bonne": 0,
+                  "choix": [
+                    "Le Roi",
+                    "Le Marquis",
+                    "Un garde"
+                  ]
+                },
+                {
+                  "question": "Que fait le Chat pour attirer l'attention ?",
+                  "indice": "Cherche le mot 'crier'.",
+                  "extrait": "le Chat se mit à crier de toute sa force",
+                  "bonne": 0,
+                  "choix": [
+                    "Il crie fort",
+                    "Il miaule doucement",
+                    "Il court vite"
+                  ]
+                },
+                {
+                  "question": "Qui le Chat dit-il qu'il faut sauver ?",
+                  "indice": "Relis ce que le Chat crie.",
+                  "extrait": "voilà Monsieur le Marquis de Carabas qui se noie !",
+                  "bonne": 0,
+                  "choix": [
+                    "Le Marquis de Carabas",
+                    "Le Roi",
+                    "Le garde"
+                  ]
+                },
+                {
+                  "question": "Pourquoi le Marquis est-il en danger ?",
+                  "indice": "Que signifie le mot 'se noie' ?",
+                  "extrait": "voilà Monsieur le Marquis de Carabas qui se noie !",
+                  "bonne": 0,
+                  "choix": [
+                    "Il est dans l'eau",
+                    "Il est tombé",
+                    "Il est perdu"
+                  ]
+                },
+                {
+                  "question": "Que signifie le mot 'Gibier' ?",
+                  "indice": "Le Chat apporte souvent cela au Roi.",
+                  "extrait": "reconnaissant le Chat qui lui avait apporté tant de fois du Gibier",
+                  "bonne": 0,
+                  "choix": [
+                    "Des animaux chassés",
+                    "Des vêtements",
+                    "Des bijoux"
+                  ]
+                },
+                {
+                  "question": "Pourquoi le Roi décide-t-il d'aider le Marquis ?",
+                  "indice": "Le Roi reconnaît le Chat qui lui a déjà donné des cadeaux.",
+                  "extrait": "reconnaissant le Chat qui lui avait apporté tant de fois du Gibier, il ordonna à ses Gardes qu'on allât vite au secours du Marquis.",
+                  "bonne": 0,
+                  "choix": [
+                    "Il aime bien le Chat",
+                    "Il connaît le Marquis",
+                    "Il a peur du Chat"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "Roi",
+                "passer",
+                "secours",
+                "crier",
+                "force",
+                "Marquis",
+                "noie",
+                "portière"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 7,
+                  "bonne": 0,
+                  "choix": [
+                    "Chat",
+                    "Chien",
+                    "Loup"
+                  ]
+                },
+                {
+                  "index": 13,
+                  "bonne": 0,
+                  "choix": [
+                    "toute",
+                    "petite",
+                    "moins"
+                  ]
+                },
+                {
+                  "index": 20,
+                  "bonne": 0,
+                  "choix": [
+                    "voilà",
+                    "demain",
+                    "jamais"
+                  ]
+                },
+                {
+                  "index": 28,
+                  "bonne": 0,
+                  "choix": [
+                    "noie",
+                    "dort",
+                    "rit"
+                  ]
+                },
+                {
+                  "index": 34,
+                  "bonne": 0,
+                  "choix": [
+                    "mit",
+                    "prit",
+                    "vit"
+                  ]
+                },
+                {
+                  "index": 41,
+                  "bonne": 0,
+                  "choix": [
+                    "reconnaissant",
+                    "cherchant",
+                    "appelant"
+                  ]
+                },
+                {
+                  "index": 48,
+                  "bonne": 0,
+                  "choix": [
+                    "tant",
+                    "peu",
+                    "trop"
+                  ]
+                },
+                {
+                  "index": 54,
+                  "bonne": 0,
+                  "choix": [
+                    "ordonna",
+                    "demanda",
+                    "regarda"
+                  ]
+                },
+                {
+                  "index": 62,
+                  "bonne": 0,
+                  "choix": [
+                    "secours",
+                    "chemin",
+                    "repas"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -202,25 +1309,220 @@
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [
+                "L'aînée prit",
+                "le plus beau flacon d'argent",
+                "qui fut au logis.",
+                "Elle ne fut pas plus tôt",
+                "arrivée à la fontaine,",
+                "qu'elle vit sortir du bois",
+                "une dame magnifiquement vêtue,",
+                "qui vint lui demander à boire.",
+                "C'était la même fée",
+                "qui avait apparu à sa sœur,",
+                "mais qui avait pris",
+                "l'air et les habits d'une princesse,",
+                "pour voir jusqu'où irait sa malhonnêteté."
+              ],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "le plus beau flacon",
+                  "phrase": "L'aînée prit le plus beau flacon d'argent."
+                },
+                {
+                  "mot": "d'argent",
+                  "phrase": "Elle prit le plus beau flacon d'argent."
+                },
+                {
+                  "mot": "prit",
+                  "phrase": "L'aînée prit le plus beau flacon."
+                },
+                {
+                  "mot": "fut",
+                  "phrase": "qui fut au logis."
+                },
+                {
+                  "mot": "une dame",
+                  "phrase": "qu'elle vit sortir du bois une dame."
+                },
+                {
+                  "mot": "magnifiquement",
+                  "phrase": "une dame magnifiquement vêtue."
+                },
+                {
+                  "mot": "vêtue",
+                  "phrase": "une dame magnifiquement vêtue."
+                },
+                {
+                  "mot": "demander",
+                  "phrase": "qui vint lui demander à boire."
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "Qu'est-ce que l'aînée a pris ?",
+                  "indice": "Regarde le début du texte.",
+                  "extrait": "L'aînée prit le plus beau flacon d'argent qui fut au logis.",
+                  "bonne": 0,
+                  "choix": [
+                    "un flacon d'argent",
+                    "un verre en or",
+                    "un pot en terre"
+                  ]
+                },
+                {
+                  "question": "Où se rend l'aînée ?",
+                  "indice": "Cherche le lieu où elle arrive.",
+                  "extrait": "Elle ne fut pas plus tôt arrivée à la fontaine, qu'elle vit sortir du bois une dame magnifiquement vêtue",
+                  "bonne": 0,
+                  "choix": [
+                    "à la fontaine",
+                    "dans la forêt",
+                    "au château"
+                  ]
+                },
+                {
+                  "question": "Qui sort du bois ?",
+                  "indice": "Relis le passage sur la personne qui arrive.",
+                  "extrait": "qu'elle vit sortir du bois une dame magnifiquement vêtue",
+                  "bonne": 0,
+                  "choix": [
+                    "une dame",
+                    "une petite fille",
+                    "une vieille femme"
+                  ]
+                },
+                {
+                  "question": "Que demande la dame ?",
+                  "indice": "La dame demande à boire, qu'est-ce qu'on boit à la fontaine ?",
+                  "extrait": "qui vint lui demander à boire.",
+                  "bonne": 0,
+                  "choix": [
+                    "de l'eau",
+                    "du pain",
+                    "son chemin"
+                  ]
+                },
+                {
+                  "question": "Qui est vraiment cette dame ?",
+                  "indice": "Le texte dit que c'est la même personne que pour la sœur.",
+                  "extrait": "C'était la même fée qui avait apparu à sa sœur",
+                  "bonne": 0,
+                  "choix": [
+                    "une fée",
+                    "une reine",
+                    "une sœur"
+                  ]
+                },
+                {
+                  "question": "Que veut dire le mot « logis » ?",
+                  "indice": "C'est l'endroit où l'on trouve les objets de la famille.",
+                  "extrait": "L'aînée prit le plus beau flacon d'argent qui fut au logis.",
+                  "bonne": 0,
+                  "choix": [
+                    "la maison",
+                    "le jardin",
+                    "le chemin"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "flacon",
+                "dame",
+                "vêtue",
+                "demander",
+                "boire",
+                "fontaine"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 5,
+                  "bonne": 0,
+                  "choix": [
+                    "flacon",
+                    "livre",
+                    "sac"
+                  ]
+                },
+                {
+                  "index": 13,
+                  "bonne": 0,
+                  "choix": [
+                    "fut",
+                    "est",
+                    "rit"
+                  ]
+                },
+                {
+                  "index": 20,
+                  "bonne": 0,
+                  "choix": [
+                    "fontaine",
+                    "montagne",
+                    "maison"
+                  ]
+                },
+                {
+                  "index": 27,
+                  "bonne": 0,
+                  "choix": [
+                    "dame",
+                    "porte",
+                    "table"
+                  ]
+                },
+                {
+                  "index": 35,
+                  "bonne": 0,
+                  "choix": [
+                    "boire",
+                    "dormir",
+                    "chanter"
+                  ]
+                },
+                {
+                  "index": 42,
+                  "bonne": 0,
+                  "choix": [
+                    "apparu",
+                    "mangé",
+                    "dormi"
+                  ]
+                },
+                {
+                  "index": 49,
+                  "bonne": 0,
+                  "choix": [
+                    "pris",
+                    "perdu",
+                    "cassé"
+                  ]
+                },
+                {
+                  "index": 55,
+                  "bonne": 0,
+                  "choix": [
+                    "princesse",
+                    "chaise",
+                    "ville"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -232,25 +1534,235 @@
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [
+                "Un soir que le soleil se couchait glorieux,",
+                "toute une foule de grands oiseaux superbes sortit",
+                "des buissons ;",
+                "le canet n'en avait jamais vu de semblables :",
+                "ils étaient d'une blancheur éblouissante,",
+                "ils avaient le cou long et souple.",
+                "C'étaient des cygnes.",
+                "Le son de leur voix était tout particulier :",
+                "ils étendirent leurs longues ailes éclatantes",
+                "pour aller loin de cette contrée",
+                "chercher dans les pays chauds",
+                "des lacs toujours ouverts."
+              ],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "un soir",
+                  "phrase": "Un soir que le soleil se couchait glorieux"
+                },
+                {
+                  "mot": "le soleil",
+                  "phrase": "Un soir que le soleil se couchait glorieux"
+                },
+                {
+                  "mot": "des cygnes",
+                  "phrase": "C'étaient des cygnes."
+                },
+                {
+                  "mot": "long",
+                  "phrase": "ils avaient le cou long et souple."
+                },
+                {
+                  "mot": "souple",
+                  "phrase": "ils avaient le cou long et souple."
+                },
+                {
+                  "mot": "étendirent",
+                  "phrase": "ils étendirent leurs longues ailes éclatantes"
+                },
+                {
+                  "mot": "des lacs",
+                  "phrase": "des lacs toujours ouverts."
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "À quel moment de la journée l'histoire se passe-t-elle ?",
+                  "indice": "Regarde le tout premier mot du texte.",
+                  "extrait": "Un soir que le soleil se couchait glorieux",
+                  "bonne": 0,
+                  "choix": [
+                    "Le soir",
+                    "Le matin",
+                    "Le midi"
+                  ]
+                },
+                {
+                  "question": "D'où sortent les grands oiseaux ?",
+                  "indice": "Cherche le mot qui désigne des petits arbustes.",
+                  "extrait": "toute une foule de grands oiseaux superbes sortit des buissons",
+                  "bonne": 0,
+                  "choix": [
+                    "Des buissons",
+                    "De l'eau",
+                    "Des arbres"
+                  ]
+                },
+                {
+                  "question": "Comment sont les oiseaux que le canet voit ?",
+                  "indice": "Relis le passage sur la blancheur éblouissante.",
+                  "extrait": "ils étaient d'une blancheur éblouissante",
+                  "bonne": 0,
+                  "choix": [
+                    "Ils sont blancs",
+                    "Ils sont gris",
+                    "Ils sont noirs"
+                  ]
+                },
+                {
+                  "question": "Qui sont ces oiseaux ?",
+                  "indice": "Le texte donne leur nom juste après la description.",
+                  "extrait": "C'étaient des cygnes.",
+                  "bonne": 0,
+                  "choix": [
+                    "Des cygnes",
+                    "Des canards",
+                    "Des pigeons"
+                  ]
+                },
+                {
+                  "question": "Que signifie le mot « contrée » dans le texte ?",
+                  "indice": "Le texte parle d'aller loin de cet endroit pour trouver d'autres pays.",
+                  "extrait": "pour aller loin de cette contrée chercher dans les pays chauds",
+                  "bonne": 0,
+                  "choix": [
+                    "Un pays",
+                    "Un oiseau",
+                    "Un nuage"
+                  ]
+                },
+                {
+                  "question": "Pourquoi les oiseaux partent-ils loin ?",
+                  "indice": "Cherche les mots « pays chauds » et « lacs ».",
+                  "extrait": "pour aller loin de cette contrée chercher dans les pays chauds des lacs toujours ouverts.",
+                  "bonne": 0,
+                  "choix": [
+                    "Pour avoir chaud",
+                    "Pour dormir",
+                    "Pour chanter"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "soir",
+                "soleil",
+                "oiseaux",
+                "cygnes",
+                "long",
+                "souple",
+                "étendirent",
+                "lacs"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 6,
+                  "bonne": 0,
+                  "choix": [
+                    "couchait",
+                    "mangeait",
+                    "marchait"
+                  ]
+                },
+                {
+                  "index": 13,
+                  "bonne": 0,
+                  "choix": [
+                    "oiseaux",
+                    "poissons",
+                    "lapins"
+                  ]
+                },
+                {
+                  "index": 19,
+                  "bonne": 0,
+                  "choix": [
+                    "canet",
+                    "chat",
+                    "chien"
+                  ]
+                },
+                {
+                  "index": 27,
+                  "bonne": 0,
+                  "choix": [
+                    "étaient",
+                    "avaient",
+                    "voulaient"
+                  ]
+                },
+                {
+                  "index": 34,
+                  "bonne": 0,
+                  "choix": [
+                    "cou",
+                    "bec",
+                    "dos"
+                  ]
+                },
+                {
+                  "index": 40,
+                  "bonne": 0,
+                  "choix": [
+                    "cygnes",
+                    "perroquets",
+                    "poulets"
+                  ]
+                },
+                {
+                  "index": 48,
+                  "bonne": 0,
+                  "choix": [
+                    "particulier",
+                    "triste",
+                    "petit"
+                  ]
+                },
+                {
+                  "index": 56,
+                  "bonne": 0,
+                  "choix": [
+                    "aller",
+                    "dormir",
+                    "manger"
+                  ]
+                },
+                {
+                  "index": 61,
+                  "bonne": 0,
+                  "choix": [
+                    "chercher",
+                    "regarder",
+                    "écouter"
+                  ]
+                },
+                {
+                  "index": 69,
+                  "bonne": 0,
+                  "choix": [
+                    "ouverts",
+                    "fermés",
+                    "cachés"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -262,25 +1774,217 @@
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "la campagne",
+                  "phrase": "à l'heure où blanchit la campagne"
+                },
+                {
+                  "mot": "partirai",
+                  "phrase": "Je partirai"
+                },
+                {
+                  "mot": "la forêt",
+                  "phrase": "J'irai par la forêt"
+                },
+                {
+                  "mot": "la montagne",
+                  "phrase": "j'irai par la montagne"
+                },
+                {
+                  "mot": "de toi",
+                  "phrase": "loin de toi plus longtemps"
+                },
+                {
+                  "mot": "les yeux",
+                  "phrase": "les yeux fixés sur mes pensées"
+                },
+                {
+                  "mot": "le dos",
+                  "phrase": "le dos courbé"
+                },
+                {
+                  "mot": "les mains",
+                  "phrase": "les mains croisées"
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "À quel moment le narrateur part-il ?",
+                  "indice": "Regarde le premier mot du texte.",
+                  "extrait": "Demain, dès l'aube, à l'heure où blanchit la campagne,",
+                  "bonne": 0,
+                  "choix": [
+                    "Le matin",
+                    "Le soir",
+                    "La nuit"
+                  ]
+                },
+                {
+                  "question": "Que signifie le mot « blanchit » dans le texte ?",
+                  "indice": "Pense à la couleur du ciel quand le soleil se lève.",
+                  "extrait": "à l'heure où blanchit la campagne,",
+                  "bonne": 0,
+                  "choix": [
+                    "La lumière arrive",
+                    "Il neige beaucoup",
+                    "Le ciel est gris"
+                  ]
+                },
+                {
+                  "question": "Par où le narrateur va-t-il passer ?",
+                  "indice": "Relis la troisième phrase.",
+                  "extrait": "J'irai par la forêt, j'irai par la montagne.",
+                  "bonne": 0,
+                  "choix": [
+                    "La forêt et la montagne",
+                    "La ville et la plage",
+                    "Le jardin et le pont"
+                  ]
+                },
+                {
+                  "question": "Pourquoi le narrateur se dépêche-t-il ?",
+                  "indice": "Cherche le mot « attends » dans le texte.",
+                  "extrait": "Vois-tu, je sais que tu m'attends.",
+                  "bonne": 0,
+                  "choix": [
+                    "Quelqu'un l'attend",
+                    "Il a un travail",
+                    "Il a peur du loup"
+                  ]
+                },
+                {
+                  "question": "Comment le narrateur marche-t-il ?",
+                  "indice": "Regarde les derniers mots du texte.",
+                  "extrait": "Triste, et le jour pour moi sera comme la nuit.",
+                  "bonne": 0,
+                  "choix": [
+                    "Il est très triste",
+                    "Il est très joyeux",
+                    "Il est très pressé"
+                  ]
+                },
+                {
+                  "question": "Est-ce que le narrateur regarde autour de lui ?",
+                  "indice": "Relis la phrase qui commence par « Sans rien voir ».",
+                  "extrait": "Sans rien voir au dehors, sans entendre aucun bruit,",
+                  "bonne": 0,
+                  "choix": [
+                    "Non, il ne voit rien",
+                    "Oui, il regarde tout",
+                    "Oui, il cherche son chemin"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "aube",
+                "campagne",
+                "forêt",
+                "montagne",
+                "pensées",
+                "triste",
+                "nuit",
+                "demeurer"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 6,
+                  "bonne": 0,
+                  "choix": [
+                    "blanchit",
+                    "dort",
+                    "tombe"
+                  ]
+                },
+                {
+                  "index": 13,
+                  "bonne": 0,
+                  "choix": [
+                    "sais",
+                    "crois",
+                    "veux"
+                  ]
+                },
+                {
+                  "index": 20,
+                  "bonne": 0,
+                  "choix": [
+                    "forêt",
+                    "ville",
+                    "route"
+                  ]
+                },
+                {
+                  "index": 28,
+                  "bonne": 0,
+                  "choix": [
+                    "demeurer",
+                    "manger",
+                    "jouer"
+                  ]
+                },
+                {
+                  "index": 35,
+                  "bonne": 0,
+                  "choix": [
+                    "marcherai",
+                    "dormirai",
+                    "chanterai"
+                  ]
+                },
+                {
+                  "index": 41,
+                  "bonne": 0,
+                  "choix": [
+                    "pensées",
+                    "chaussures",
+                    "habits"
+                  ]
+                },
+                {
+                  "index": 48,
+                  "bonne": 0,
+                  "choix": [
+                    "entendre",
+                    "manger",
+                    "toucher"
+                  ]
+                },
+                {
+                  "index": 55,
+                  "bonne": 0,
+                  "choix": [
+                    "courbé",
+                    "droit",
+                    "grand"
+                  ]
+                },
+                {
+                  "index": 62,
+                  "bonne": 0,
+                  "choix": [
+                    "jour",
+                    "vent",
+                    "pont"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -292,25 +1996,241 @@
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [
+                "Dans des temps très anciens,",
+                "alors qu'il pouvait encore être utile",
+                "de faire des voeux,",
+                "vivait un roi",
+                "dont toutes les filles étaient belles.",
+                "La plus jeune était si belle",
+                "que le soleil s'étonnait",
+                "chaque fois qu'il illuminait son visage.",
+                "Non loin du château du roi,",
+                "il y avait une grande et sombre forêt",
+                "et, dans la forêt, sous un tilleul,",
+                "une fontaine.",
+                "Un jour qu'il faisait très chaud,",
+                "la royale enfant partit dans le bois."
+              ],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "un roi",
+                  "phrase": "vivait un roi dont toutes les filles étaient belles."
+                },
+                {
+                  "mot": "belles",
+                  "phrase": "dont toutes les filles étaient belles."
+                },
+                {
+                  "mot": "la plus jeune",
+                  "phrase": "La plus jeune était si belle que le soleil s'étonnait."
+                },
+                {
+                  "mot": "s'étonnait",
+                  "phrase": "le soleil s'étonnait chaque fois qu'il illuminait son visage."
+                },
+                {
+                  "mot": "une grande",
+                  "phrase": "il y avait une grande et sombre forêt."
+                },
+                {
+                  "mot": "sombre",
+                  "phrase": "il y avait une grande et sombre forêt."
+                },
+                {
+                  "mot": "une fontaine",
+                  "phrase": "et, dans la forêt, sous un tilleul, une fontaine."
+                },
+                {
+                  "mot": "partit",
+                  "phrase": "la royale enfant partit dans le bois."
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "Quand l'histoire se passe-t-elle ?",
+                  "indice": "Regarde le début du texte.",
+                  "extrait": "Dans des temps très anciens, alors qu'il pouvait encore être utile de faire des voeux, vivait un roi dont toutes les filles étaient belles.",
+                  "bonne": 0,
+                  "choix": [
+                    "Il y a très longtemps",
+                    "Hier matin",
+                    "L'année dernière"
+                  ]
+                },
+                {
+                  "question": "Qui sont les enfants du roi ?",
+                  "indice": "Cherche le mot qui désigne les enfants du roi.",
+                  "extrait": "vivait un roi dont toutes les filles étaient belles.",
+                  "bonne": 0,
+                  "choix": [
+                    "Des filles",
+                    "Des garçons",
+                    "Des cousins"
+                  ]
+                },
+                {
+                  "question": "Comment est la plus jeune fille ?",
+                  "indice": "Relis la phrase sur la plus jeune fille.",
+                  "extrait": "La plus jeune était si belle que le soleil s'étonnait chaque fois qu'il illuminait son visage.",
+                  "bonne": 0,
+                  "choix": [
+                    "Très belle",
+                    "Très gentille",
+                    "Très petite"
+                  ]
+                },
+                {
+                  "question": "Où se trouve la fontaine ?",
+                  "indice": "Cherche le mot 'fontaine' dans le texte.",
+                  "extrait": "Non loin du château du roi, il y avait une grande et sombre forêt et, dans la forêt, sous un tilleul, une fontaine.",
+                  "bonne": 0,
+                  "choix": [
+                    "Dans la forêt",
+                    "Dans le château",
+                    "Dans la ville"
+                  ]
+                },
+                {
+                  "question": "Que signifie le mot 'sombre' pour la forêt ?",
+                  "indice": "Pense à l'opposé de 'clair'.",
+                  "extrait": "Non loin du château du roi, il y avait une grande et sombre forêt et, dans la forêt, sous un tilleul, une fontaine.",
+                  "bonne": 0,
+                  "choix": [
+                    "Il y a peu de lumière",
+                    "Il y a beaucoup de fleurs",
+                    "Elle est très petite"
+                  ]
+                },
+                {
+                  "question": "Pourquoi l'enfant sort-elle dans le bois ?",
+                  "indice": "Relis la dernière phrase du texte.",
+                  "extrait": "Un jour qu'il faisait très chaud, la royale enfant partit dans le bois.",
+                  "bonne": 0,
+                  "choix": [
+                    "Parce qu'il fait chaud",
+                    "Parce qu'elle a peur",
+                    "Parce qu'elle est perdue"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "roi",
+                "filles",
+                "jeune",
+                "soleil",
+                "forêt",
+                "fontaine",
+                "bois",
+                "chaud"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 7,
+                  "bonne": 0,
+                  "choix": [
+                    "pouvait",
+                    "voulait",
+                    "prenait"
+                  ]
+                },
+                {
+                  "index": 14,
+                  "bonne": 0,
+                  "choix": [
+                    "voeux",
+                    "cadeaux",
+                    "travaux"
+                  ]
+                },
+                {
+                  "index": 21,
+                  "bonne": 0,
+                  "choix": [
+                    "filles",
+                    "maisons",
+                    "villes"
+                  ]
+                },
+                {
+                  "index": 26,
+                  "bonne": 0,
+                  "choix": [
+                    "jeune",
+                    "grande",
+                    "forte"
+                  ]
+                },
+                {
+                  "index": 34,
+                  "bonne": 0,
+                  "choix": [
+                    "chaque",
+                    "quelque",
+                    "aucune"
+                  ]
+                },
+                {
+                  "index": 41,
+                  "bonne": 0,
+                  "choix": [
+                    "loin",
+                    "haut",
+                    "bas"
+                  ]
+                },
+                {
+                  "index": 50,
+                  "bonne": 0,
+                  "choix": [
+                    "grande",
+                    "bleue",
+                    "ronde"
+                  ]
+                },
+                {
+                  "index": 57,
+                  "bonne": 0,
+                  "choix": [
+                    "forêt",
+                    "montagne",
+                    "rivière"
+                  ]
+                },
+                {
+                  "index": 62,
+                  "bonne": 0,
+                  "choix": [
+                    "fontaine",
+                    "porte",
+                    "table"
+                  ]
+                },
+                {
+                  "index": 70,
+                  "bonne": 0,
+                  "choix": [
+                    "royale",
+                    "petite",
+                    "triste"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -322,25 +2242,253 @@
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [
+                "Cette forge était comme ensevelie",
+                "sous des arbres.",
+                "Il y faisait très sombre ;",
+                "seule, la lueur rouge",
+                "d'un foyer formidable éclairait",
+                "par grands reflets cinq forgerons",
+                "aux bras nus qui frappaient",
+                "sur leurs enclumes avec un terrible fracas.",
+                "Ils se tenaient debout,",
+                "enflammés comme des démons,",
+                "les yeux fixés sur le fer ardent",
+                "qu'ils torturaient ;",
+                "et leur lourde pensée montait",
+                "et retombait avec leurs marteaux.",
+                "Simon entra sans être vu",
+                "et alla tout doucement tirer",
+                "son ami par la manche."
+              ],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "des arbres",
+                  "phrase": "Il y faisait très sombre sous des arbres."
+                },
+                {
+                  "mot": "très sombre",
+                  "phrase": "Il y faisait très sombre."
+                },
+                {
+                  "mot": "un foyer",
+                  "phrase": "Seule, la lueur rouge d'un foyer formidable éclairait."
+                },
+                {
+                  "mot": "cinq forgerons",
+                  "phrase": "Ils se tenaient debout, cinq forgerons aux bras nus."
+                },
+                {
+                  "mot": "leurs enclumes",
+                  "phrase": "Ils frappaient sur leurs enclumes."
+                },
+                {
+                  "mot": "un terrible fracas",
+                  "phrase": "Ils frappaient sur leurs enclumes avec un terrible fracas."
+                },
+                {
+                  "mot": "le fer ardent",
+                  "phrase": "Ils torturaient le fer ardent."
+                },
+                {
+                  "mot": "tout doucement",
+                  "phrase": "Simon alla tout doucement tirer son ami."
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "Où se trouve la forge ?",
+                  "indice": "Regarde le début du texte.",
+                  "extrait": "Cette forge était comme ensevelie sous des arbres.",
+                  "bonne": 0,
+                  "choix": [
+                    "sous des arbres",
+                    "dans une ville",
+                    "près d'un lac"
+                  ]
+                },
+                {
+                  "question": "Quelle est la lumière dans la forge ?",
+                  "indice": "Cherche la couleur citée dans le texte.",
+                  "extrait": "seule, la lueur rouge d'un foyer formidable éclairait par grands reflets",
+                  "bonne": 0,
+                  "choix": [
+                    "une lueur rouge",
+                    "une lumière bleue",
+                    "un rayon blanc"
+                  ]
+                },
+                {
+                  "question": "Que font les forgerons ?",
+                  "indice": "Relis le passage sur les enclumes.",
+                  "extrait": "cinq forgerons aux bras nus qui frappaient sur leurs enclumes avec un terrible fracas.",
+                  "bonne": 0,
+                  "choix": [
+                    "ils frappent",
+                    "ils dorment",
+                    "ils chantent"
+                  ]
+                },
+                {
+                  "question": "Que signifie le mot « fracas » ?",
+                  "indice": "Pense au bruit que font des marteaux sur du métal.",
+                  "extrait": "qui frappaient sur leurs enclumes avec un terrible fracas.",
+                  "bonne": 0,
+                  "choix": [
+                    "un grand bruit",
+                    "un petit vent",
+                    "une odeur forte"
+                  ]
+                },
+                {
+                  "question": "Comment est le fer que les forgerons travaillent ?",
+                  "indice": "Le texte dit que le fer est « ardent ».",
+                  "extrait": "les yeux fixés sur le fer ardent qu'ils torturaient",
+                  "bonne": 0,
+                  "choix": [
+                    "il est très chaud",
+                    "il est très froid",
+                    "il est tout mou"
+                  ]
+                },
+                {
+                  "question": "Comment Simon entre-t-il dans la forge ?",
+                  "indice": "Relis la phrase où Simon arrive.",
+                  "extrait": "Simon entra sans être vu et alla tout doucement tirer son ami par la manche.",
+                  "bonne": 0,
+                  "choix": [
+                    "en cachette",
+                    "en criant fort",
+                    "en courant vite"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "arbres",
+                "sombre",
+                "foyer",
+                "forgerons",
+                "enclumes",
+                "fracas",
+                "fer",
+                "tirer"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 7,
+                  "bonne": 0,
+                  "choix": [
+                    "arbres",
+                    "murs",
+                    "cailloux"
+                  ]
+                },
+                {
+                  "index": 13,
+                  "bonne": 0,
+                  "choix": [
+                    "seule",
+                    "toute",
+                    "jamais"
+                  ]
+                },
+                {
+                  "index": 20,
+                  "bonne": 0,
+                  "choix": [
+                    "éclairait",
+                    "chauffait",
+                    "regardait"
+                  ]
+                },
+                {
+                  "index": 27,
+                  "bonne": 0,
+                  "choix": [
+                    "bras",
+                    "pieds",
+                    "dos"
+                  ]
+                },
+                {
+                  "index": 33,
+                  "bonne": 0,
+                  "choix": [
+                    "enclumes",
+                    "tables",
+                    "portes"
+                  ]
+                },
+                {
+                  "index": 41,
+                  "bonne": 0,
+                  "choix": [
+                    "debout",
+                    "couchés",
+                    "assis"
+                  ]
+                },
+                {
+                  "index": 48,
+                  "bonne": 0,
+                  "choix": [
+                    "fixés",
+                    "fermés",
+                    "perdus"
+                  ]
+                },
+                {
+                  "index": 54,
+                  "bonne": 0,
+                  "choix": [
+                    "torturaient",
+                    "mangeaient",
+                    "lavaient"
+                  ]
+                },
+                {
+                  "index": 61,
+                  "bonne": 0,
+                  "choix": [
+                    "retombait",
+                    "partait",
+                    "dormait"
+                  ]
+                },
+                {
+                  "index": 68,
+                  "bonne": 0,
+                  "choix": [
+                    "être",
+                    "vouloir",
+                    "avoir"
+                  ]
+                },
+                {
+                  "index": 76,
+                  "bonne": 0,
+                  "choix": [
+                    "ami",
+                    "chien",
+                    "livre"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -352,25 +2500,252 @@
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [
+                "Le pré est vénéneux",
+                "mais joli en automne",
+                "Les vaches y paissant",
+                "Lentement s'empoisonnent",
+                "Le colchique couleur de cerne",
+                "et de lilas",
+                "Y fleurit",
+                "tes yeux sont comme cette fleur-là",
+                "Violâtres comme leur cerne",
+                "et comme cet automne",
+                "Et ma vie pour tes yeux",
+                "lentement s'empoisonne",
+                "Les enfants de l'école",
+                "viennent avec fracas",
+                "Vêtus de hoquetons",
+                "et jouant de l'harmonica",
+                "Ils cueillent les colchiques",
+                "qui sont comme des mères",
+                "Filles de leurs filles",
+                "et sont couleur de tes paupières"
+              ],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "le pré",
+                  "phrase": "Le pré est vénéneux."
+                },
+                {
+                  "mot": "joli",
+                  "phrase": "Le pré est vénéneux mais joli."
+                },
+                {
+                  "mot": "les vaches",
+                  "phrase": "Les vaches y paissant."
+                },
+                {
+                  "mot": "paissant",
+                  "phrase": "Les vaches y paissant."
+                },
+                {
+                  "mot": "lentement",
+                  "phrase": "Lentement s'empoisonnent."
+                },
+                {
+                  "mot": "comme",
+                  "phrase": "Violâtres comme leur cerne."
+                },
+                {
+                  "mot": "les enfants",
+                  "phrase": "Les enfants de l'école viennent."
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "À quelle saison se passe l'histoire ?",
+                  "indice": "Regarde la fin de la première phrase.",
+                  "extrait": "Le pré est vénéneux mais joli en automne",
+                  "bonne": 0,
+                  "choix": [
+                    "En automne",
+                    "En été",
+                    "En hiver"
+                  ]
+                },
+                {
+                  "question": "Que font les vaches dans le pré ?",
+                  "indice": "Le mot 'paissant' veut dire manger l'herbe.",
+                  "extrait": "Les vaches y paissant",
+                  "bonne": 0,
+                  "choix": [
+                    "Elles mangent l'herbe",
+                    "Elles dorment",
+                    "Elles courent"
+                  ]
+                },
+                {
+                  "question": "Que se passe-t-il si on mange le colchique ?",
+                  "indice": "Le texte dit que le pré est 'vénéneux'.",
+                  "extrait": "Le pré est vénéneux mais joli en automne",
+                  "bonne": 0,
+                  "choix": [
+                    "On tombe malade",
+                    "On grandit vite",
+                    "On s'endort"
+                  ]
+                },
+                {
+                  "question": "De quelle couleur est la fleur ?",
+                  "indice": "Cherche le mot 'Violâtres' ou 'lilas'.",
+                  "extrait": "Le colchique couleur de cerne et de lilas",
+                  "bonne": 0,
+                  "choix": [
+                    "Violette",
+                    "Rouge",
+                    "Jaune"
+                  ]
+                },
+                {
+                  "question": "Qui arrive avec beaucoup de bruit ?",
+                  "indice": "Relis la phrase qui parle de l'école.",
+                  "extrait": "Les enfants de l'école viennent avec fracas",
+                  "bonne": 0,
+                  "choix": [
+                    "Les élèves",
+                    "Les vaches",
+                    "Les parents"
+                  ]
+                },
+                {
+                  "question": "Que signifie le mot 'fracas' ?",
+                  "indice": "Les enfants jouent de l'harmonica et arrivent en groupe.",
+                  "extrait": "Les enfants de l'école viennent avec fracas",
+                  "bonne": 0,
+                  "choix": [
+                    "Un grand bruit",
+                    "Un grand silence",
+                    "Une chanson"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "pré",
+                "vaches",
+                "colchique",
+                "fleurit",
+                "violâtres",
+                "enfants",
+                "cueillent",
+                "mères"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 7,
+                  "bonne": 0,
+                  "choix": [
+                    "automne",
+                    "printemps",
+                    "midi"
+                  ]
+                },
+                {
+                  "index": 12,
+                  "bonne": 0,
+                  "choix": [
+                    "Lentement",
+                    "Heureusement",
+                    "Soudain"
+                  ]
+                },
+                {
+                  "index": 21,
+                  "bonne": 0,
+                  "choix": [
+                    "lilas",
+                    "caillou",
+                    "nuage"
+                  ]
+                },
+                {
+                  "index": 25,
+                  "bonne": 0,
+                  "choix": [
+                    "yeux",
+                    "mains",
+                    "pieds"
+                  ]
+                },
+                {
+                  "index": 33,
+                  "bonne": 0,
+                  "choix": [
+                    "cerne",
+                    "vent",
+                    "soleil"
+                  ]
+                },
+                {
+                  "index": 40,
+                  "bonne": 0,
+                  "choix": [
+                    "vie",
+                    "maison",
+                    "voiture"
+                  ]
+                },
+                {
+                  "index": 47,
+                  "bonne": 0,
+                  "choix": [
+                    "enfants",
+                    "oiseaux",
+                    "arbres"
+                  ]
+                },
+                {
+                  "index": 55,
+                  "bonne": 0,
+                  "choix": [
+                    "hoquetons",
+                    "ballons",
+                    "livres"
+                  ]
+                },
+                {
+                  "index": 63,
+                  "bonne": 0,
+                  "choix": [
+                    "colchiques",
+                    "cailloux",
+                    "papillons"
+                  ]
+                },
+                {
+                  "index": 69,
+                  "bonne": 0,
+                  "choix": [
+                    "Filles",
+                    "Villes",
+                    "Routes"
+                  ]
+                },
+                {
+                  "index": 75,
+                  "bonne": 0,
+                  "choix": [
+                    "couleur",
+                    "forme",
+                    "taille"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -382,25 +2757,222 @@
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "un reptile",
+                  "phrase": "Le python est un reptile."
+                },
+                {
+                  "mot": "sa proie",
+                  "phrase": "Le python tue sa proie en s'enroulant."
+                },
+                {
+                  "mot": "l'étouffer",
+                  "phrase": "Il tue sa proie en s'enroulant pour l'étouffer."
+                },
+                {
+                  "mot": "la tête",
+                  "phrase": "Il avale la tête en premier."
+                },
+                {
+                  "mot": "un ovipare",
+                  "phrase": "Le python est un ovipare."
+                },
+                {
+                  "mot": "des œufs",
+                  "phrase": "Il pond des œufs."
+                },
+                {
+                  "mot": "10m",
+                  "phrase": "Il peut atteindre 10m de long."
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "Qu'est-ce que le python ?",
+                  "indice": "Regarde le tout début du texte.",
+                  "extrait": "Le python est un reptile qui appartient à l'ordre des squamates (comprenant notamment les lézards et les serpents).",
+                  "bonne": 0,
+                  "choix": [
+                    "un reptile",
+                    "un mammifère",
+                    "un oiseau"
+                  ]
+                },
+                {
+                  "question": "Combien y a-t-il d'espèces de python environ ?",
+                  "indice": "Cherche le mot qui indique un nombre.",
+                  "extrait": "Il existe une trentaine d'espèces de python, dont le python royal.",
+                  "bonne": 0,
+                  "choix": [
+                    "trente",
+                    "dix",
+                    "cent"
+                  ]
+                },
+                {
+                  "question": "Comment le python tue-t-il sa proie ?",
+                  "indice": "Relis la phrase sur la façon de tuer.",
+                  "extrait": "Le python tue sa proie en s'enroulant pour l'étouffer, puis il avale la tête en premier.",
+                  "bonne": 0,
+                  "choix": [
+                    "en s'enroulant",
+                    "en mordant",
+                    "en courant"
+                  ]
+                },
+                {
+                  "question": "Que signifie le mot « proie » ?",
+                  "indice": "Pense à ce que le python avale.",
+                  "extrait": "Le python tue sa proie en s'enroulant pour l'étouffer, puis il avale la tête en premier.",
+                  "bonne": 0,
+                  "choix": [
+                    "l'animal mangé",
+                    "le nid du serpent",
+                    "un ami serpent"
+                  ]
+                },
+                {
+                  "question": "Comment naissent les bébés python ?",
+                  "indice": "Relis la phrase sur le mot « ovipare ».",
+                  "extrait": "Le python est un ovipare ; il pond des œufs.",
+                  "bonne": 0,
+                  "choix": [
+                    "dans des œufs",
+                    "dans le ventre",
+                    "dans l'eau"
+                  ]
+                },
+                {
+                  "question": "Le python réticulé est-il un petit serpent ?",
+                  "indice": "Regarde la longueur indiquée à la fin.",
+                  "extrait": "Il peut atteindre 10m de long.",
+                  "bonne": 0,
+                  "choix": [
+                    "non, il est géant",
+                    "oui, il est minuscule",
+                    "il est de taille moyenne"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "reptile",
+                "espèces",
+                "proie",
+                "étouffer",
+                "tête",
+                "ovipare",
+                "œufs",
+                "long"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 6,
+                  "bonne": 0,
+                  "choix": [
+                    "appartient",
+                    "écoute",
+                    "attend"
+                  ]
+                },
+                {
+                  "index": 14,
+                  "bonne": 0,
+                  "choix": [
+                    "lézards",
+                    "poissons",
+                    "oiseaux"
+                  ]
+                },
+                {
+                  "index": 21,
+                  "bonne": 0,
+                  "choix": [
+                    "trentaine",
+                    "douzaine",
+                    "centaine"
+                  ]
+                },
+                {
+                  "index": 27,
+                  "bonne": 0,
+                  "choix": [
+                    "python",
+                    "chat",
+                    "chien"
+                  ]
+                },
+                {
+                  "index": 33,
+                  "bonne": 0,
+                  "choix": [
+                    "proie",
+                    "maison",
+                    "plante"
+                  ]
+                },
+                {
+                  "index": 42,
+                  "bonne": 0,
+                  "choix": [
+                    "tête",
+                    "queue",
+                    "patte"
+                  ]
+                },
+                {
+                  "index": 49,
+                  "bonne": 0,
+                  "choix": [
+                    "python",
+                    "lion",
+                    "singe"
+                  ]
+                },
+                {
+                  "index": 56,
+                  "bonne": 0,
+                  "choix": [
+                    "œufs",
+                    "fruits",
+                    "grains"
+                  ]
+                },
+                {
+                  "index": 63,
+                  "bonne": 0,
+                  "choix": [
+                    "deux",
+                    "dix",
+                    "cent"
+                  ]
+                },
+                {
+                  "index": 70,
+                  "bonne": 0,
+                  "choix": [
+                    "peut",
+                    "doit",
+                    "veut"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -412,25 +2984,235 @@
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "la pâte",
+                  "phrase": "Étaler la pâte dans un moule."
+                },
+                {
+                  "mot": "un moule",
+                  "phrase": "Étaler la pâte dans un moule."
+                },
+                {
+                  "mot": "les pommes",
+                  "phrase": "Mettre les pommes pelées."
+                },
+                {
+                  "mot": "une casserole",
+                  "phrase": "Mettre les pommes dans une casserole."
+                },
+                {
+                  "mot": "ajouter",
+                  "phrase": "Ajouter 150 g de sucre."
+                },
+                {
+                  "mot": "couper",
+                  "phrase": "Couper les pommes en tranches."
+                },
+                {
+                  "mot": "tartiner",
+                  "phrase": "Tartiner le fond de tarte."
+                },
+                {
+                  "mot": "disposer",
+                  "phrase": "Disposer les pommes sur le fond."
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "Où doit-on étaler la pâte ?",
+                  "indice": "Regarde le début de la première étape.",
+                  "extrait": "Étaler la pâte dans un moule à tarte beurré et fariné.",
+                  "bonne": 0,
+                  "choix": [
+                    "dans un moule",
+                    "dans un plat",
+                    "sur une table"
+                  ]
+                },
+                {
+                  "question": "Que faut-il ajouter aux pommes dans la casserole ?",
+                  "indice": "Cherche le mot 'ajouter' à l'étape 2.",
+                  "extrait": "ajouter 150 g de sucre et le sucre vanillé.",
+                  "bonne": 0,
+                  "choix": [
+                    "du sucre",
+                    "du sel",
+                    "du lait"
+                  ]
+                },
+                {
+                  "question": "Combien de pommes faut-il peler ?",
+                  "indice": "Relis le début de l'étape 3.",
+                  "extrait": "Peler six pommes, les épépiner et les couper en tranches fines",
+                  "bonne": 0,
+                  "choix": [
+                    "six pommes",
+                    "trois pommes",
+                    "dix pommes"
+                  ]
+                },
+                {
+                  "question": "Que signifie le mot 'épépiner' ?",
+                  "indice": "Pense à ce qu'il y a à l'intérieur d'une pomme.",
+                  "extrait": "Peler six pommes, les épépiner et les couper en tranches fines",
+                  "bonne": 0,
+                  "choix": [
+                    "enlever les pépins",
+                    "couper en morceaux",
+                    "laver les fruits"
+                  ]
+                },
+                {
+                  "question": "Où place-t-on les tranches de pommes ?",
+                  "indice": "Relis la phrase 4.",
+                  "extrait": "Disposer les pommes sur le fond en les faisant se chevaucher",
+                  "bonne": 0,
+                  "choix": [
+                    "sur le fond",
+                    "dans l'eau",
+                    "sous la pâte"
+                  ]
+                },
+                {
+                  "question": "Où doit-on faire cuire la tarte ?",
+                  "indice": "Regarde la dernière étape.",
+                  "extrait": "Cuire au four à 180°C durant 25 à 30 minutes.",
+                  "bonne": 0,
+                  "choix": [
+                    "dans le four",
+                    "sur le feu",
+                    "au micro-ondes"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "pâte",
+                "moule",
+                "pommes",
+                "casserole",
+                "sucre",
+                "tranches",
+                "tartiner",
+                "disposer"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 6,
+                  "bonne": 0,
+                  "choix": [
+                    "moule",
+                    "sac",
+                    "verre"
+                  ]
+                },
+                {
+                  "index": 13,
+                  "bonne": 0,
+                  "choix": [
+                    "Mettre",
+                    "Lire",
+                    "Voir"
+                  ]
+                },
+                {
+                  "index": 20,
+                  "bonne": 0,
+                  "choix": [
+                    "quartier",
+                    "carré",
+                    "rond"
+                  ]
+                },
+                {
+                  "index": 28,
+                  "bonne": 0,
+                  "choix": [
+                    "sucre",
+                    "beurre",
+                    "sel"
+                  ]
+                },
+                {
+                  "index": 34,
+                  "bonne": 0,
+                  "choix": [
+                    "Peler",
+                    "Manger",
+                    "Laver"
+                  ]
+                },
+                {
+                  "index": 41,
+                  "bonne": 0,
+                  "choix": [
+                    "couper",
+                    "peindre",
+                    "chanter"
+                  ]
+                },
+                {
+                  "index": 49,
+                  "bonne": 0,
+                  "choix": [
+                    "tarte",
+                    "gâteau",
+                    "pain"
+                  ]
+                },
+                {
+                  "index": 55,
+                  "bonne": 0,
+                  "choix": [
+                    "compote",
+                    "soupe",
+                    "sauce"
+                  ]
+                },
+                {
+                  "index": 62,
+                  "bonne": 0,
+                  "choix": [
+                    "fond",
+                    "haut",
+                    "bord"
+                  ]
+                },
+                {
+                  "index": 70,
+                  "bonne": 0,
+                  "choix": [
+                    "sucre",
+                    "poivre",
+                    "farine"
+                  ]
+                },
+                {
+                  "index": 78,
+                  "bonne": 0,
+                  "choix": [
+                    "durant",
+                    "contre",
+                    "sans"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -442,25 +3224,234 @@
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "le mont Elbrouz",
+                  "phrase": "En Europe, le mont Elbrouz est le toit de l'Europe."
+                },
+                {
+                  "mot": "les plus hautes montagnes",
+                  "phrase": "En Afrique, les plus hautes montagnes sont deux volcans éteints."
+                },
+                {
+                  "mot": "deux volcans",
+                  "phrase": "En Afrique, les plus hautes montagnes sont deux volcans éteints."
+                },
+                {
+                  "mot": "le Kilimandjaro",
+                  "phrase": "le Kilimandjaro en Tanzanie et le mont Kenya au Kenya."
+                },
+                {
+                  "mot": "le mont Kenya",
+                  "phrase": "le Kilimandjaro en Tanzanie et le mont Kenya au Kenya."
+                },
+                {
+                  "mot": "la chaîne",
+                  "phrase": "la chaîne du Karakoram en Inde et au Pakistan dominent le monde."
+                },
+                {
+                  "mot": "des sommets",
+                  "phrase": "tous deux se partageant des sommets dépassant 8000 m."
+                },
+                {
+                  "mot": "dépassant",
+                  "phrase": "tous deux se partageant des sommets dépassant 8000 m."
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "Où se trouve le mont Elbrouz ?",
+                  "indice": "Regarde le tout début du texte.",
+                  "extrait": "En Europe, le mont Elbrouz (Caucase) est le toit de l'Europe avec 5642 m.",
+                  "bonne": 0,
+                  "choix": [
+                    "En Europe",
+                    "En Afrique",
+                    "En Asie"
+                  ]
+                },
+                {
+                  "question": "Qu'est-ce que le Kilimandjaro ?",
+                  "indice": "Cherche le mot juste avant le nom Kilimandjaro.",
+                  "extrait": "En Afrique, les plus hautes montagnes sont deux volcans éteints : le Kilimandjaro (5895 m) en Tanzanie et le mont Kenya (5199 m) au Kenya.",
+                  "bonne": 0,
+                  "choix": [
+                    "Un volcan",
+                    "Une forêt",
+                    "Un fleuve"
+                  ]
+                },
+                {
+                  "question": "Dans quel pays se trouve le mont Kenya ?",
+                  "indice": "Relis la phrase sur le mont Kenya.",
+                  "extrait": "le mont Kenya (5199 m) au Kenya.",
+                  "bonne": 0,
+                  "choix": [
+                    "Au Kenya",
+                    "En Inde",
+                    "Au Népal"
+                  ]
+                },
+                {
+                  "question": "Où se trouve l'Himalaya ?",
+                  "indice": "Regarde le mot juste avant le nom Himalaya.",
+                  "extrait": "En Asie, l'Himalaya au Népal et la chaîne du Karakoram en Inde et au Pakistan dominent le monde",
+                  "bonne": 0,
+                  "choix": [
+                    "En Asie",
+                    "En Europe",
+                    "En Afrique"
+                  ]
+                },
+                {
+                  "question": "Que signifie le mot « sommets » ?",
+                  "indice": "Pense à la partie la plus haute d'une montagne.",
+                  "extrait": "tous deux se partageant des sommets dépassant 8000 m.",
+                  "bonne": 0,
+                  "choix": [
+                    "Le haut des monts",
+                    "Le bas des monts",
+                    "Le milieu des monts"
+                  ]
+                },
+                {
+                  "question": "Quelle est la montagne la plus haute de toutes ?",
+                  "indice": "Cherche le point le plus élevé du monde à la fin du texte.",
+                  "extrait": "Le point le plus élevé du monde est le mont Everest (Himalaya) avec 8849 m d'altitude.",
+                  "bonne": 0,
+                  "choix": [
+                    "Le mont Everest",
+                    "Le mont Kenya",
+                    "Le mont Elbrouz"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "montagnes",
+                "volcans",
+                "Kenya",
+                "chaîne",
+                "sommets",
+                "dépassant",
+                "monde"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 5,
+                  "bonne": 0,
+                  "choix": [
+                    "Caucase",
+                    "Afrique",
+                    "Asie"
+                  ]
+                },
+                {
+                  "index": 15,
+                  "bonne": 0,
+                  "choix": [
+                    "Afrique",
+                    "Europe",
+                    "Asie"
+                  ]
+                },
+                {
+                  "index": 21,
+                  "bonne": 0,
+                  "choix": [
+                    "deux",
+                    "trois",
+                    "dix"
+                  ]
+                },
+                {
+                  "index": 29,
+                  "bonne": 0,
+                  "choix": [
+                    "Tanzanie",
+                    "France",
+                    "Inde"
+                  ]
+                },
+                {
+                  "index": 33,
+                  "bonne": 0,
+                  "choix": [
+                    "Kenya",
+                    "Everest",
+                    "Elbrouz"
+                  ]
+                },
+                {
+                  "index": 42,
+                  "bonne": 0,
+                  "choix": [
+                    "Népal",
+                    "Kenya",
+                    "Tanzanie"
+                  ]
+                },
+                {
+                  "index": 49,
+                  "bonne": 0,
+                  "choix": [
+                    "Inde",
+                    "Espagne",
+                    "Italie"
+                  ]
+                },
+                {
+                  "index": 55,
+                  "bonne": 0,
+                  "choix": [
+                    "monde",
+                    "ciel",
+                    "village"
+                  ]
+                },
+                {
+                  "index": 62,
+                  "bonne": 0,
+                  "choix": [
+                    "dépassant",
+                    "cachant",
+                    "touchant"
+                  ]
+                },
+                {
+                  "index": 69,
+                  "bonne": 0,
+                  "choix": [
+                    "élevé",
+                    "petit",
+                    "large"
+                  ]
+                },
+                {
+                  "index": 76,
+                  "bonne": 0,
+                  "choix": [
+                    "Himalaya",
+                    "Caucase",
+                    "Karakoram"
+                  ]
+                }
+              ]
             }
           }
         }
@@ -483,29 +3474,226 @@
           "id": "p2-texte-01",
           "titre": "L'intrépide soldat de plomb",
           "texte": "Il y avait une fois vingt-cinq soldats de plomb, tous frères, car ils étaient nés d'une vieille cuillère de plomb. L'arme au bras, l'œil fixe, l'uniforme rouge et bleu, quelle fière mine ils avaient tous ! La première chose qu'ils entendirent en ce monde, quand fut enlevé le couvercle de la boîte qui les renfermait, ce fut ce cri : « Des soldats de plomb ! » que poussait un petit garçon.",
-          "valide": false,
+          "valide": true,
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": []
+              "vitesse": 60,
+              "groupes": [
+                "Il y avait une fois",
+                "vingt-cinq soldats de plomb,",
+                "tous frères,",
+                "car ils étaient nés",
+                "d'une vieille cuillère de plomb.",
+                "L'arme au bras,",
+                "l'œil fixe,",
+                "l'uniforme rouge et bleu,",
+                "quelle fière mine ils avaient tous !",
+                "La première chose qu'ils entendirent",
+                "en ce monde,",
+                "quand fut enlevé le couvercle",
+                "de la boîte qui les renfermait,",
+                "ce fut ce cri :",
+                "« Des soldats de plomb ! »",
+                "que poussait un petit garçon."
+              ],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "vingt-cinq soldats",
+                  "phrase": "Il y avait une fois vingt-cinq soldats de plomb,"
+                },
+                {
+                  "mot": "tous frères",
+                  "phrase": "tous frères,"
+                },
+                {
+                  "mot": "une vieille cuillère",
+                  "phrase": "car ils étaient nés d'une vieille cuillère de plomb."
+                },
+                {
+                  "mot": "l'arme",
+                  "phrase": "L'arme au bras,"
+                },
+                {
+                  "mot": "l'œil",
+                  "phrase": "l'œil fixe,"
+                },
+                {
+                  "mot": "l'uniforme rouge",
+                  "phrase": "l'uniforme rouge et bleu,"
+                },
+                {
+                  "mot": "quelle fière mine",
+                  "phrase": "quelle fière mine ils avaient tous !"
+                },
+                {
+                  "mot": "entendirent",
+                  "phrase": "La première chose qu'ils entendirent en ce monde,"
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "Combien y a-t-il de soldats de plomb ?",
+                  "choix": [
+                    "Vingt-cinq",
+                    "Dix-cinq",
+                    "Trente"
+                  ],
+                  "bonne": 0,
+                  "indice": "Regarde le début du texte pour trouver le nombre.",
+                  "extrait": "Il y avait une fois vingt-cinq soldats de plomb"
+                },
+                {
+                  "question": "De quoi sont faits les soldats ?",
+                  "choix": [
+                    "De plomb",
+                    "De fer",
+                    "De bois"
+                  ],
+                  "bonne": 0,
+                  "indice": "Relis la phrase sur la vieille cuillère.",
+                  "extrait": "car ils étaient nés d'une vieille cuillère de plomb."
+                },
+                {
+                  "question": "Que signifie le mot « fière » dans le texte ?",
+                  "choix": [
+                    "Très courageuse",
+                    "Très triste",
+                    "Très fatiguée"
+                  ],
+                  "bonne": 0,
+                  "indice": "Pense à l'allure d'un soldat avec son uniforme.",
+                  "extrait": "quelle fière mine ils avaient tous !"
+                },
+                {
+                  "question": "Où étaient cachés les soldats au début ?",
+                  "choix": [
+                    "Dans une boîte",
+                    "Dans un sac",
+                    "Dans un tiroir"
+                  ],
+                  "bonne": 0,
+                  "indice": "Cherche le mot qui parle du couvercle.",
+                  "extrait": "quand fut enlevé le couvercle de la boîte qui les renfermait"
+                },
+                {
+                  "question": "Qui a découvert les soldats ?",
+                  "choix": [
+                    "Un enfant",
+                    "Un papa",
+                    "Un grand-père"
+                  ],
+                  "bonne": 0,
+                  "indice": "Lis la toute dernière phrase du texte.",
+                  "extrait": "ce fut ce cri : « Des soldats de plomb ! » que poussait un petit garçon."
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "soldats",
+                "plomb",
+                "frères",
+                "cuillère",
+                "arme",
+                "uniforme",
+                "mine"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 6,
+                  "choix": [
+                    "soldats",
+                    "chevaux",
+                    "jouets"
+                  ],
+                  "bonne": 0
+                },
+                {
+                  "index": 13,
+                  "choix": [
+                    "étaient",
+                    "avaient",
+                    "mangeaient"
+                  ],
+                  "bonne": 0
+                },
+                {
+                  "index": 19,
+                  "choix": [
+                    "plomb",
+                    "sucre",
+                    "verre"
+                  ],
+                  "bonne": 0
+                },
+                {
+                  "index": 28,
+                  "choix": [
+                    "bleu",
+                    "vert",
+                    "gris"
+                  ],
+                  "bonne": 0
+                },
+                {
+                  "index": 33,
+                  "choix": [
+                    "avaient",
+                    "voulaient",
+                    "étaient"
+                  ],
+                  "bonne": 0
+                },
+                {
+                  "index": 42,
+                  "choix": [
+                    "monde",
+                    "pays",
+                    "lieu"
+                  ],
+                  "bonne": 0
+                },
+                {
+                  "index": 47,
+                  "choix": [
+                    "couvercle",
+                    "fond",
+                    "bord"
+                  ],
+                  "bonne": 0
+                },
+                {
+                  "index": 55,
+                  "choix": [
+                    "fut",
+                    "devint",
+                    "resta"
+                  ],
+                  "bonne": 0
+                },
+                {
+                  "index": 63,
+                  "choix": [
+                    "poussait",
+                    "disait",
+                    "lançait"
+                  ],
+                  "bonne": 0
+                }
+              ]
             }
           }
         },
@@ -518,7 +3706,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -548,7 +3737,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -578,7 +3768,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -608,7 +3799,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -638,7 +3830,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -668,7 +3861,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -698,7 +3892,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -728,7 +3923,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -758,7 +3954,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -788,7 +3985,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -818,7 +4016,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -848,7 +4047,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -878,7 +4078,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -908,7 +4109,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -953,7 +4155,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -983,7 +4186,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1013,7 +4217,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1043,7 +4248,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1073,7 +4279,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1103,7 +4310,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1133,7 +4341,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1163,7 +4372,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1193,7 +4403,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1223,7 +4434,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1253,7 +4465,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1283,7 +4496,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1313,7 +4527,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1343,7 +4558,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1373,7 +4589,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1418,7 +4635,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1448,7 +4666,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1478,7 +4697,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1508,7 +4728,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1538,7 +4759,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1568,7 +4790,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1598,7 +4821,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1628,7 +4852,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1658,7 +4883,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1688,7 +4914,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1718,7 +4945,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1748,7 +4976,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1778,7 +5007,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1808,7 +5038,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
@@ -1838,7 +5069,8 @@
             "lecture": {
               "actif": true,
               "vitesse": null,
-              "groupes": []
+              "groupes": [],
+              "groupesDemandes": false
             },
             "dictee": {
               "actif": true,
