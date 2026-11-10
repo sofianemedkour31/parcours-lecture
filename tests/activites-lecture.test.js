@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { bornesGroupes, ciblesMaze, erreursMaze, motsLecture } from '../src/lib/activites-lecture.js';
 import { erreursTexte } from '../src/lib/validation.js';
+import { nettoyer } from '../api/_lib/generation.js';
 
 const texte = 'Le matin, Pilou dort sur le lit. Puis le petit chat regarde les oiseaux dans le jardin.';
 
@@ -13,6 +14,24 @@ test('les groupes de souffle couvrent chaque mot une seule fois', () => {
   assert.equal(bornes.at(-1).fin, motsLecture(texte).length - 1);
   assert.equal(bornesGroupes(texte, groupes.slice(0, -1)), null);
   assert.equal(bornesGroupes(texte, [...groupes, 'jardin']), null);
+});
+
+test('un groupe Albert trop long est découpé sans perdre de mots', () => {
+  const proposition = [
+    'Le matin, Pilou dort sur le lit. Puis le petit chat regarde',
+    'les oiseaux dans le jardin.',
+  ];
+  const resultat = nettoyer({ groupesSouffle: proposition }, { texte, reglages: {} });
+  const groupes = resultat.activites.lecture.groupes;
+  assert.ok(bornesGroupes(texte, groupes));
+  assert.ok(groupes.every((g) => motsLecture(g).length <= 8));
+  assert.ok(resultat.alertes.some((a) => a.includes('Groupes de souffle : découpage ajusté')));
+});
+
+test('un découpage Albert incomplet donne des groupes à relire', () => {
+  const resultat = nettoyer({ groupesSouffle: ['Le matin,', 'Pilou dort'] }, { texte, reglages: {} });
+  assert.ok(bornesGroupes(texte, resultat.activites.lecture.groupes));
+  assert.ok(resultat.alertes.some((a) => a.includes('Groupes de souffle : découpage ajusté')));
 });
 
 test('MAZE choisit environ un mot sur sept et exige deux distracteurs distincts', () => {

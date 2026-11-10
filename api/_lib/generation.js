@@ -1,8 +1,8 @@
 // Prompt envoyé à Albert et nettoyage de sa réponse.
 import {
-  figureDansTexte, phraseAvec, formeGrille, propre, formeDictee, compterMots,
+  figureDansTexte, phraseAvec, formeGrille, propre, formeDictee, compterMots, jetons, phrases,
 } from '../../src/lib/texte.js';
-import { bornesGroupes, ciblesMaze, erreursMaze } from '../../src/lib/activites-lecture.js';
+import { bornesGroupes, ciblesMaze, erreursMaze, motsLecture } from '../../src/lib/activites-lecture.js';
 
 export const REGLAGES_DEFAUT = {
   nbMotsDictee: 8,
@@ -90,6 +90,49 @@ export function lireJson(contenu) {
   return JSON.parse(s.slice(debut, fin + 1));
 }
 
+function taillesEquilibrees(nombre) {
+  if (nombre <= 8) return nombre ? [nombre] : [];
+  const nbGroupes = Math.ceil(nombre / 6);
+  return Array.from({ length: nbGroupes }, (_, i) =>
+    Math.floor(nombre / nbGroupes) + (i < nombre % nbGroupes ? 1 : 0));
+}
+
+/** Reprend les mots et la ponctuation du texte selon les coupures proposées. */
+function groupesDepuisTailles(texte, tailles) {
+  const groupes = [];
+  let courant = '';
+  let motsDansGroupe = 0;
+  let index = 0;
+  for (const jeton of jetons(propre(texte))[0] || []) {
+    if (jeton.type === 'mot' && motsDansGroupe === tailles[index]) {
+      groupes.push(courant.trim());
+      courant = '';
+      motsDansGroupe = 0;
+      index++;
+    }
+    courant += jeton.v;
+    if (jeton.type === 'mot') motsDansGroupe++;
+  }
+  if (courant.trim()) groupes.push(courant.trim());
+  return groupes;
+}
+
+function preparerGroupesSouffle(texte, proposition) {
+  const proposes = (Array.isArray(proposition) ? proposition : [])
+    .map(propre).filter((g) => motsLecture(g).length);
+  if (bornesGroupes(texte, proposes)) return { groupes: proposes, ajustes: false };
+
+  const motsTexte = motsLecture(texte).map(formeDictee);
+  const motsProposes = proposes.flatMap(motsLecture).map(formeDictee);
+  const memesMots = motsProposes.length === motsTexte.length
+    && motsProposes.every((mot, i) => mot === motsTexte[i]);
+  const tailles = memesMots
+    ? proposes.flatMap((g) => taillesEquilibrees(motsLecture(g).length))
+    : phrases(texte).flatMap((p) => taillesEquilibrees(motsLecture(p).length));
+  const groupes = groupesDepuisTailles(texte, tailles);
+  return { groupes: bornesGroupes(texte, groupes) ? groupes : [], ajustes: true };
+}
+
 /** Vérifie et nettoie la proposition d'Albert. Renvoie aussi les points à relire. */
 export function nettoyer(brut, { texte, reglages }) {
   const r = { ...REGLAGES_DEFAUT, ...(reglages || {}) };
@@ -149,9 +192,10 @@ export function nettoyer(brut, { texte, reglages }) {
   }
   if (motsMeles.length < r.nbMotsMeles) alertes.push(`Mots mêlés : ${motsMeles.length} mot(s) au lieu de ${r.nbMotsMeles}.`);
 
-  const groupesProposes = Array.isArray(brut.groupesSouffle) ? brut.groupesSouffle.map(propre).filter(Boolean) : [];
-  const groupes = bornesGroupes(texte, groupesProposes) ? groupesProposes : [];
-  if (!groupes.length) alertes.push('Groupes de souffle : découpage incomplet ou différent du texte, à corriger.');
+  const { groupes, ajustes } = preparerGroupesSouffle(texte, brut.groupesSouffle);
+  if (ajustes) alertes.push(groupes.length
+    ? 'Groupes de souffle : découpage ajusté pour reprendre tous les mots du texte ; relisez-le.'
+    : 'Groupes de souffle : découpage incomplet ou différent du texte, à corriger.');
 
   const propositionsMaze = Array.isArray(brut.maze) ? brut.maze : [];
   const trous = ciblesMaze(texte).map(({ index, mot }) => {
