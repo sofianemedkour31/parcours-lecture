@@ -1,6 +1,6 @@
 // Studio enseignant : saisir un texte, laisser Albert préparer les activités, relire, valider, publier.
 import { el, vider, remplir } from '../ui.js';
-import { COULEURS, CLE_BROUILLON, CLE_APERCU, chargerPublie, lireBrouillon, fusionnerCorpus } from '../donnees.js';
+import { COULEURS, CLE_BROUILLON, CLE_APERCU, chargerPublie, lireBrouillon, fusionnerCorpus, copierJson } from '../donnees.js';
 import { figureDansTexte, propre, compterMots, formeGrille } from '../lib/texte.js';
 import { genererGrille } from '../lib/grille.js';
 import { bornesGroupes, ciblesMaze, erreursMaze } from '../lib/activites-lecture.js';
@@ -22,7 +22,7 @@ export async function monterStudio(racine) {
   let meta = lireMeta();
   let publie = null;
   try { publie = await chargerPublie(); } catch { /* hors ligne : on garde le brouillon */ }
-  if (!contenu) { contenu = structuredClone(publie || { version: 1, parcours: [] }); meta = { modifie: false }; }
+  if (!contenu) { contenu = copierJson(publie || { version: 1, parcours: [] }); meta = { modifie: false }; }
   normaliser(contenu);
   if (publie && fusionnerCorpus(contenu, publie)) {
     meta.modifie = true;
@@ -41,7 +41,8 @@ export async function monterStudio(racine) {
   };
   retenirValides();
 
-  let code = sessionStorage.getItem(CLE_CODE) || '';
+  let code = '';
+  try { code = sessionStorage.getItem(CLE_CODE) || ''; } catch { /* stockage indisponible */ }
   let statut = null; // { albert, publier }
   let pId = contenu.parcours[0]?.id;
   let tId = null;
@@ -69,7 +70,7 @@ export async function monterStudio(racine) {
     if (statut) {
       remplir(zoneConnexion,
         el('span', { class: `st-badge ${statut.albert ? 'ok' : 'ko'}` }, statut.albert ? 'Albert connecté' : 'Albert non configuré'),
-        el('button', { class: 'st-lien', onclick: () => { sessionStorage.removeItem(CLE_CODE); code = ''; statut = null; majConnexion(); majActions(); } }, 'Se déconnecter'));
+        el('button', { class: 'st-lien', onclick: () => { try { sessionStorage.removeItem(CLE_CODE); } catch { /* stockage indisponible */ } code = ''; statut = null; majConnexion(); majActions(); } }, 'Se déconnecter'));
       return;
     }
     const champ = el('input', { type: 'password', placeholder: 'Code studio', 'aria-label': 'Code studio', autocomplete: 'current-password' });
@@ -85,7 +86,7 @@ export async function monterStudio(racine) {
       if (!r.ok) throw new Error(j.erreur || `Erreur ${r.status}`);
       code = valeur;
       statut = j;
-      sessionStorage.setItem(CLE_CODE, valeur);
+      try { sessionStorage.setItem(CLE_CODE, valeur); } catch { /* connexion valable pour cette session */ }
       if (!silencieux) notifier('Studio connecté.');
     } catch (e) {
       statut = null;
@@ -477,7 +478,7 @@ export async function monterStudio(racine) {
   }
 
   function apercu(t) {
-    sessionStorage.setItem(CLE_APERCU, '1');
+    try { sessionStorage.setItem(CLE_APERCU, '1'); } catch { /* aperçu sans brouillon local */ }
     location.hash = t ? `#/p/${pId}/t/${encodeURIComponent(t.id)}` : '#/';
   }
 
@@ -571,7 +572,7 @@ export async function monterStudio(racine) {
   async function repartirPublie() {
     if (!confirm('Abandonner le brouillon de cet appareil et recharger la version publiée ?')) return;
     try { publie = await chargerPublie(); } catch (err) { notifier(err.message, 'erreur'); return; }
-    contenu = structuredClone(publie); normaliser(contenu); retenirValides();
+    contenu = copierJson(publie); normaliser(contenu); retenirValides();
     meta = { modifie: false };
     localStorage.removeItem(CLE_BROUILLON);
     localStorage.setItem(CLE_META, JSON.stringify(meta));

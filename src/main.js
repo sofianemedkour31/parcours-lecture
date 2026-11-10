@@ -22,6 +22,7 @@ const MOTEURS = {
 let contenu = null;
 let nettoyage = null;
 const racine = document.getElementById('app');
+racine.textContent = '';
 
 // ---------------------------------------------------------------------------
 // Coque « console »

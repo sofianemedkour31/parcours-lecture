@@ -1,8 +1,13 @@
 // Synthèse vocale française (consignes, mots de dictée, questions).
 let voixFr = null;
 
+function syntheseVocale() {
+  try { return window.speechSynthesis || null; } catch { return null; }
+}
+
 function chercherVoix() {
-  const toutes = window.speechSynthesis?.getVoices?.() || [];
+  let toutes = [];
+  try { toutes = syntheseVocale()?.getVoices?.() || []; } catch { /* API vocale indisponible */ }
   const fr = toutes.filter((v) => /^fr(-|_|$)/i.test(v.lang));
   voixFr = fr.find((v) => /fr-FR/i.test(v.lang) && /google|natural|amélie|audrey|thomas|marie/i.test(v.name))
     || fr.find((v) => /fr-FR/i.test(v.lang))
@@ -10,12 +15,12 @@ function chercherVoix() {
     || null;
 }
 
-if ('speechSynthesis' in window) {
+if (syntheseVocale()) {
   chercherVoix();
-  window.speechSynthesis.addEventListener?.('voiceschanged', chercherVoix);
+  try { syntheseVocale().addEventListener?.('voiceschanged', chercherVoix); } catch { /* navigateur ancien */ }
 }
 
-export function voixDisponible() { return 'speechSynthesis' in window; }
+export function voixDisponible() { return Boolean(syntheseVocale()); }
 
 /** Lit un texte. Renvoie une promesse résolue à la fin de la lecture. */
 export function dire(texte, { vitesse = 0.9, onFin } = {}) {

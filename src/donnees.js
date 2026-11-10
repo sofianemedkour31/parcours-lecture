@@ -5,6 +5,9 @@ import { erreursMaze } from './lib/activites-lecture.js';
 export const CLE_BROUILLON = 'pl-studio-brouillon';
 export const CLE_APERCU = 'pl-apercu';
 
+/** Le contenu est du JSON ; cette copie fonctionne aussi dans les anciens navigateurs Android. */
+export function copierJson(valeur) { return JSON.parse(JSON.stringify(valeur)); }
+
 export const COULEURS = {
   vert: { fond: '#5dbb63', sombre: '#2f6b3a', clair: '#c9efc0' },
   jaune: { fond: '#f2b544', sombre: '#7a5310', clair: '#fde7b5' },
@@ -45,7 +48,7 @@ export function fusionnerCorpus(brouillon, publie) {
   for (const source of publie.parcours || []) {
     let cible = brouillon.parcours.find((p) => p.id === source.id);
     if (!cible) {
-      cible = structuredClone({ ...source, textes: [] });
+      cible = copierJson({ ...source, textes: [] });
       brouillon.parcours.push(cible);
     }
     cible.textes ||= [];
@@ -57,7 +60,7 @@ export function fusionnerCorpus(brouillon, publie) {
         dejaPresents.add(existant);
         return existant;
       }
-      return structuredClone(texte);
+      return copierJson(texte);
     });
     cible.textes = [...textesDuCorpus, ...cible.textes.filter((t) => !dejaPresents.has(t))];
   }
