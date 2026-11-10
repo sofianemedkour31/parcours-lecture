@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -47,9 +48,14 @@ def main():
         print("Node.js est introuvable. Installez-le ou ajoutez-le au PATH.", file=sys.stderr)
         return 1
 
+    environnement = os.environ.copy()
+    if sys.platform == "win32":
+        environnement.setdefault("NODE_USE_SYSTEM_CA", "1")
+
     serveur = subprocess.Popen(
         [node, str(RACINE / "scripts" / "serveur-local.mjs"), "--port", str(args.port)],
         cwd=RACINE,
+        env=environnement,
     )
     try:
         limite = time.monotonic() + 10
