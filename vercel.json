@@ -1,0 +1,14 @@
+{
+  "framework": "vite",
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/albert.js": { "maxDuration": 60 }
+  },
+  "headers": [
+    {
+      "source": "/contenu/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+    }
+  ]
+}

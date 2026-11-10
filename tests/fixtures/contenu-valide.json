@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "parcours": [
+    {
+      "id": 1,
+      "nom": "Parcours 1",
+      "couleur": "vert",
+      "reglages": {
+        "niveau": "CP",
+        "nbMotsDictee": 6,
+        "nbQuestions": 4,
+        "nbMotsMeles": 6,
+        "directions": "simple",
+        "vitesse": 45
+      },
+      "textes": [
+        {
+          "id": "exemple-pilou",
+          "titre": "Le chat de Léo",
+          "exemple": true,
+          "valide": true,
+          "texte": "Léo a un petit chat gris. Il s'appelle Pilou.\nLe matin, Pilou dort sur le lit. À midi, il mange dans sa gamelle. L'après-midi, il joue avec une pelote de laine rouge.\nUn jour, la pelote roule sous l'armoire. Pilou tend la patte, mais il ne peut pas l'attraper. Léo arrive avec une règle et pousse la pelote.\nPilou miaule de joie et recommence à jouer. Le soir, il ronronne sur les genoux de Léo.",
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": 45
+            },
+            "dictee": {
+              "actif": true,
+              "mots": [
+                {
+                  "mot": "chat",
+                  "phrase": "Léo a un petit chat gris."
+                },
+                {
+                  "mot": "matin",
+                  "phrase": "Le matin, Pilou dort sur le lit."
+                },
+                {
+                  "mot": "gamelle",
+                  "phrase": "À midi, il mange dans sa gamelle."
+                },
+                {
+                  "mot": "rouge",
+                  "phrase": "Il joue avec une pelote de laine rouge."
+                },
+                {
+                  "mot": "patte",
+                  "phrase": "Pilou tend la patte."
+                },
+                {
+                  "mot": "soir",
+                  "phrase": "Le soir, il ronronne sur les genoux de Léo."
+                }
+              ]
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": [
+                {
+                  "question": "Comment s'appelle le chat ?",
+                  "choix": [
+                    "Pilou",
+                    "Léo",
+                    "Gris"
+                  ],
+                  "bonne": 0,
+                  "indice": "Relis la première ligne du texte.",
+                  "extrait": "Il s'appelle Pilou."
+                },
+                {
+                  "question": "Où dort Pilou le matin ?",
+                  "choix": [
+                    "Sur le lit",
+                    "Sous l'armoire",
+                    "Dans sa gamelle"
+                  ],
+                  "bonne": 0,
+                  "indice": "Cherche le mot « matin » dans le texte.",
+                  "extrait": "Le matin, Pilou dort sur le lit."
+                },
+                {
+                  "question": "Pourquoi Pilou ne peut-il pas attraper la pelote ?",
+                  "choix": [
+                    "Elle est sous l'armoire",
+                    "Elle est trop lourde",
+                    "Léo l'a rangée"
+                  ],
+                  "bonne": 0,
+                  "indice": "Relis ce qui arrive à la pelote « un jour ».",
+                  "extrait": "Un jour, la pelote roule sous l'armoire."
+                },
+                {
+                  "question": "Comment se sent Pilou quand Léo pousse la pelote ?",
+                  "choix": [
+                    "Il est content",
+                    "Il a peur",
+                    "Il est fâché"
+                  ],
+                  "bonne": 0,
+                  "indice": "Que fait Pilou quand il miaule ?",
+                  "extrait": "Pilou miaule de joie et recommence à jouer."
+                }
+              ]
+            },
+            "motsMeles": {
+              "actif": true,
+              "directions": "simple",
+              "mots": [
+                "chat",
+                "Pilou",
+                "pelote",
+                "laine",
+                "armoire",
+                "patte"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Parcours 2",
+      "couleur": "jaune",
+      "reglages": {
+        "niveau": "CE1",
+        "nbMotsDictee": 8,
+        "nbQuestions": 5,
+        "nbMotsMeles": 8,
+        "directions": "simple",
+        "vitesse": 60
+      },
+      "textes": []
+    },
+    {
+      "id": 3,
+      "nom": "Parcours 3",
+      "couleur": "orange",
+      "reglages": {
+        "niveau": "CE2",
+        "nbMotsDictee": 8,
+        "nbQuestions": 5,
+        "nbMotsMeles": 10,
+        "directions": "diagonales",
+        "vitesse": 75
+      },
+      "textes": []
+    },
+    {
+      "id": 4,
+      "nom": "Parcours 4",
+      "couleur": "bleu",
+      "reglages": {
+        "niveau": "CE2",
+        "nbMotsDictee": 10,
+        "nbQuestions": 6,
+        "nbMotsMeles": 10,
+        "directions": "diagonales",
+        "vitesse": 90
+      },
+      "textes": []
+    }
+  ]
+}

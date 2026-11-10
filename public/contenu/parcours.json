@@ -1,0 +1,1866 @@
+{
+  "version": 1,
+  "parcours": [
+    {
+      "id": 1,
+      "nom": "Parcours 1",
+      "couleur": "vert",
+      "reglages": {
+        "niveau": "CP",
+        "nbMotsDictee": 6,
+        "nbQuestions": 4,
+        "nbMotsMeles": 6,
+        "directions": "simple",
+        "vitesse": 45
+      },
+      "textes": [
+        {
+          "id": "p1-texte-01",
+          "titre": "Blanche-Neige",
+          "texte": "Dans la maisonnette, tout était minuscule, gracieux et propre. On y voyait une petite table couverte d'une nappe blanche, avec sept petites assiettes et sept petites cuillères, sept petites fourchettes et sept petits couteaux, et aussi sept petits gobelets. Contre le mur, il y avait sept petits lits alignés.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p1-texte-02",
+          "titre": "La chèvre de Monsieur Seguin",
+          "texte": "M. Seguin avait derrière sa maison un clos entouré d'aubépines. C'est là qu'il mit la nouvelle pensionnaire. Il l'attacha à un pieu, au plus bel endroit du pré, en ayant soin de lui laisser beaucoup de corde, et de temps en temps, il venait voir si elle était bien.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p1-texte-03",
+          "titre": "Le Petit Poucet",
+          "texte": "Le Bûcheron se mit à couper du bois et ses enfants à ramasser les broutilles pour faire des fagots. Le père et la mère, les voyant occupés à travailler, s'éloignèrent d'eux insensiblement, puis s'enfuirent tout à coup par un petit sentier détourné. Lorsque ces enfants se virent seuls, ils se mirent à crier.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p1-texte-04",
+          "titre": "La Petite Poucette",
+          "texte": "Dans le ruisseau poussaient beaucoup de nénuphars dont les larges feuilles vertes semblaient flotter à la surface de l'eau c'est là que la vieille grenouille nagea et plaça la coque de noix avec Poucette. La pauvre petite mignonne se réveilla de très bonne heure le matin, et lorsqu'elle vit où elle était, elle se mit à pleurer.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p1-texte-05",
+          "titre": "Mes vers fuiraient",
+          "texte": "Mes vers fuiraient, doux et frêles,\nVers votre jardin si beau,\nSi mes vers avaient des ailes,\nDes ailes comme l'oiseau.\nIls voleraient, étincelles,\nVers votre foyer qui rit,\nSi mes vers avaient des ailes,\nDes ailes comme l'esprit.\nPrès de vous, purs et fidèles,\nIls accourraient, nuit et jour,\nSi mes vers avaient des ailes,\nDes ailes comme l'amour !",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p1-texte-06",
+          "titre": "Le Chat botté",
+          "texte": "Le Roi vint à passer et le Chat se mit à crier de toute sa force : Au secours, au secours, voilà Monsieur le Marquis de Carabas qui se noie ! A ce cri le Roi mit la tête à la portière, et reconnaissant le Chat qui lui avait apporté tant de fois du Gibier, il ordonna à ses Gardes qu'on allât vite au secours du Marquis.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p1-texte-07",
+          "titre": "Les fées",
+          "texte": "L'aînée prit le plus beau flacon d'argent qui fut au logis. Elle ne fut pas plus tôt arrivée à la fontaine, qu'elle vit sortir du bois une dame magnifiquement vêtue, qui vint lui demander à boire. C'était la même fée qui avait apparu à sa sœur, mais qui avait pris l'air et les habits d'une princesse, pour voir jusqu'où irait sa malhonnêteté.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p1-texte-08",
+          "titre": "Le vilain petit canard",
+          "texte": "Un soir que le soleil se couchait glorieux, toute une foule de grands oiseaux superbes sortit des buissons ; le canet n'en avait jamais vu de semblables : ils étaient d'une blancheur éblouissante, ils avaient le cou long et souple. C'étaient des cygnes. Le son de leur voix était tout particulier : ils étendirent leurs longues ailes éclatantes pour aller loin de cette contrée chercher dans les pays chauds des lacs toujours ouverts.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p1-texte-09",
+          "titre": "Demain, dès l'aube...",
+          "texte": "Demain, dès l'aube, à l'heure où blanchit la campagne,\nJe partirai. Vois-tu, je sais que tu m'attends.\nJ'irai par la forêt, j'irai par la montagne.\nJe ne puis demeurer loin de toi plus longtemps.\nJe marcherai les yeux fixés sur mes pensées,\nSans rien voir au dehors, sans entendre aucun bruit,\nSeul, inconnu, le dos courbé, les mains croisées,\nTriste, et le jour pour moi sera comme la nuit.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p1-texte-10",
+          "titre": "Le Roi Grenouille",
+          "texte": "Dans des temps très anciens, alors qu'il pouvait encore être utile de faire des voeux, vivait un roi dont toutes les filles étaient belles. La plus jeune était si belle que le soleil s'étonnait chaque fois qu'il illuminait son visage. Non loin du château du roi, il y avait une grande et sombre forêt et, dans la forêt, sous un tilleul, une fontaine. Un jour qu'il faisait très chaud, la royale enfant partit dans le bois.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p1-texte-11",
+          "titre": "Le papa de Simon",
+          "texte": "Cette forge était comme ensevelie sous des arbres. Il y faisait très sombre ; seule, la lueur rouge d'un foyer formidable éclairait par grands reflets cinq forgerons aux bras nus qui frappaient sur leurs enclumes avec un terrible fracas. Ils se tenaient debout, enflammés comme des démons, les yeux fixés sur le fer ardent qu'ils torturaient ; et leur lourde pensée montait et retombait avec leurs marteaux. Simon entra sans être vu et alla tout doucement tirer son ami par la manche.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p1-texte-12",
+          "titre": "Les Colchiques",
+          "texte": "Le pré est vénéneux mais joli en automne\nLes vaches y paissant\nLentement s'empoisonnent\nLe colchique couleur de cerne et de lilas\nY fleurit tes yeux sont comme cette fleur-là\nViolâtres comme leur cerne et comme cet automne\nEt ma vie pour tes yeux lentement s'empoisonne\nLes enfants de l'école viennent avec fracas\nVêtus de hoquetons et jouant de l'harmonica\nIls cueillent les colchiques qui sont comme des mères\nFilles de leurs filles et sont couleur de tes paupières",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p1-texte-13",
+          "titre": "Le python",
+          "texte": "Le python est un reptile qui appartient à l'ordre des squamates (comprenant notamment les lézards et les serpents). Il existe une trentaine d'espèces de python, dont le python royal. Le python tue sa proie en s'enroulant pour l'étouffer, puis il avale la tête en premier. Il est constricteur. Le python est un ovipare ; il pond des œufs. Le python réticulé est l'un des deux plus grands serpents du monde. Il peut atteindre 10m de long.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p1-texte-14",
+          "titre": "Recette de la tarte aux pommes",
+          "texte": "1. Étaler la pâte dans un moule à tarte beurré et fariné.\n2. Mettre les pommes pelées et coupées en quartier dans une casserole, ajouter 150 g de sucre et le sucre vanillé.\n3. Peler six pommes, les épépiner et les couper en tranches fines, piquer le fond de tarte et le tartiner avec la compote.\n4. Disposer les pommes sur le fond en les faisant se chevaucher, saupoudrer de sucre.\n5. Cuire au four à 180°C durant 25 à 30 minutes.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p1-texte-15",
+          "titre": "Les montagnes",
+          "texte": "En Europe, le mont Elbrouz (Caucase) est le toit de l'Europe avec 5642 m. En Afrique, les plus hautes montagnes sont deux volcans éteints : le Kilimandjaro (5895 m) en Tanzanie et le mont Kenya (5199 m) au Kenya. En Asie, l'Himalaya au Népal et la chaîne du Karakoram en Inde et au Pakistan dominent le monde, tous deux se partageant des sommets dépassant 8000 m. Le point le plus élevé du monde est le mont Everest (Himalaya) avec 8849 m d'altitude.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Parcours 2",
+      "couleur": "jaune",
+      "reglages": {
+        "niveau": "CE1",
+        "nbMotsDictee": 8,
+        "nbQuestions": 5,
+        "nbMotsMeles": 8,
+        "directions": "simple",
+        "vitesse": 60
+      },
+      "textes": [
+        {
+          "id": "p2-texte-01",
+          "titre": "L'intrépide soldat de plomb",
+          "texte": "Il y avait une fois vingt-cinq soldats de plomb, tous frères, car ils étaient nés d'une vieille cuillère de plomb. L'arme au bras, l'œil fixe, l'uniforme rouge et bleu, quelle fière mine ils avaient tous ! La première chose qu'ils entendirent en ce monde, quand fut enlevé le couvercle de la boîte qui les renfermait, ce fut ce cri : « Des soldats de plomb ! » que poussait un petit garçon.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p2-texte-02",
+          "titre": "L'intrépide soldat de plomb (2)",
+          "texte": "Un petit garçon avait reçu en cadeau pour son anniversaire, des soldats de plomb. Il s'amusait à les ranger sur la table. Tous les soldats se ressemblaient parfaitement, à l'exception d'un seul, qui n'avait qu'une jambe, ayant été fondu le dernier. Il ne restait pas assez de plomb. Cependant il se tenait aussi ferme sur cette jambe que les autres sur deux. C'est à lui qu'arriva une histoire extraordinaire.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p2-texte-03",
+          "titre": "Dame hiver (1)",
+          "texte": "Une veuve avait deux filles. L'une était belle et travailleuse. L'autre était laide et paresseuse. Mais comme cette dernière était sa vraie fille, la mère la préférait. Et de très loin. Quant à la fille qui était belle et travailleuse, il lui fallait tout faire : elle était la Cendrillon de la maison. Elle devait chaque jour aller sur la grande-route s'asseoir près du puits et filer, filer tant et tant que les doigts lui en saignaient.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p2-texte-04",
+          "titre": "Dame hiver (2)",
+          "texte": "Un soir que sa bobine était toute trempée de sang, la fillette se pencha pour la laver dans l'eau du puits. Or, la bobine lui échappa puis tomba au fond. L'enfant pleura et courut voir sa belle-mère pour lui raconter son malheur. Mais la marâtre fut sans pitié et l'accabla de reproches : - Puisque tu l'as laissé tomber, tu vas la chercher. Sa détresse était si grande qu'elle sauta dans le puits afin d'y repêcher sa bobine.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p2-texte-05",
+          "titre": "Annie",
+          "texte": "Sur la côte du Texas\nEntre Mobile et Galveston il y a\nUn grand jardin tout plein de roses\nIl contient aussi une villa\nQui est une grande rose\nUne femme se promène souvent\nDans le jardin toute seule\nEt quand je passe sur la route bordée de tilleuls\nNous nous regardons\nComme cette femme est mennonite\nSes rosiers et ses vêtements n'ont pas de boutons\nIl en manque deux à mon veston\nLa dame et moi suivons presque le même rite",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p2-texte-06",
+          "titre": "Le pont Mirabeau",
+          "texte": "Sous le pont Mirabeau coule la Seine\nEt nos amours\nFaut-il qu'il m'en souvienne\nLa joie venait toujours après la peine\nVienne la nuit sonne l'heure\nLes jours s'en vont je demeure\nLes mains dans les mains restons face à face\nTandis que sous\nLe pont de nos bras passe\nDes éternels regards l'onde si lasse\nVienne la nuit sonne l'heure\nLes jours s'en vont je demeure\nL'amour s'en va comme cette eau courante\nL'amour s'en va...",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p2-texte-07",
+          "titre": "La vache",
+          "texte": "Devant la blanche ferme où parfois vers midi\nUn vieillard vient s'asseoir sur le seuil attiédi,\nOù cent poules gaîment mêlent leurs crêtes rouges,\nOù, gardiens du sommeil, les dogues dans leurs bouges\nÉcoutent les chansons du gardien du réveil,\nDu beau coq vernissé qui reluit au soleil,\nUne vache était là, tout à l'heure arrêtée.\nSuperbe, énorme, rousse et de blanc tachetée,\nDouce comme une biche avec ses jeunes faons,\nElle avait sous le ventre un beau groupe d'enfants,\nD'enfants aux dents de marbre, aux cheveux en broussailles...",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p2-texte-08",
+          "titre": "Le pêcheur et sa femme (1)",
+          "texte": "Il y avait une fois un pêcheur et sa femme, qui habitaient ensemble une cahute au bord de la mer. Le pêcheur allait tous les jours jeter son hameçon. Un jour, il était assis près de sa ligne, sur le rivage, le regard tourné du côté de l'eau limpide, et il restait assis. Tout à coup, il vit l'hameçon plonger et descendre profondément, et quand il le retira, il tenait au bout une grosse barbue. La barbue lui dit : « Je te prie de me laisser vivre ; je ne suis pas une vraie barbue, je suis un prince enchanté ».",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p2-texte-09",
+          "titre": "Le pêcheur et sa femme (2)",
+          "texte": "L'homme se souciait point de la barbue ; pourtant il se rendit au bord de la mer, et quand il y fut il la vit toute jaune et toute verte ; il s'approcha de l'eau et dit :\n\nTarare ondin, Tarare ondin,\nPetit poisson, gentil fretin,\nMon Isabeau crie et tempête ;\nIl en faut bien faire à sa tête.\n\nLa barbue s'avança vers lui et lui dit : « Que veut donc ta femme ?\n— Ah ! dit l'homme, je t'ai prise tout à l'heure ; ma femme prétend que j'aurais dû te demander quelque chose. Elle voudrait bien avoir une chaumière ».",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p2-texte-10",
+          "titre": "Ali Baba et les quarante voleurs",
+          "texte": "Un jour Ali-Baba achevait de couper sa charge de bois lorsqu'il distingua une troupe de cavaliers qui s'avançaient dans sa direction. Craignant d'avoir affaire à des voleurs, il abandonna ses ânes et monta sur un gros arbre touffu.\n\nLes cavaliers mirent pied à terre, ils étaient quarante. Le chef de la bande se dirigea vers un rocher situé près du gros arbre où Ali-Baba s'était réfugié, écarta les broussailles et prononça :\n\n« Sésame, ouvre-toi ! » Aussitôt, une porte s'ouvrit, les brigands s'y engouffrèrent, le chef entra le dernier et la porte se referma sur lui.\n\nPuis, la porte se rouvrit...",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p2-texte-11",
+          "titre": "Cendrillon",
+          "texte": "Il était une fois un gentilhomme qui épousa, en secondes noces, une femme, la plus hautaine et la plus fière. Elle avait deux filles de son humeur, et qui lui ressemblaient en toutes choses. Le mari avait, de son côté, une jeune fille, mais d'une douceur et d'une bonté sans exemple. Les noces ne furent pas plus tôt faites que la belle-mère fit éclater sa mauvaise humeur...Elle la chargea des plus viles occupations de la maison. C'était elle qui nettoyait la vaisselle et les montées, qui frottait la chambre de madame et celles de mesdemoiselles ses filles et elle couchait tout au haut de la maison.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p2-texte-12",
+          "titre": "Les Deux Mulets",
+          "texte": "Deux Mulets cheminaient, l'un d'avoine chargé,\nL'autre portant l'argent de la Gabelle.\nCelui-ci, glorieux d'une charge si belle,\nN'eût voulu pour beaucoup en être soulagé.\nIl marchait d'un pas relevé,\nEt faisait sonner sa sonnette :\nQuand l'ennemi se présentant,\nComme il en voulait à l'argent,\nSur le Mulet du fisc une troupe se jette,\nLe saisit au frein et l'arrête.\nLe Mulet, en se défendant,\nSe sent percer de coups : il gémit, il soupire.\n\"Est-ce donc là, dit-il, ce qu'on m'avait promis ?\nCe Mulet qui me suit du danger se retire,\nEt moi j'y tombe, et je péris...",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p2-texte-13",
+          "titre": "Le tournesol",
+          "texte": "Le tournesol fait partie de la famille des composées. Il donne l'impression d'avoir de grosses fleurs très colorées. En fait, il ne s'agit pas de fleurs mais de l'inflorescence. C'est un ensemble de petites fleurs groupées entre elles. Cela s'appelle un capitule. Les petites fleurs peuvent se rassembler pour être mieux vues par les insectes qui viennent chercher le pollen. Le tournesol est très mellifère. Il a une autre particularité étonnante. Sa tige bouge et tourne sur elle-même tout au long de la journée. Le nom \"tournesol\" veut dire \"qui tourne avec le soleil\". Il est cultivé pour ses graines.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p2-texte-14",
+          "titre": "Poséidon",
+          "texte": "Poséidon est le dieu de la mer et des océans ainsi que \"l'ébranleur du sol\", dieu des tremblements de terre et des sources dans la mythologie grecque. Il y joue un rôle très important. C'est un Cronide : c'est, avec ses frères Zeus et Hadès et sa sœur Héra, l'un des enfants de Cronos et de Rhéa. Il se marie à Amphitrite, mais semble néanmoins avoir eu d'autres conquêtes. Son symbole principal est le trident qu'il reçoit des Cyclopes pendant la Titanomachie. Il est parfois symbolisé par un dauphin ou un cheval, mais aussi par un taureau. Les Romains l'assimilent à leur dieu Neptune.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p2-texte-15",
+          "titre": "Fabrication d'un piano à queue",
+          "texte": "Étape 1 : Découper la base\nMatériel utilisé : contreplaqué 16 mm\nDimensions : 142 cm de large par 122 cm en profondeur (142 cm de libre pour insérer tout piano électronique).\nLe plus gros travail ici est de découper la forme arrière arrondie. Le style dépend des goûts de chacun.\nGarder la partie découpée restante pour le moulage éventuel de la partie arrière arrondie dite ceinture du piano.\nDe même pour les côtés. Nous avons opté pour deux longueurs différentes.\nLe côté droit fait 61 cm de long par 30,5 cm de haut. Le gauche fait 99 cm de long par 30 cm de haut.\nColler les côtés à la base et utiliser de petits clous.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Parcours 3",
+      "couleur": "orange",
+      "reglages": {
+        "niveau": "CE2",
+        "nbMotsDictee": 8,
+        "nbQuestions": 5,
+        "nbMotsMeles": 10,
+        "directions": "diagonales",
+        "vitesse": 75
+      },
+      "textes": [
+        {
+          "id": "p3-texte-01",
+          "titre": "Le chien et le coq (extrait)",
+          "texte": "Un chien et un coq, ayant fait amitié, cheminaient de compagnie. Le soir les surprit : le coq grimpa sur un arbre pour y dormir ; le chien se couche au pied, dans une cavité formée par les racines. La nuit, le coq chanta, selon son habitude. Un renard l'entend et accourt. Il s'arrête au pied de l'arbre et demande au coq de descendre auprès de lui et de contenter son envie d'embrasser un animal qui a une si belle voix. Le coq lui dit de réveiller d'abord le portier, couché sous les racines : « Je descendrai quand il aura ouvert. »",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p3-texte-02",
+          "titre": "La petite Fille aux allumettes",
+          "texte": "Il faisait effroyablement froid ; il neigeait depuis le matin ; il faisait déjà sombre ; le soir approchait, le soir du dernier jour de l'année. Au milieu des rafales, par ce froid glacial, une pauvre petite fille marchait dans la rue : elle n'avait rien sur la tête, elle était pieds nus. Lorsqu'elle était sortie de chez elle le matin, elle avait eu de vieilles pantoufles beaucoup trop grandes pour elle. Aussi les perdit-elle lorsqu'elle eut à se sauver devant une file de voitures ; les voitures passées, elle chercha après ses chaussures ; un méchant gamin s'enfuyait emportant en riant l'une des pantoufles.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p3-texte-03",
+          "titre": "Le joueur de flûte de Hamelin",
+          "texte": "Les rats étaient partout : dans les armoires, dans les chaussures, et jusque dans les berceaux. Epouvantés, les gens se rendirent à l'Hôtel de ville pour demander au maire de faire quelque chose. Lors d'une réunion d'urgence, le maire et ses conseillers mirent au point un plan à base de pièges et de poison pour débarrasser Hamelin des rats. Hélas, les rats se montrèrent si malins et si vigoureux qu'ils évitèrent les pièges et dévorèrent le poison comme si c'était du sucre. Le troisième jour, il n'y avait plus rien à manger. Alors les rats dévorèrent les oreillers, les livres, les chaises et les tables.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p3-texte-04",
+          "titre": "Les aventures de Pinocchio",
+          "texte": "Il était une fois... — Un roi ! — vont dire mes petits lecteurs. Eh bien non, les enfants, vous vous trompez. Il était une fois... un morceau de bois. Ce n'était pas du bois précieux, mais une simple bûche, de celles qu'en hiver on jette dans les poêles et dans les cheminées. Je ne pourrais pas expliquer comment, mais le fait est qu'un jour ce bout de bois se retrouva dans l'atelier d'un vieux menuisier, lequel avait pour nom Antonio bien que tout le monde l'appelât Maître Cerise à cause de la pointe de son nez qui était toujours brillante et rouge foncé, comme une cerise mûre.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p3-texte-05",
+          "titre": "La Belle et la Bête",
+          "texte": "Il y avait un an que cette famille vivait dans la solitude, lorsque le marchand reçut une lettre, par laquelle on lui marquait qu'un vaisseau sur lequel il avait des marchandises venait d'arriver heureusement. Cette nouvelle pensa tourner la tête à ses deux aînées, qui pensaient qu'à la fin elles pourraient quitter cette campagne, où elles s'ennuyaient tant ; et quand elles virent leur père prêt à partir, elles le prièrent de leur apporter des robes, des palatines, des coiffures, et toutes sortes de bagatelles. La Belle ne lui demandait rien ; car elle pensait en elle-même, que tout l'argent des marchandises ne suffirait pas pour acheter ce que ses sœurs souhaitaient.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p3-texte-06",
+          "titre": "La Belle et La Bête",
+          "texte": "Il n'y avait qu'une chose qui faisait de la peine à la Belle, c'est que le monstre, avant de se coucher, lui demandait toujours si elle voulait être sa femme et paraissait pénétré de douleur lorsqu'elle lui disait que non. Elle lui dit un jour : « Je voudrais pouvoir vous épouser, mais je suis trop sincère pour vous faire croire que cela arrivera jamais : je serai toujours votre amie ; tâchez de vous contenter de cela. Il le faut bien, reprit la Bête. Je me rends justice ! Je sais que je suis horrible, mais je vous aime beaucoup. Aussi, je suis trop heureux de ce que vous vouliez bien rester ici. Promettez-moi que vous ne me quitterez jamais ! »",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p3-texte-07",
+          "titre": "Sindbad le marin",
+          "texte": "Sire, sous le règne de ce même calife Haroun-al-Rachid dont je viens de parler, il y avait à Bagdad un pauvre porteur qui se nommait Hindbad. Un jour qu'il faisait une chaleur excessive, il portait une charge très pesante d'une extrémité de la ville à une autre. Comme il était fort fatigué du chemin qu'il avait déjà fait et qu'il lui en restait encore beaucoup à faire, il arriva dans une rue où régnait un doux zéphyr, et dont le pavé était arrosé d'eau de rose. Ne pouvant désirer un lieu plus favorable pour se reposer et reprendre de nouvelles forces, il posa sa charge à terre, et s'assit dessus auprès d'une grande maison.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p3-texte-08",
+          "titre": "Les pauvres Gens",
+          "texte": "L'homme est en mer. Depuis l'enfance matelot,\nIl livre au hasard sombre une rude bataille.\nPluie ou bourrasque, il faut qu'il sorte, il faut qu'il aille,\nCar les petits enfants ont faim. Il part le soir\nQuand l'eau profonde monte aux marches du musoir.\nIl gouverne à lui seul sa barque à quatre voiles.\nLa femme est au logis, cousant les vieilles toiles,\nRemmaillant les filets, préparant l'hameçon,\nSurveillant l'âtre où bout la soupe de poisson,\nPuis priant Dieu sitôt que les cinq enfants dorment.\nLui, seul, battu des flots qui toujours se reforment,\nIl s'en va dans l'abîme et s'en va dans la nuit.\nDur labeur ! tout est noir, tout est froid ; rien ne luit.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p3-texte-09",
+          "titre": "Comment Tiecelin le corbeau prit un fromage à la vieille, et comment Renart le prit à Tiecelin.",
+          "texte": "Dans une plaine fleurie que bornaient deux montagnes et qu'une eau limpide arrosait, Renart, un jour, aperçut de la rive opposée, un fau solitaire planté loin de tout chemin frayé, à la naissance de la montée. Il franchit le ruisseau, gagne l'arbre, fait autour du tronc ses passes ordinaires, puis se vautre délicieusement sur l'herbe fraîche, en soufflant pour se bien refroidir. Tout dans ce lieu le charmait ; tout, je me trompe, car il sentait un premier aiguillon de faim, et rien ne lui donnait l'espoir de l'apaiser. Pendant qu'il hésitait sur ce qu'il avait à faire, damp Tiecelin, le corbeau, sortait du bois voisin, planait dans la prairie et allait s'abattre dans un plessis qui semblait lui promettre bonne aventure.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p3-texte-10",
+          "titre": "L'oiseau bleu",
+          "texte": "Il était une fois un roi fort riche en terres et en argent ; sa femme mourut, il en fut inconsolable. Il s'enferma huit jours entiers dans un petit cabinet, où il se cassait la tête contre les murs, tant il était affligé. On craignit qu'il ne se tuât : on mit des matelas entre la tapisserie et la muraille, de sorte qu'il avait beau se frapper, il ne se faisait plus de mal. Tous ses sujets résolurent entre eux de l'aller voir, et de lui dire ce qu'ils pourraient de plus propre à soulager sa tristesse. Les uns préparaient des discours graves et sérieux, d'autres d'agréables, et même de réjouissants ; mais cela ne faisait aucune impression sur son esprit, à peine entendait-il ce qu'on lui disait.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p3-texte-11",
+          "titre": "L'assemblée des souris",
+          "texte": "Les souris se réunirent toutes un jour en conseil et examinèrent les meilleurs moyens de se mettre à l'abri des attaques du chat. On avait déjà discuté plusieurs propositions quand l'une des souris, personne d'importance et d'expérience, se leva et dit : « Je crois avoir trouvé un plan qui, si vous l'approuvez et le menez à bien, assurerait notre sécurité pour l'avenir. Voici : il nous faut attacher au cou de notre ennemi le chat un grelot dont le tintement nous avertira de son approche. » Cette proposition fut chaudement applaudie ; et l'on avait déjà décidé de l'adopter, quand une vieille souris, se dressant sur ses pattes, dit : « Je conviens avec vous toutes que ce plan est quelque chose d'admirable ; mais, puis-je vous demander qui va aller attacher le grelot ? »",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p3-texte-12",
+          "titre": "L'Enfant d'Éléphant",
+          "texte": "Dans les Temps Anciens et Reculés, ô ma Mieux-Aimée, l'Eléphant n'avait pas de trompe. Il n'avait qu'un petit bout de nez brun bombé de la taille d'une botte, qu'il balançait bien de droite et de gauche, mais avec quoi il ne pouvait rien ramasser. Or, il y avait un Éléphant, un nouvel Éléphant, un Enfant d'Éléphant, plein d'une insatiable curiosité, ce qui fait qu'il posait toujours un tas de questions. Il vivait en Afrique et il remplissait toute l'Afrique de son insatiable curiosité. Il demanda à sa grande tante l'Autruche pourquoi les plumes de sa queue poussaient comme ça, et sa grande tante l'Autruche lui donna une fessée avec sa patte dure, dure. Il demanda à sa grande tante la Girafe pourquoi elle avait la peau tachetée.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p3-texte-13",
+          "titre": "L'estomac",
+          "texte": "L'estomac est une sorte de poche située à l'intérieur du ventre, dans le haut de l'abdomen. Il se trouve sous l'œsophage. Son bord supérieur qui le relie à l'œsophage est le cardia, son bord inférieur qui le relie au duodénum est le pylore. L'estomac a pour rôle de digérer les aliments mastiqués dans la bouche et apportés par l'œsophage. L'estomac fabrique et contient un des sucs digestifs les plus importants : le suc gastrique. Il possède beaucoup d'enzymes qui proviennent de ses parois, la plus connue étant la pepsine. Cette dernière sert à réduire les grosses molécules afin que les nutriments soient absorbés, c'est à dire qu'ils traversent la paroi de l'intestin grêle pour passer dans le sang. C'est l'absorption intestinale.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p3-texte-14",
+          "titre": "Programme de construction en géométrie",
+          "texte": "Un programme de construction permet en suivant les instructions données de tracer des figures géométriques plus ou moins complexes. Voici un exemple :\n\nSur une feuille blanche, trace un triangle équilatéral de 10 cm de côté.\nNomme ses sommets ABC.\nPlace le point D milieu du segment [BC].\nPlace le point E milieu du segment [AC].\nPlace le point F milieu du segment [AB].\nTrace le demi-cercle de diamètre [AB] et de centre F.\nDe la même façon, trace les demi-cercles de diamètre [AC] et [BC].\nTrace la droite (AD) et (EB) sécantes en O.\nTrace la droite (d) passant par le point C et perpendiculaire à [AB].\nPlace le point H de sorte que [OF] égal à [FH] et que [HB] soit parallèle à [AO].\nTrace le quadrilatère AOBH.\nTrace le cercle de rayon [OF].",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p3-texte-15",
+          "titre": "La démographie",
+          "texte": "La démographie est l'étude quantitative d'une ou plusieurs populations. Elle permet de donner des chiffres sur le nombre d'habitants, leur répartition spatiale et la densité de population. Elle observe comment une population se renouvelle par la natalité et la mortalité. On peut ainsi connaître la structure par tranches d'âge et par sexe, les déplacements internes (exode rural ou exode urbain) et externes (émigration et immigration). La démographie se base sur des relevés de population, comme les recensements ou les études de registre divers comme les registres de l'État civil ou les données recueillies par les services statistiques. En comparant les données recueillies à différentes époques, dans un même pays, on observe l'évolution de la population. On peut alors prévoir l'avenir de la population car les comportements démographiques sont très lents à se modifier.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Parcours 4",
+      "couleur": "bleu",
+      "reglages": {
+        "niveau": "CE2",
+        "nbMotsDictee": 10,
+        "nbQuestions": 6,
+        "nbMotsMeles": 10,
+        "directions": "diagonales",
+        "vitesse": 90
+      },
+      "textes": [
+        {
+          "id": "p4-texte-01",
+          "titre": "Casse-Noisette",
+          "texte": "La noix krakatuk avait une si dure coquille, qu'un boulet de canon d'une pièce de quarante-huit pouvait l'atteindre sans la briser. Cette noix devait être cassée en présence de la princesse par un homme qui n'aurait pas été rasé et n'aurait jamais porté de bottes, et l'amande devait lui en être présentée les yeux fermés par ce même homme ; et lorsque celui-ci aurait fait sans broncher sept pas en arrière, il lui était permis d'ouvrir les yeux. Drossel avait travaillé avec l'astronome trois jours ; au moment où le roi s'occupait de son dîner, Drossel annonça au monarque le moyen trouvé pour rendre à la princesse Pirlipat sa beauté perdue.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p4-texte-02",
+          "titre": "Tristesse d'Olympio",
+          "texte": "Les feuilles qui gisaient dans le bois solitaire,\nS'efforçant sous ses pas de s'élever de terre,\nCouraient dans le jardin ;\nAinsi, parfois, quand l'âme est triste, nos pensées\nS'envolent un moment sur leurs ailes blessées,\nPuis retombent soudain.\nIl contempla longtemps les formes magnifiques\nQue la nature prend dans les champs pacifiques ;\nIl rêva jusqu'au soir ;\nTout le jour il erra le long de la ravine,\nAdmirant tour à tour le ciel, face divine,\nLe lac, divin miroir !\nHélas ! se rappelant ses douces aventures,\nRegardant, sans entrer, par-dessus les clôtures,\nAinsi qu'un paria,\nIl erra tout le jour, vers l'heure où la nuit tombe,\nIl sentit le coeur triste comme une tombe,\nAlors il s'écria...",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p4-texte-03",
+          "titre": "La petite sirène",
+          "texte": "Debout dans la forêt la petite sirène s'arrêta tout effrayée, son coeur battait d'angoisse et elle fut sur le point de s'en retourner, mais elle pensa au prince, à l'âme humaine et elle reprit courage. Elle enroula, bien serrés autour de sa tête, ses longs cheveux flottants pour ne pas donner prise aux polypes, croisa ses mains sur sa poitrine et s'élança comme le poisson peut voler à travers l'eau, au milieu des hideux polypes qui étendaient vers elle leurs bras et leurs doigts. Elle arriva dans la forêt à un espace visqueux où s'ébattaient de grandes couleuvres d'eau montrant des ventres jaunâtres, affreux et gras. Au milieu de cette place s'élevait une maison construite en ossements humain.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p4-texte-04",
+          "titre": "Le loup et le chien",
+          "texte": "Un Loup n'avait que les os et la peau,\nTant les chiens faisaient bonne garde.\nCe Loup rencontre un Dogue aussi puissant que beau,\nGras, poli, qui s'était fourvoyé par mégarde.\nL'attaquer, le mettre en quartiers,\nSire Loup l'eût fait volontiers ;\nMais il fallait livrer bataille,\nEt le Mâtin était de taille\nA se défendre hardiment.\nLe Loup donc l'aborde humblement,\nEntre en propos, et lui fait compliment\nSur son embonpoint, qu'il admire.\n\"Il ne tiendra qu'à vous beau sire,\nD'être aussi gras que moi, lui repartit le Chien.\nQuittez les bois, vous ferez bien :\nVos pareils y sont misérables,\nCancres, hères, et pauvres diables,\nDont la condition est de mourir de faim.\nSuivez-moi : vous aurez un bien meilleur destin. \"",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p4-texte-05",
+          "titre": "L'oiseau bleu",
+          "texte": "En même temps le roi change de figure ; ses bras se couvrent de plumes et forment des ailes ; ses jambes et ses pieds deviennent noirs et menus ; il lui croît des ongles crochus, son corps s'apetisse ; il est tout garni de longues plumes fines et mêlées de bleu céleste ; ses yeux s'arrondissent et brillent comme des soleils ; son nez n'est plus qu'un bec d'ivoire ; il s'élève sur sa tête une aigrette blanche, qui forme une couronne, il chante à ravir, et parle de même. En cet état il jette un cri douloureux de se voir ainsi métamorphosé, et s'envole à tire-d'aile pour fuir le funeste palais de Soussio. Dans la mélancolie qui l'accable, il voltige de branche en branche : des myrtes, des cyprès.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p4-texte-06",
+          "titre": "Le roman de Renart",
+          "texte": "A quelque temps de là, Renart se trouva devant un amas de branches entrelacées qui formaient une haie et dissimulaient l'entrée d'un souterrain. Il franchit la haie, découvrit l'ouverture et, soit par un mouvement de curiosité soit dans l'espoir d'y trouver à prendre, il descendit et n'eut pas de peine à reconnaître la demeure de son bel oncle Ysengrin. Le maître était sorti, dame Hersent, nouvellement relevée de couches, allaitait et léchait ses louveteaux. Comme elle avait déposé son chaperon, le soleil vint la frapper au visage quand Renart ouvrit la porte ; cela lui fit regarder qui venait ainsi lui rendre visite. Pour Renart, la crainte d'un mauvais accueil le décidait à demeurer immobile derrière la porte ; mais Hersent l'avait reconnu tout de suite à sa robe rousse.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p4-texte-07",
+          "titre": "L'Odyssée (Chant 1)",
+          "texte": "Dis-moi, Muse, cet homme subtil qui erra si longtemps, après qu'il eut renversé la citadelle sacrée de Troiè. Et il vit les cités de peuples nombreux, et il connut leur esprit ; et, dans son coeur, il endura beaucoup de maux, sur la mer, pour sa propre vie et le retour de ses compagnons. Mais il ne les sauva point, contre son désir ; et ils périrent par leur impiété, les insensés ! ayant mangé les boeufs de Hèlios Hypérionade. Et ce dernier leur ravit l'heure du retour. Dis-moi une partie de ces choses, Déesse, fille de Zeus. Tous ceux qui avaient évité la noire mort, échappés de la guerre et de la mer, étaient rentrés dans leurs demeures ; mais Odysseus restait seul et la vénérable Nymphe Kalypsô, le retenait dans ses grottes creuses, le désirant pour mari.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p4-texte-08",
+          "titre": "Les aventures d'Alice au pays des Merveilles",
+          "texte": "Alice se demandait si le plaisir de tresser une guirlande de pâquerettes valait la peine de se lever et d'aller cueillir les pâquerettes, lorsque, brusquement, un Lapin Blanc aux yeux roses passa en courant tout près d'elle. Ceci n'avait rien de particulièrement remarquable et Alice ne trouva pas non plus tellement bizarre d'entendre le Lapin se dire à mi-voix : « Oh, mon Dieu ! Oh, mon Dieu ! Je vais être en retard ! ». Cependant, lorsque le Lapin tira une montre de la poche de son gilet, regarda l'heure, et se mit à courir de plus belle, Alice se dressa d'un bond, car, tout à coup, l'idée lui était venue qu'elle n'avait jamais vu de lapin pourvu d'une poche de gilet, ni d'une montre à tirer de cette poche. Elle traversa le champ à sa poursuite...",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p4-texte-09",
+          "titre": "Le Minotaure",
+          "texte": "Dans l'antique cité de Trézène, située au pied d'une haute montagne, vivait autrefois avec sa mère un petit garçon qui avait nom Thésée. Le roi Pitthée, son grand-père, régnait sur cette contrée et passait pour un prince accompli ; aussi, le jeune Thésée, doué par la nature de brillantes qualités, élevé à la cour et sous les yeux de son aïeul, ne pouvait manquer de profiter des sages instructions du monarque. Sa mère s'appelait Éthra. Quant à son père, l'enfant ne l'avait jamais vu ; mais il se souvenait que, dès son âge le plus tendre, Éthra allait souvent dans un bois où se trouvait un rocher profondément enfoncé dans la terre et recouvert de mousse. Là, elle le faisait asseoir à côté d'elle, et lui parlait de son père. Elle lui disait qu'il se nommait Égée, que c'était un grand roi.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p4-texte-10",
+          "titre": "Peau d'Âne",
+          "texte": "Il était une fois un roi si grand, si aimé de ses peuples, si respecté de tous ses voisins et de ses alliés, qu'on pouvait dire qu'il était le plus heureux de tous les monarques. Son bonheur était encore confirmé par le choix qu'il avait fait d'une princesse aussi belle que vertueuse et ces heureux époux vivaient dans une union parfaite. De leur mariage était née une fille, douée de tant de grâce et de charmes, qu'ils ne regrettaient pas de n'avoir pas une grande lignée. La magnificence, le goût et l'abondance régnaient dans son palais ; les ministres étaient sages et habiles ; les courtisans, vertueux et attachés ; les domestiques, fidèles et laborieux ; les écuries, vastes et remplies des plus beaux chevaux du monde, couverts de riches caparaçons. Un maître d'âne étalait de longues et grandes oreilles[...] Les vertus de ce rare animal méritaient une distinction.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p4-texte-11",
+          "titre": "Les aventures de Pinocchio",
+          "texte": "Pinocchio vend son abécédaire pour aller au théâtre de marionnettes. La neige ayant cessé de tomber, Pinocchio prit le chemin qui menait à l'école emportant sous son bras, l'abécédaire flambant neuf. Tout en marchant il rêvassait et construisait mille châteaux en Espagne [...] Il se disait : — Aujourd'hui, à l'école, j'apprendrai à lire ; demain, j'apprendrai à écrire ; après-demain, je saurai compter. Avec mon savoir, je gagnerai beaucoup d'argent et, dès les premiers sous en poche, j'achèterai à mon papa un beau manteau de drap. Que dis-je de drap ? Il sera tissé d'or et d'argent avec des brillants en guise de boutons. Le pauvre homme le mérite bien... Alors que, ému, Pinocchio se racontait ce genre de choses, il entendit, au loin, le son aigu de fifres et les coups sourds d'une grosse caisse : pfuit-pfuit-pfuit, boum-boum-boum. Il s'arrêta pour mieux écouter.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p4-texte-12",
+          "titre": "Robinson Crusoé",
+          "texte": "AVRIL.\n\nLe 16. — Je terminai mon échelle, dont je me servais ainsi : d'abord je montais sur le haut de la palissade, puis je l'amenais à moi et la replaçais en dedans. Ma demeure me parut alors complète ; car j'y avais assez de place dans l'intérieur, et rien ne pouvait venir à moi du dehors, à moins de d'abord passer par-dessus ma muraille. Juste le lendemain que cet ouvrage fut achevé, je faillis à voir tous mes travaux renversés d'un seul coup, et à perdre moi-même la vie[...] J'étais occupé derrière ma tente, à l'entrée de ma grotte, lorsque je fus horriblement effrayé par une chose vraiment affreuse ; tout à coup la terre s'éboula de la voûte de ma grotte et du flanc de la montagne qui me dominait, et deux des poteaux que j'avais placés dans ma grotte craquèrent effroyablement. Je fus remué jusque dans les entrailles.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p4-texte-13",
+          "titre": "La Lune",
+          "texte": "La Lune est un corps céleste éclairé par le Soleil qui gravite autour de la Terre. La Lune est l'unique satellite naturel de la Terre car elle est le seul astre qui lui tourne autour continuellement. Elle est apparue il y a 4 milliards et demi d'années alors que la Terre n'avait que 50 millions d'années. Sur la Lune, on trouve des taches sombres appelées \"mers\". Ce sont des épanchements de lave qui viennent de volcans l'ayant marquée durant sa jeunesse. On y trouve aussi des montagnes relativement hautes. Son plus haut sommet, le mont Leibniz atteint 8200 m. Des météorites tombent sur la Lune, ce qui forment des cratères. Il y a plus de 10 000 météorites qui frappent le sol lunaire quotidiennement. Les cratères peuvent mesurer plusieurs dizaines de kilomètres de diamètre. On estime à 600 000 les cratères dont le rayon est supérieur à 1 km.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p4-texte-14",
+          "titre": "Expérience de solubilité",
+          "texte": "La solubilité est la capacité d'une substance appelée soluté à se dissoudre dans une autre substance appelée solvant, pour former un mélange homogène appelé solution. La solubilisation désigne ce processus de dissolution. Effectuons un test de solubilité dans l'eau liquide.\n1°) Verser une petite quantité d'eau dans trois tubes à essai, avec une pissette.\n2°) Insérer quelques grammes de chlorure de sodium dans le premier tube, avec une spatule.\n3°) Ajouter du sable dans le deuxième tube en appliquant la même procédure.\n4°) Même principe dans le troisième tube, adjoindre quelques grammes de saccharose.\n5°) Agiter les trois solutions avec un agitateur en verre.\n6°) Observer les trois mélanges. \n\nLe mélange eau-chlorure de sodium donne un liquide incolore. Le saccharose, quant à lui, n'est plus visible à l'œil nu. Ils ont subi une dissolution. Des grains de sable restent présents au fond du deuxième tube. Ce mélange est dit \"non homogène\".",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        },
+        {
+          "id": "p4-texte-15",
+          "titre": "Le nom des dinosaures",
+          "texte": "Le premier dinosaure à avoir été décrit par un scientifique est le mégalosaure, en 1827. Le mégalosaure (nom scientifique : Megalosaurus) est un genre de dinosaures théropodes carnivores de la famille des mégalosauridés qui vivait en Europe il y a 166 millions d'années, au Jurassique moyen. A l'époque, on pensait que les os fossilisés que l'on avait retrouvés étaient ceux d'un gigantesque lézard, ressemblant à un varan. On l'a donc appelé Megalosaurus, ce qui veut dire littéralement « lézard gigantesque », en grec. En 1842, le paléontologue Richard Owen propose le nom de « dinosaure », voulant dire « lézard terrible » , en grec, pour désigner ces gigantesques animaux... Mais le nom est resté et beaucoup de noms de dinosaures contiennent le mot « saurus » (\"lézard\") dans leur nom : Tyrannosaurus (\"lézard tyran\"), Ankylosaurus (\"lézard lourd\"), Ceratosaurus (« lézard à corne »), Psittacosaurus (« lézard perroquet »), Stegosaurus (« lézard à toit »)... Attention, tous les animaux finissant par « -saure » ou « -saurus » ne sont pas forcément des dinosaures.",
+          "valide": false,
+          "activites": {
+            "lecture": {
+              "actif": true,
+              "vitesse": null,
+              "groupes": []
+            },
+            "dictee": {
+              "actif": true,
+              "mots": []
+            },
+            "comprehension": {
+              "actif": true,
+              "questions": []
+            },
+            "motsMeles": {
+              "actif": true,
+              "mots": [],
+              "directions": null
+            },
+            "maze": {
+              "actif": true,
+              "trous": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "corpusVersion": 1
+}
