@@ -3697,30 +3697,226 @@
           "id": "p2-texte-02",
           "titre": "L'intrépide soldat de plomb (2)",
           "texte": "Un petit garçon avait reçu en cadeau pour son anniversaire, des soldats de plomb. Il s'amusait à les ranger sur la table. Tous les soldats se ressemblaient parfaitement, à l'exception d'un seul, qui n'avait qu'une jambe, ayant été fondu le dernier. Il ne restait pas assez de plomb. Cependant il se tenait aussi ferme sur cette jambe que les autres sur deux. C'est à lui qu'arriva une histoire extraordinaire.",
-          "valide": false,
+          "valide": true,
           "activites": {
             "lecture": {
               "actif": true,
-              "vitesse": null,
-              "groupes": [],
-              "groupesDemandes": false
+              "vitesse": 60,
+              "groupes": [
+                "Un petit garçon avait reçu",
+                "en cadeau",
+                "pour son anniversaire,",
+                "des soldats de plomb.",
+                "Il s'amusait à les ranger",
+                "sur la table.",
+                "Tous les soldats",
+                "se ressemblaient parfaitement,",
+                "à l'exception d'un seul,",
+                "qui n'avait qu'une jambe,",
+                "ayant été fondu le dernier.",
+                "Il ne restait pas assez de plomb.",
+                "Cependant il se tenait",
+                "aussi ferme sur cette jambe",
+                "que les autres sur deux.",
+                "C'est à lui qu'arriva une histoire extraordinaire."
+              ],
+              "groupesDemandes": true
             },
             "dictee": {
               "actif": true,
-              "mots": []
+              "mots": [
+                {
+                  "mot": "un petit garçon",
+                  "phrase": "Un petit garçon avait reçu en cadeau."
+                },
+                {
+                  "mot": "des soldats",
+                  "phrase": "Un petit garçon avait reçu en cadeau pour son anniversaire, des soldats de plomb."
+                },
+                {
+                  "mot": "la table",
+                  "phrase": "Il s'amusait à les ranger sur la table."
+                },
+                {
+                  "mot": "se ressemblaient",
+                  "phrase": "Tous les soldats se ressemblaient parfaitement."
+                },
+                {
+                  "mot": "un seul",
+                  "phrase": "à l'exception d'un seul, qui n'avait qu'une jambe."
+                },
+                {
+                  "mot": "qu'une jambe",
+                  "phrase": "à l'exception d'un seul, qui n'avait qu'une jambe."
+                },
+                {
+                  "mot": "Cependant",
+                  "phrase": "Cependant il se tenait aussi ferme sur cette jambe."
+                },
+                {
+                  "mot": "ferme",
+                  "phrase": "Cependant il se tenait aussi ferme sur cette jambe."
+                }
+              ]
             },
             "comprehension": {
               "actif": true,
-              "questions": []
+              "questions": [
+                {
+                  "question": "Qu'est-ce que le petit garçon a reçu pour son anniversaire ?",
+                  "indice": "Regarde le début du texte.",
+                  "extrait": "Un petit garçon avait reçu en cadeau pour son anniversaire, des soldats de plomb.",
+                  "bonne": 0,
+                  "choix": [
+                    "des soldats de plomb",
+                    "un grand bateau",
+                    "des billes colorées"
+                  ]
+                },
+                {
+                  "question": "Où le garçon range-t-il ses jouets ?",
+                  "indice": "Relis la deuxième phrase.",
+                  "extrait": "Il s'amusait à les ranger sur la table.",
+                  "bonne": 0,
+                  "choix": [
+                    "sur la table",
+                    "dans une boîte",
+                    "sur son lit"
+                  ]
+                },
+                {
+                  "question": "Pourquoi un soldat n'a-t-il qu'une seule jambe ?",
+                  "indice": "Cherche la phrase après le mot 'dernier'.",
+                  "extrait": "Il ne restait pas assez de plomb.",
+                  "bonne": 0,
+                  "choix": [
+                    "il n'y avait plus assez de plomb",
+                    "il est tombé de la table",
+                    "le garçon l'a cassé"
+                  ]
+                },
+                {
+                  "question": "Comment se tient le soldat à une jambe ?",
+                  "indice": "Relis le passage sur la jambe et le mot 'ferme'.",
+                  "extrait": "Cependant il se tenait aussi ferme sur cette jambe que les autres sur deux.",
+                  "bonne": 0,
+                  "choix": [
+                    "très solidement",
+                    "il tombe souvent",
+                    "il bouge beaucoup"
+                  ]
+                },
+                {
+                  "question": "Que signifie le mot 'extraordinaire' dans le texte ?",
+                  "indice": "Pense à quelque chose qui sort de l'ordinaire.",
+                  "extrait": "C'est à lui qu'arriva une histoire extraordinaire.",
+                  "bonne": 0,
+                  "choix": [
+                    "très étonnant",
+                    "très triste",
+                    "très court"
+                  ]
+                }
+              ]
             },
             "motsMeles": {
               "actif": true,
-              "mots": [],
-              "directions": null
+              "mots": [
+                "garçon",
+                "cadeau",
+                "soldats",
+                "table",
+                "jambe",
+                "tenait",
+                "ferme"
+              ],
+              "directions": "simple"
             },
             "maze": {
               "actif": true,
-              "trous": []
+              "trous": [
+                {
+                  "index": 6,
+                  "bonne": 0,
+                  "choix": [
+                    "cadeau",
+                    "travail",
+                    "voyage"
+                  ]
+                },
+                {
+                  "index": 13,
+                  "bonne": 0,
+                  "choix": [
+                    "plomb",
+                    "papier",
+                    "sucre"
+                  ]
+                },
+                {
+                  "index": 21,
+                  "bonne": 0,
+                  "choix": [
+                    "table",
+                    "porte",
+                    "fenêtre"
+                  ]
+                },
+                {
+                  "index": 27,
+                  "bonne": 0,
+                  "choix": [
+                    "parfaitement",
+                    "lentement",
+                    "différemment"
+                  ]
+                },
+                {
+                  "index": 35,
+                  "bonne": 0,
+                  "choix": [
+                    "jambe",
+                    "main",
+                    "tête"
+                  ]
+                },
+                {
+                  "index": 40,
+                  "bonne": 0,
+                  "choix": [
+                    "dernier",
+                    "premier",
+                    "milieu"
+                  ]
+                },
+                {
+                  "index": 48,
+                  "bonne": 0,
+                  "choix": [
+                    "Cependant",
+                    "Parfois",
+                    "Demain"
+                  ]
+                },
+                {
+                  "index": 56,
+                  "bonne": 0,
+                  "choix": [
+                    "jambe",
+                    "table",
+                    "main"
+                  ]
+                },
+                {
+                  "index": 61,
+                  "bonne": 0,
+                  "choix": [
+                    "deux",
+                    "dix",
+                    "quatre"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -4955,69 +5151,69 @@
               "questions": [
                 {
                   "question": "Comment est la coquille de la noix krakatuk ?",
+                  "indice": "Regarde le début du texte.",
+                  "extrait": "La noix krakatuk avait une si dure coquille, qu'un boulet de canon d'une pièce de quarante-huit pouvait l'atteindre sans la briser.",
+                  "bonne": 0,
                   "choix": [
                     "Elle est très dure",
                     "Elle est très fine",
                     "Elle est très lisse"
-                  ],
-                  "bonne": 0,
-                  "indice": "Regarde le début du texte.",
-                  "extrait": "La noix krakatuk avait une si dure coquille, qu'un boulet de canon d'une pièce de quarante-huit pouvait l'atteindre sans la briser."
+                  ]
                 },
                 {
                   "question": "Que se passe-t-il si on tire un boulet de canon sur la noix ?",
+                  "indice": "Cherche le mot 'briser'.",
+                  "extrait": "qu'un boulet de canon d'une pièce de quarante-huit pouvait l'atteindre sans la briser.",
+                  "bonne": 0,
                   "choix": [
                     "La noix reste entière",
                     "La noix explose",
                     "La noix s'écrase"
-                  ],
-                  "bonne": 0,
-                  "indice": "Cherche le mot 'briser'.",
-                  "extrait": "qu'un boulet de canon d'une pièce de quarante-huit pouvait l'atteindre sans la briser."
+                  ]
                 },
                 {
                   "question": "À quoi doit ressembler l'homme qui casse la noix ?",
+                  "indice": "Relis le passage sur l'homme.",
+                  "extrait": "Cette noix devait être cassée en présence de la princesse par un homme qui n'aurait pas été rasé et n'aurait jamais porté de bottes",
+                  "bonne": 0,
                   "choix": [
                     "Il ne doit pas être rasé",
                     "Il doit porter des bottes",
                     "Il doit être très vieux"
-                  ],
-                  "bonne": 0,
-                  "indice": "Relis le passage sur l'homme.",
-                  "extrait": "Cette noix devait être cassée en présence de la princesse par un homme qui n'aurait pas été rasé et n'aurait jamais porté de bottes"
+                  ]
                 },
                 {
                   "question": "Que doit faire la princesse quand on lui donne l'amande ?",
+                  "indice": "Cherche le mot 'yeux'.",
+                  "extrait": "et l'amande devait lui en être présentée les yeux fermés par ce même homme",
+                  "bonne": 0,
                   "choix": [
                     "Elle doit fermer les yeux",
                     "Elle doit chanter",
                     "Elle doit dormir"
-                  ],
-                  "bonne": 0,
-                  "indice": "Cherche le mot 'yeux'.",
-                  "extrait": "et l'amande devait lui en être présentée les yeux fermés par ce même homme"
+                  ]
                 },
                 {
                   "question": "Que signifie le mot 'monarque' dans le texte ?",
+                  "indice": "Regarde qui s'occupe de son dîner.",
+                  "extrait": "au moment où le roi s'occupait de son dîner, Drossel annonça au monarque le moyen trouvé",
+                  "bonne": 0,
                   "choix": [
                     "C'est le roi",
                     "C'est un savant",
                     "C'est un soldat"
-                  ],
-                  "bonne": 0,
-                  "indice": "Regarde qui s'occupe de son dîner.",
-                  "extrait": "au moment où le roi s'occupait de son dîner, Drossel annonça au monarque le moyen trouvé"
+                  ]
                 },
                 {
                   "question": "Pourquoi Drossel a-t-il cherché un moyen pour la princesse ?",
+                  "indice": "Lis la toute dernière phrase.",
+                  "extrait": "Drossel annonça au monarque le moyen trouvé pour rendre à la princesse Pirlipat sa beauté perdue.",
+                  "bonne": 0,
                   "choix": [
                     "Elle a perdu sa beauté",
                     "Elle est tombée malade",
                     "Elle a perdu sa couronne"
-                  ],
-                  "bonne": 0,
-                  "indice": "Lis la toute dernière phrase.",
-                  "extrait": "Drossel annonça au monarque le moyen trouvé pour rendre à la princesse Pirlipat sa beauté perdue."
+                  ]
                 }
               ]
             },
@@ -5041,138 +5237,138 @@
               "trous": [
                 {
                   "index": 6,
+                  "bonne": 0,
                   "choix": [
                     "dure",
                     "molle",
                     "petite"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 13,
+                  "bonne": 0,
                   "choix": [
                     "pièce",
                     "boîte",
                     "page"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 20,
+                  "bonne": 0,
                   "choix": [
                     "briser",
                     "ouvrir",
                     "peindre"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 27,
+                  "bonne": 0,
                   "choix": [
                     "présence",
                     "absence",
                     "ombre"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 33,
+                  "bonne": 0,
                   "choix": [
                     "homme",
                     "chien",
                     "livre"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 41,
+                  "bonne": 0,
                   "choix": [
                     "jamais",
                     "souvent",
                     "tard"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 47,
+                  "bonne": 0,
                   "choix": [
                     "devait",
                     "pouvait",
                     "voulait"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 54,
+                  "bonne": 0,
                   "choix": [
                     "fermés",
                     "ouverts",
                     "bleus"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 62,
+                  "bonne": 0,
                   "choix": [
                     "aurait",
                     "serait",
                     "mangerait"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 69,
+                  "bonne": 0,
                   "choix": [
                     "arrière",
                     "haut",
                     "côté"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 76,
+                  "bonne": 0,
                   "choix": [
                     "yeux",
                     "mains",
                     "pieds"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 83,
+                  "bonne": 0,
                   "choix": [
                     "jours",
                     "heures",
                     "mois"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 92,
+                  "bonne": 0,
                   "choix": [
                     "dîner",
                     "sommeil",
                     "voyage"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 98,
+                  "bonne": 0,
                   "choix": [
                     "moyen",
                     "chemin",
                     "objet"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 104,
+                  "bonne": 0,
                   "choix": [
                     "princesse",
                     "maison",
                     "ville"
-                  ],
-                  "bonne": 0
+                  ]
                 }
               ]
             }
@@ -5257,69 +5453,69 @@
               "questions": [
                 {
                   "question": "Où se trouvent les feuilles au début du texte ?",
+                  "indice": "Regarde la première phrase du texte.",
+                  "extrait": "Les feuilles qui gisaient dans le bois solitaire,",
+                  "bonne": 0,
                   "choix": [
                     "Dans le bois",
                     "Dans la ville",
                     "Sur un toit"
-                  ],
-                  "bonne": 0,
-                  "indice": "Regarde la première phrase du texte.",
-                  "extrait": "Les feuilles qui gisaient dans le bois solitaire,"
+                  ]
                 },
                 {
                   "question": "Comment se sent le personnage ?",
+                  "indice": "Cherche le mot qui décrit son âme ou son cœur.",
+                  "extrait": "Ainsi, parfois, quand l'âme est triste, nos pensées",
+                  "bonne": 0,
                   "choix": [
                     "Il est triste",
                     "Il est en colère",
                     "Il est joyeux"
-                  ],
-                  "bonne": 0,
-                  "indice": "Cherche le mot qui décrit son âme ou son cœur.",
-                  "extrait": "Ainsi, parfois, quand l'âme est triste, nos pensées"
+                  ]
                 },
                 {
                   "question": "Que fait-il pendant toute la journée ?",
+                  "indice": "Le texte dit qu'il 'erra'. Que signifie errer ?",
+                  "extrait": "Tout le jour il erra le long de la ravine,",
+                  "bonne": 0,
                   "choix": [
                     "Il marche sans but",
                     "Il dort longtemps",
                     "Il court vite"
-                  ],
-                  "bonne": 0,
-                  "indice": "Le texte dit qu'il 'erra'. Que signifie errer ?",
-                  "extrait": "Tout le jour il erra le long de la ravine,"
+                  ]
                 },
                 {
                   "question": "Que regarde-t-il comme un miroir ?",
+                  "indice": "Relis la phrase qui parle d'un miroir.",
+                  "extrait": "Le lac, divin miroir !",
+                  "bonne": 0,
                   "choix": [
                     "Le lac",
                     "Le ciel",
                     "La ravine"
-                  ],
-                  "bonne": 0,
-                  "indice": "Relis la phrase qui parle d'un miroir.",
-                  "extrait": "Le lac, divin miroir !"
+                  ]
                 },
                 {
                   "question": "Que signifie le mot 'paria' dans le texte ?",
+                  "indice": "Il regarde par-dessus les clôtures sans entrer.",
+                  "extrait": "Regardant, sans entrer, par-dessus les clôtures, Ainsi qu'un paria,",
+                  "bonne": 0,
                   "choix": [
                     "Quelqu'un d'exclu",
                     "Un grand voyageur",
                     "Un homme riche"
-                  ],
-                  "bonne": 0,
-                  "indice": "Il regarde par-dessus les clôtures sans entrer.",
-                  "extrait": "Regardant, sans entrer, par-dessus les clôtures, Ainsi qu'un paria,"
+                  ]
                 },
                 {
                   "question": "À quel moment le personnage s'écrie-t-il ?",
+                  "indice": "Lis la fin du texte pour voir l'heure.",
+                  "extrait": "Il erra tout le jour, vers l'heure où la nuit tombe,",
+                  "bonne": 0,
                   "choix": [
                     "Quand la nuit tombe",
                     "Dès le matin",
                     "À midi pile"
-                  ],
-                  "bonne": 0,
-                  "indice": "Lis la fin du texte pour voir l'heure.",
-                  "extrait": "Il erra tout le jour, vers l'heure où la nuit tombe,"
+                  ]
                 }
               ]
             },
@@ -5340,147 +5536,147 @@
               "trous": [
                 {
                   "index": 6,
+                  "bonne": 0,
                   "choix": [
                     "bois",
                     "pont",
                     "mur"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 15,
+                  "bonne": 0,
                   "choix": [
                     "terre",
                     "vent",
                     "feu"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 21,
+                  "bonne": 0,
                   "choix": [
                     "parfois",
                     "jamais",
                     "toujours"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 27,
+                  "bonne": 0,
                   "choix": [
                     "pensées",
                     "mains",
                     "habits"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 34,
+                  "bonne": 0,
                   "choix": [
                     "blessées",
                     "grandes",
                     "neuves"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 42,
+                  "bonne": 0,
                   "choix": [
                     "formes",
                     "couleurs",
                     "odeurs"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 47,
+                  "bonne": 0,
                   "choix": [
                     "prend",
                     "donne",
                     "voit"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 55,
+                  "bonne": 0,
                   "choix": [
                     "soir",
                     "midi",
                     "matin"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 62,
+                  "bonne": 0,
                   "choix": [
                     "long",
                     "haut",
                     "bas"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 69,
+                  "bonne": 0,
                   "choix": [
                     "tour",
                     "fois",
                     "jour"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 76,
+                  "bonne": 0,
                   "choix": [
                     "divin",
                     "petit",
                     "sale"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 83,
+                  "bonne": 0,
                   "choix": [
                     "aventures",
                     "leçons",
                     "erreurs"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 89,
+                  "bonne": 0,
                   "choix": [
                     "clôtures",
                     "portes",
                     "fenêtres"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 97,
+                  "bonne": 0,
                   "choix": [
                     "jour",
                     "mois",
                     "an"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 105,
+                  "bonne": 0,
                   "choix": [
                     "sentit",
                     "prit",
                     "mit"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 111,
+                  "bonne": 0,
                   "choix": [
                     "tombe",
                     "maison",
                     "montagne"
-                  ],
-                  "bonne": 0
+                  ]
                 }
               ]
             }
@@ -5565,69 +5761,69 @@
               "questions": [
                 {
                   "question": "Comment se sent la petite sirène au début du texte ?",
+                  "indice": "Regarde l'adjectif juste après le verbe s'arrêta.",
+                  "extrait": "Debout dans la forêt la petite sirène s'arrêta tout effrayée",
+                  "bonne": 0,
                   "choix": [
                     "Elle a très peur",
                     "Elle est joyeuse",
                     "Elle est fatiguée"
-                  ],
-                  "bonne": 0,
-                  "indice": "Regarde l'adjectif juste après le verbe s'arrêta.",
-                  "extrait": "Debout dans la forêt la petite sirène s'arrêta tout effrayée"
+                  ]
                 },
                 {
                   "question": "Pourquoi la sirène décide-t-elle de continuer son chemin ?",
+                  "indice": "Cherche le mot 'pensa' dans le texte.",
+                  "extrait": "mais elle pensa au prince, à l'âme humaine et elle reprit courage.",
+                  "bonne": 0,
                   "choix": [
                     "Elle pense au prince",
                     "Elle cherche sa maison",
                     "Elle veut voir des poissons"
-                  ],
-                  "bonne": 0,
-                  "indice": "Cherche le mot 'pensa' dans le texte.",
-                  "extrait": "mais elle pensa au prince, à l'âme humaine et elle reprit courage."
+                  ]
                 },
                 {
                   "question": "Que fait-elle avec ses cheveux ?",
+                  "indice": "Relis le passage où elle parle de sa tête.",
+                  "extrait": "Elle enroula, bien serrés autour de sa tête, ses longs cheveux flottants",
+                  "bonne": 0,
                   "choix": [
                     "Elle les enroule",
                     "Elle les coupe",
                     "Elle les brosse"
-                  ],
-                  "bonne": 0,
-                  "indice": "Relis le passage où elle parle de sa tête.",
-                  "extrait": "Elle enroula, bien serrés autour de sa tête, ses longs cheveux flottants"
+                  ]
                 },
                 {
                   "question": "Où se passe cette histoire ?",
+                  "indice": "Le texte parle de poissons, d'eau et de polypes.",
+                  "extrait": "s'élança comme le poisson peut voler à travers l'eau",
+                  "bonne": 0,
                   "choix": [
                     "Sous l'océan",
                     "Dans un château",
                     "Sur une plage"
-                  ],
-                  "bonne": 0,
-                  "indice": "Le texte parle de poissons, d'eau et de polypes.",
-                  "extrait": "s'élança comme le poisson peut voler à travers l'eau"
+                  ]
                 },
                 {
                   "question": "Que signifie le mot 'visqueux' ?",
+                  "indice": "Pense à la texture d'une couleuvre ou d'un escargot.",
+                  "extrait": "Elle arriva dans la forêt à un espace visqueux",
+                  "bonne": 0,
                   "choix": [
                     "Qui colle et glisse",
                     "Qui est très sec",
                     "Qui est très dur"
-                  ],
-                  "bonne": 0,
-                  "indice": "Pense à la texture d'une couleuvre ou d'un escargot.",
-                  "extrait": "Elle arriva dans la forêt à un espace visqueux"
+                  ]
                 },
                 {
                   "question": "En quoi est faite la maison à la fin du texte ?",
+                  "indice": "Lis la toute dernière phrase du texte.",
+                  "extrait": "Au milieu de cette place s'élevait une maison construite en ossements humain.",
+                  "bonne": 0,
                   "choix": [
                     "En ossements humains",
                     "En coquillages blancs",
                     "En pierres précieuses"
-                  ],
-                  "bonne": 0,
-                  "indice": "Lis la toute dernière phrase du texte.",
-                  "extrait": "Au milieu de cette place s'élevait une maison construite en ossements humain."
+                  ]
                 }
               ]
             },
@@ -5652,147 +5848,147 @@
               "trous": [
                 {
                   "index": 6,
+                  "bonne": 0,
                   "choix": [
                     "sirène",
                     "fille",
                     "fée"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 12,
+                  "bonne": 0,
                   "choix": [
                     "battait",
                     "chantait",
                     "dormait"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 19,
+                  "bonne": 0,
                   "choix": [
                     "point",
                     "bord",
                     "coin"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 27,
+                  "bonne": 0,
                   "choix": [
                     "prince",
                     "roi",
                     "père"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 34,
+                  "bonne": 0,
                   "choix": [
                     "courage",
                     "sommeil",
                     "espoir"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 42,
+                  "bonne": 0,
                   "choix": [
                     "tête",
                     "main",
                     "peau"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 50,
+                  "bonne": 0,
                   "choix": [
                     "donner",
                     "faire",
                     "prendre"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 56,
+                  "bonne": 0,
                   "choix": [
                     "mains",
                     "pieds",
                     "yeux"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 64,
+                  "bonne": 0,
                   "choix": [
                     "poisson",
                     "oiseau",
                     "chat"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 68,
+                  "bonne": 0,
                   "choix": [
                     "travers",
                     "dessus",
                     "contre"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 76,
+                  "bonne": 0,
                   "choix": [
                     "étendaient",
                     "cachaient",
                     "regardaient"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 83,
+                  "bonne": 0,
                   "choix": [
                     "doigts",
                     "jambes",
                     "oreilles"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 91,
+                  "bonne": 0,
                   "choix": [
                     "espace",
                     "chemin",
                     "village"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 97,
+                  "bonne": 0,
                   "choix": [
                     "couleuvres",
                     "bulles",
                     "algues"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 105,
+                  "bonne": 0,
                   "choix": [
                     "gras",
                     "fin",
                     "sec"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 110,
+                  "bonne": 0,
                   "choix": [
                     "place",
                     "ville",
                     "route"
-                  ],
-                  "bonne": 0
+                  ]
                 }
               ]
             }
@@ -5879,69 +6075,69 @@
               "questions": [
                 {
                   "question": "Comment est le Loup au début de l'histoire ?",
+                  "indice": "Regarde la première phrase sur son corps.",
+                  "extrait": "Un Loup n'avait que les os et la peau,",
+                  "bonne": 0,
                   "choix": [
                     "Il est très maigre",
                     "Il est très fatigué",
                     "Il est très malade"
-                  ],
-                  "bonne": 0,
-                  "indice": "Regarde la première phrase sur son corps.",
-                  "extrait": "Un Loup n'avait que les os et la peau,"
+                  ]
                 },
                 {
                   "question": "Comment est le Dogue que rencontre le Loup ?",
+                  "indice": "Cherche les adjectifs après le mot Dogue.",
+                  "extrait": "Ce Loup rencontre un Dogue aussi puissant que beau,",
+                  "bonne": 0,
                   "choix": [
                     "Il est fort et beau",
                     "Il est petit et rapide",
                     "Il est vieux et calme"
-                  ],
-                  "bonne": 0,
-                  "indice": "Cherche les adjectifs après le mot Dogue.",
-                  "extrait": "Ce Loup rencontre un Dogue aussi puissant que beau,"
+                  ]
                 },
                 {
                   "question": "Pourquoi le Loup ne mange-t-il pas le Dogue ?",
+                  "indice": "Relis le passage sur la bataille et la taille du Mâtin.",
+                  "extrait": "Mais il fallait livrer bataille, Et le Mâtin était de taille A se défendre hardiment.",
+                  "bonne": 0,
                   "choix": [
                     "Le Dogue est trop fort",
                     "Le Loup n'a pas faim",
                     "Le Dogue est trop poli"
-                  ],
-                  "bonne": 0,
-                  "indice": "Relis le passage sur la bataille et la taille du Mâtin.",
-                  "extrait": "Mais il fallait livrer bataille, Et le Mâtin était de taille A se défendre hardiment."
+                  ]
                 },
                 {
                   "question": "Que fait le Loup pour approcher le chien ?",
+                  "indice": "Regarde comment le Loup lui parle humblement.",
+                  "extrait": "Le Loup donc l'aborde humblement, Entre en propos, et lui fait compliment",
+                  "bonne": 0,
                   "choix": [
                     "Il lui fait des compliments",
                     "Il lui demande du travail",
                     "Il lui propose un jeu"
-                  ],
-                  "bonne": 0,
-                  "indice": "Regarde comment le Loup lui parle humblement.",
-                  "extrait": "Le Loup donc l'aborde humblement, Entre en propos, et lui fait compliment"
+                  ]
                 },
                 {
                   "question": "Que signifie le mot « embonpoint » ?",
+                  "indice": "Le chien répond en parlant d'être gras.",
+                  "extrait": "Sur son embonpoint, qu'il admire.",
+                  "bonne": 0,
                   "choix": [
                     "Le fait d'être gras",
                     "Le fait d'être grand",
                     "Le fait d'être gentil"
-                  ],
-                  "bonne": 0,
-                  "indice": "Le chien répond en parlant d'être gras.",
-                  "extrait": "Sur son embonpoint, qu'il admire."
+                  ]
                 },
                 {
                   "question": "Que conseille le chien au loup pour vivre mieux ?",
+                  "indice": "Le chien lui dit où il ne faut plus aller.",
+                  "extrait": "Quittez les bois, vous ferez bien :",
+                  "bonne": 0,
                   "choix": [
                     "De quitter la forêt",
                     "De chasser en groupe",
                     "De dormir plus souvent"
-                  ],
-                  "bonne": 0,
-                  "indice": "Le chien lui dit où il ne faut plus aller.",
-                  "extrait": "Quittez les bois, vous ferez bien :"
+                  ]
                 }
               ]
             },
@@ -5966,156 +6162,156 @@
               "trous": [
                 {
                   "index": 8,
+                  "bonne": 0,
                   "choix": [
                     "peau",
                     "main",
                     "robe"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 13,
+                  "bonne": 0,
                   "choix": [
                     "bonne",
                     "mauvaise",
                     "petite"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 21,
+                  "bonne": 0,
                   "choix": [
                     "puissant",
                     "lent",
                     "triste"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 28,
+                  "bonne": 0,
                   "choix": [
                     "fourvoyé",
                     "couché",
                     "caché"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 35,
+                  "bonne": 0,
                   "choix": [
                     "quartiers",
                     "morceaux",
                     "chemins"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 40,
+                  "bonne": 0,
                   "choix": [
                     "volontiers",
                     "rarement",
                     "tristement"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 48,
+                  "bonne": 0,
                   "choix": [
                     "Mâtin",
                     "Chat",
                     "Loup"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 55,
+                  "bonne": 0,
                   "choix": [
                     "hardiment",
                     "doucement",
                     "lentement"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 63,
+                  "bonne": 0,
                   "choix": [
                     "propos",
                     "jeux",
                     "chemins"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 70,
+                  "bonne": 0,
                   "choix": [
                     "embonpoint",
                     "courage",
                     "regard"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 75,
+                  "bonne": 0,
                   "choix": [
                     "tiendra",
                     "viendra",
                     "tombera"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 84,
+                  "bonne": 0,
                   "choix": [
                     "moi",
                     "toi",
                     "lui"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 91,
+                  "bonne": 0,
                   "choix": [
                     "bois",
                     "villes",
                     "champs"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 96,
+                  "bonne": 0,
                   "choix": [
                     "pareils",
                     "amis",
                     "ennemis"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 104,
+                  "bonne": 0,
                   "choix": [
                     "diables",
                     "anges",
                     "rois"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 112,
+                  "bonne": 0,
                   "choix": [
                     "faim",
                     "sommeil",
                     "froid"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 118,
+                  "bonne": 0,
                   "choix": [
                     "meilleur",
                     "pire",
                     "même"
-                  ],
-                  "bonne": 0
+                  ]
                 }
               ]
             }
@@ -6202,69 +6398,69 @@
               "questions": [
                 {
                   "question": "Que deviennent les bras du roi ?",
+                  "indice": "Regarde le début du texte, juste après les plumes.",
+                  "extrait": "ses bras se couvrent de plumes et forment des ailes",
+                  "bonne": 0,
                   "choix": [
                     "Des ailes",
                     "Des pattes",
                     "Des plumes"
-                  ],
-                  "bonne": 0,
-                  "indice": "Regarde le début du texte, juste après les plumes.",
-                  "extrait": "ses bras se couvrent de plumes et forment des ailes"
+                  ]
                 },
                 {
                   "question": "De quelle couleur est l'oiseau ?",
+                  "indice": "Cherche le mot 'bleu' dans le texte.",
+                  "extrait": "il est tout garni de longues plumes fines et mêlées de bleu céleste",
+                  "bonne": 0,
                   "choix": [
                     "Bleu",
                     "Blanc",
                     "Noir"
-                  ],
-                  "bonne": 0,
-                  "indice": "Cherche le mot 'bleu' dans le texte.",
-                  "extrait": "il est tout garni de longues plumes fines et mêlées de bleu céleste"
+                  ]
                 },
                 {
                   "question": "À quoi ressemblent les yeux du roi ?",
+                  "indice": "Relis la phrase qui parle des yeux.",
+                  "extrait": "ses yeux s'arrondissent et brillent comme des soleils",
+                  "bonne": 0,
                   "choix": [
                     "À des soleils",
                     "À des lunes",
                     "À des étoiles"
-                  ],
-                  "bonne": 0,
-                  "indice": "Relis la phrase qui parle des yeux.",
-                  "extrait": "ses yeux s'arrondissent et brillent comme des soleils"
+                  ]
                 },
                 {
                   "question": "Que signifie le mot 'métamorphosé' ?",
+                  "indice": "Regarde tout ce qui a changé chez le roi depuis le début.",
+                  "extrait": "il jette un cri douloureux de se voir ainsi métamorphosé",
+                  "bonne": 0,
                   "choix": [
                     "Transformé",
                     "Fatigué",
                     "Effrayé"
-                  ],
-                  "bonne": 0,
-                  "indice": "Regarde tout ce qui a changé chez le roi depuis le début.",
-                  "extrait": "il jette un cri douloureux de se voir ainsi métamorphosé"
+                  ]
                 },
                 {
                   "question": "Pourquoi le roi s'envole-t-il ?",
+                  "indice": "Relis la phrase avec le mot 'fuir'.",
+                  "extrait": "et s'envole à tire-d'aile pour fuir le funeste palais de Soussio",
+                  "bonne": 0,
                   "choix": [
                     "Pour quitter le palais",
                     "Pour chercher un ami",
                     "Pour aller chasser"
-                  ],
-                  "bonne": 0,
-                  "indice": "Relis la phrase avec le mot 'fuir'.",
-                  "extrait": "et s'envole à tire-d'aile pour fuir le funeste palais de Soussio"
+                  ]
                 },
                 {
                   "question": "Comment se sent le roi à la fin du texte ?",
+                  "indice": "Cherche le mot 'mélancolie'.",
+                  "extrait": "Dans la mélancolie qui l'accable, il voltige de branche en branche",
+                  "bonne": 0,
                   "choix": [
                     "Il est triste",
                     "Il est joyeux",
                     "Il est en colère"
-                  ],
-                  "bonne": 0,
-                  "indice": "Cherche le mot 'mélancolie'.",
-                  "extrait": "Dans la mélancolie qui l'accable, il voltige de branche en branche"
+                  ]
                 }
               ]
             },
@@ -6288,156 +6484,156 @@
               "trous": [
                 {
                   "index": 7,
+                  "bonne": 0,
                   "choix": [
                     "figure",
                     "vêtement",
                     "pays"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 13,
+                  "bonne": 0,
                   "choix": [
                     "plumes",
                     "feuilles",
                     "pierres"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 19,
+                  "bonne": 0,
                   "choix": [
                     "jambes",
                     "mains",
                     "oreilles"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 26,
+                  "bonne": 0,
                   "choix": [
                     "menus",
                     "larges",
                     "forts"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 34,
+                  "bonne": 0,
                   "choix": [
                     "corps",
                     "visage",
                     "esprit"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 41,
+                  "bonne": 0,
                   "choix": [
                     "longues",
                     "courtes",
                     "rares"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 48,
+                  "bonne": 0,
                   "choix": [
                     "céleste",
                     "sombre",
                     "pâle"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 56,
+                  "bonne": 0,
                   "choix": [
                     "soleils",
                     "miroirs",
                     "cailloux"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 62,
+                  "bonne": 0,
                   "choix": [
                     "bec",
                     "doigt",
                     "bras"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 70,
+                  "bonne": 0,
                   "choix": [
                     "aigrette",
                     "casquette",
                     "oreille"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 77,
+                  "bonne": 0,
                   "choix": [
                     "chante",
                     "mange",
                     "dort"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 83,
+                  "bonne": 0,
                   "choix": [
                     "même",
                     "loin",
                     "vite"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 90,
+                  "bonne": 0,
                   "choix": [
                     "cri",
                     "pas",
                     "livre"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 96,
+                  "bonne": 0,
                   "choix": [
                     "métamorphosé",
                     "habillé",
                     "endormi"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 104,
+                  "bonne": 0,
                   "choix": [
                     "funeste",
                     "grand",
                     "beau"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 110,
+                  "bonne": 0,
                   "choix": [
                     "mélancolie",
                     "patience",
                     "colère"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "index": 118,
+                  "bonne": 0,
                   "choix": [
                     "branche",
                     "maison",
                     "route"
-                  ],
-                  "bonne": 0
+                  ]
                 }
               ]
             }
@@ -6810,58 +7006,58 @@
               "questions": [
                 {
                   "question": "Quel mot désigne un animal sauvage proche du chien ?",
+                  "indice": "Pense à un animal qui hurle.",
+                  "extrait": "loup",
+                  "bonne": 0,
                   "choix": [
                     "loup",
                     "roue",
                     "jupe"
-                  ],
-                  "bonne": 0,
-                  "indice": "Pense à un animal qui hurle.",
-                  "extrait": "loup"
+                  ]
                 },
                 {
                   "question": "Quel mot désigne un vêtement ?",
+                  "indice": "On peut le porter.",
+                  "extrait": "jupe",
+                  "bonne": 2,
                   "choix": [
                     "journal",
                     "fourmi",
                     "jupe"
-                  ],
-                  "bonne": 2,
-                  "indice": "On peut le porter.",
-                  "extrait": "jupe"
+                  ]
                 },
                 {
                   "question": "Quel mot désigne une pièce qui tourne sur un vélo ?",
+                  "indice": "Cette pièce est ronde.",
+                  "extrait": "roue",
+                  "bonne": 0,
                   "choix": [
                     "roue",
                     "farine",
                     "lame"
-                  ],
-                  "bonne": 0,
-                  "indice": "Cette pièce est ronde.",
-                  "extrait": "roue"
+                  ]
                 },
                 {
                   "question": "Quel mot désigne un petit insecte qui vit en colonie ?",
+                  "indice": "Il peut transporter des miettes.",
+                  "extrait": "fourmi",
+                  "bonne": 1,
                   "choix": [
                     "renard",
                     "fourmi",
                     "ours"
-                  ],
-                  "bonne": 1,
-                  "indice": "Il peut transporter des miettes.",
-                  "extrait": "fourmi"
+                  ]
                 },
                 {
                   "question": "Quel mot désigne une publication imprimée qui donne des nouvelles ?",
+                  "indice": "On peut la lire chaque matin.",
+                  "extrait": "journal",
+                  "bonne": 2,
                   "choix": [
                     "journée",
                     "joujou",
                     "journal"
-                  ],
-                  "bonne": 2,
-                  "indice": "On peut la lire chaque matin.",
-                  "extrait": "journal"
+                  ]
                 }
               ]
             },
@@ -6881,53 +7077,53 @@
             },
             "maze": {
               "actif": true,
-              "mode": "phrases",
               "trous": [],
+              "mode": "phrases",
               "phrases": [
                 {
                   "phrase": "Le ___ hurle dans la forêt.",
+                  "bonne": 0,
                   "choix": [
                     "loup",
                     "lame",
                     "lune"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "La ___ tourne sur le vélo.",
+                  "bonne": 0,
                   "choix": [
                     "roue",
                     "jupe",
                     "farine"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Je mets une ___ pour sortir.",
+                  "bonne": 0,
                   "choix": [
                     "jupe",
                     "larme",
                     "fourmi"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "La ___ porte une miette.",
+                  "bonne": 0,
                   "choix": [
                     "fourmi",
                     "fumée",
                     "roue"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Je lis le ___ du matin.",
+                  "bonne": 0,
                   "choix": [
                     "journal",
                     "joujou",
                     "renard"
-                  ],
-                  "bonne": 0
+                  ]
                 }
               ]
             }
@@ -6971,58 +7167,58 @@
               "questions": [
                 {
                   "question": "Quel mot désigne un véhicule à deux roues ?",
+                  "indice": "On peut pédaler dessus.",
+                  "extrait": "vélo",
+                  "bonne": 1,
                   "choix": [
                     "robot",
                     "vélo",
                     "domino"
-                  ],
-                  "bonne": 1,
-                  "indice": "On peut pédaler dessus.",
-                  "extrait": "vélo"
+                  ]
                 },
                 {
                   "question": "Quel mot désigne l’animal de la ferme dont on boit le lait ?",
+                  "indice": "Cet animal meugle.",
+                  "extrait": "vache",
+                  "bonne": 0,
                   "choix": [
                     "vache",
                     "biche",
                     "poule"
-                  ],
-                  "bonne": 0,
-                  "indice": "Cet animal meugle.",
-                  "extrait": "vache"
+                  ]
                 },
                 {
                   "question": "Quel mot désigne un jouet qui tourne sur lui-même ?",
+                  "indice": "On le fait tourner sur sa pointe.",
+                  "extrait": "toupie",
+                  "bonne": 1,
                   "choix": [
                     "balle",
                     "toupie",
                     "robot"
-                  ],
-                  "bonne": 1,
-                  "indice": "On le fait tourner sur sa pointe.",
-                  "extrait": "toupie"
+                  ]
                 },
                 {
                   "question": "Quel mot désigne les poils juste sous le nez ?",
+                  "indice": "Cherche le mot qui parle du visage.",
+                  "extrait": "moustache",
+                  "bonne": 1,
                   "choix": [
                     "barbe",
                     "moustache",
                     "bobine"
-                  ],
-                  "bonne": 1,
-                  "indice": "Cherche le mot qui parle du visage.",
-                  "extrait": "moustache"
+                  ]
                 },
                 {
                   "question": "Quel mot désigne une tranche de pain garnie ?",
+                  "indice": "On peut y étaler de la confiture.",
+                  "extrait": "tartine",
+                  "bonne": 2,
                   "choix": [
                     "tarte",
                     "tapis",
                     "tartine"
-                  ],
-                  "bonne": 2,
-                  "indice": "On peut y étaler de la confiture.",
-                  "extrait": "tartine"
+                  ]
                 }
               ]
             },
@@ -7042,53 +7238,53 @@
             },
             "maze": {
               "actif": true,
-              "mode": "phrases",
               "trous": [],
+              "mode": "phrases",
               "phrases": [
                 {
                   "phrase": "La ___ donne du lait à la ferme.",
+                  "bonne": 0,
                   "choix": [
                     "vache",
                     "poule",
                     "bobine"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "La ___ tourne sur sa pointe.",
+                  "bonne": 0,
                   "choix": [
                     "toupie",
                     "tarte",
                     "balle"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Je pédale sur mon ___.",
+                  "bonne": 0,
                   "choix": [
                     "vélo",
                     "robot",
                     "domino"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "La ___ pousse sous mon nez.",
+                  "bonne": 0,
                   "choix": [
                     "moustache",
                     "bobine",
                     "tartine"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Je mange une ___ à la confiture.",
+                  "bonne": 0,
                   "choix": [
                     "tartine",
                     "tapis",
                     "porte"
-                  ],
-                  "bonne": 0
+                  ]
                 }
               ]
             }
@@ -7148,58 +7344,58 @@
               "questions": [
                 {
                   "question": "Que mange Sara ?",
+                  "indice": "Relis la première phrase.",
+                  "extrait": "Sara a une bonne pizza au chorizo.",
+                  "bonne": 1,
                   "choix": [
                     "Une salade",
                     "Une pizza au chorizo",
                     "Un gâteau"
-                  ],
-                  "bonne": 1,
-                  "indice": "Relis la première phrase.",
-                  "extrait": "Sara a une bonne pizza au chorizo."
+                  ]
                 },
                 {
                   "question": "Où joue le petit du zèbre ?",
+                  "indice": "Cherche le lieu où joue le petit.",
+                  "extrait": "Le petit du zèbre joue dans le zoo.",
+                  "bonne": 2,
                   "choix": [
                     "Dans la crèche",
                     "Au musée",
                     "Dans le zoo"
-                  ],
-                  "bonne": 2,
-                  "indice": "Cherche le lieu où joue le petit.",
-                  "extrait": "Le petit du zèbre joue dans le zoo."
+                  ]
                 },
                 {
                   "question": "Que sème Zabou ?",
+                  "indice": "Relis la phrase de Zabou.",
+                  "extrait": "La petite Zabou sème la zizanie à la crèche.",
+                  "bonne": 0,
                   "choix": [
                     "La zizanie",
                     "Des roses",
                     "Du blé"
-                  ],
-                  "bonne": 0,
-                  "indice": "Relis la phrase de Zabou.",
-                  "extrait": "La petite Zabou sème la zizanie à la crèche."
+                  ]
                 },
                 {
                   "question": "Quel lieu Lisa visite-t-elle ?",
+                  "indice": "Cherche où Lisa va.",
+                  "extrait": "Lisa réalise une visite au musée.",
+                  "bonne": 1,
                   "choix": [
                     "Le zoo",
                     "Le musée",
                     "La crèche"
-                  ],
-                  "bonne": 1,
-                  "indice": "Cherche où Lisa va.",
-                  "extrait": "Lisa réalise une visite au musée."
+                  ]
                 },
                 {
                   "question": "De quelle couleur est le vase ?",
+                  "indice": "Regarde le dernier mot du texte.",
+                  "extrait": "Les roses sont dans le vase bleu.",
+                  "bonne": 2,
                   "choix": [
                     "Rouge",
                     "Vert",
                     "Bleu"
-                  ],
-                  "bonne": 2,
-                  "indice": "Regarde le dernier mot du texte.",
-                  "extrait": "Les roses sont dans le vase bleu."
+                  ]
                 }
               ]
             },
@@ -7219,53 +7415,53 @@
             },
             "maze": {
               "actif": true,
-              "mode": "phrases",
               "trous": [],
+              "mode": "phrases",
               "phrases": [
                 {
                   "phrase": "Sara mange une ___ au chorizo.",
+                  "bonne": 0,
                   "choix": [
                     "pizza",
                     "crèche",
                     "visite"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Le petit du zèbre joue dans le ___.",
+                  "bonne": 0,
                   "choix": [
                     "zoo",
                     "vase",
                     "chorizo"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Zabou sème la ___ à la crèche.",
+                  "bonne": 0,
                   "choix": [
                     "zizanie",
                     "pizza",
                     "visite"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Lisa réalise une visite au ___.",
+                  "bonne": 0,
                   "choix": [
                     "musée",
                     "chorizo",
                     "vase"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Les roses sont dans le ___ bleu.",
+                  "bonne": 0,
                   "choix": [
                     "vase",
                     "chorizo",
                     "zèbre"
-                  ],
-                  "bonne": 0
+                  ]
                 }
               ]
             }
@@ -7324,58 +7520,58 @@
               "questions": [
                 {
                   "question": "De quel instrument joue Kali ?",
+                  "indice": "Relis la phrase de Kali.",
+                  "extrait": "Kali joue de la guitare avec Guillem.",
+                  "bonne": 1,
                   "choix": [
                     "Du piano",
                     "De la guitare",
                     "Du tambour"
-                  ],
-                  "bonne": 1,
-                  "indice": "Relis la phrase de Kali.",
-                  "extrait": "Kali joue de la guitare avec Guillem."
+                  ]
                 },
                 {
                   "question": "Quel animal le crocodile attaque-t-il ?",
+                  "indice": "Lis la fin de la phrase du guide.",
+                  "extrait": "Le guide chasse le crocodile qui s’attaque au koala.",
+                  "bonne": 0,
                   "choix": [
                     "Un koala",
                     "Un cochon",
                     "Un cheval"
-                  ],
-                  "bonne": 0,
-                  "indice": "Lis la fin de la phrase du guide.",
-                  "extrait": "Le guide chasse le crocodile qui s’attaque au koala."
+                  ]
                 },
                 {
                   "question": "Quel sport est pratiqué dans le dojo ?",
+                  "indice": "Cherche le nom du sport.",
+                  "extrait": "Je pratique le karaté dans le dojo de l’école.",
+                  "bonne": 2,
                   "choix": [
                     "Le football",
                     "La danse",
                     "Le karaté"
-                  ],
-                  "bonne": 2,
-                  "indice": "Cherche le nom du sport.",
-                  "extrait": "Je pratique le karaté dans le dojo de l’école."
+                  ]
                 },
                 {
                   "question": "Que mange le cochon ?",
+                  "indice": "Relis la phrase du cochon.",
+                  "extrait": "Le cochon mange des carottes et des figues.",
+                  "bonne": 0,
                   "choix": [
                     "Des carottes et des figues",
                     "Du chocolat et une tarte",
                     "Du riz et des pommes"
-                  ],
-                  "bonne": 0,
-                  "indice": "Relis la phrase du cochon.",
-                  "extrait": "Le cochon mange des carottes et des figues."
+                  ]
                 },
                 {
                   "question": "Que doit réparer Guy ?",
+                  "indice": "Cherche ce qui est cassé sur le vélo.",
+                  "extrait": "Guy doit réparer le guidon de son vélo.",
+                  "bonne": 1,
                   "choix": [
                     "Sa guitare",
                     "Le guidon de son vélo",
                     "La porte du dojo"
-                  ],
-                  "bonne": 1,
-                  "indice": "Cherche ce qui est cassé sur le vélo.",
-                  "extrait": "Guy doit réparer le guidon de son vélo."
+                  ]
                 }
               ]
             },
@@ -7395,53 +7591,53 @@
             },
             "maze": {
               "actif": true,
-              "mode": "phrases",
               "trous": [],
+              "mode": "phrases",
               "phrases": [
                 {
                   "phrase": "Kali joue de la ___ avec Guillem.",
+                  "bonne": 0,
                   "choix": [
                     "guitare",
                     "carottes",
                     "figues"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Le guide chasse le ___ qui attaque le koala.",
+                  "bonne": 0,
                   "choix": [
                     "crocodile",
                     "guidon",
                     "karaté"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Dans le dojo, je pratique le ___.",
+                  "bonne": 0,
                   "choix": [
                     "karaté",
                     "koala",
                     "guide"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Le cochon mange des ___ et des figues.",
+                  "bonne": 0,
                   "choix": [
                     "carottes",
                     "guitare",
                     "koala"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Guy répare le ___ de son vélo.",
+                  "bonne": 0,
                   "choix": [
                     "guidon",
                     "crocodile",
                     "karaté"
-                  ],
-                  "bonne": 0
+                  ]
                 }
               ]
             }
@@ -7504,58 +7700,58 @@
               "questions": [
                 {
                   "question": "De quelle couleur est le pantalon de Soline ?",
+                  "indice": "Relis ce que porte Soline.",
+                  "extrait": "Soline porte un pantalon marron et une chemise blanche.",
+                  "bonne": 1,
                   "choix": [
                     "Bleu",
                     "Marron",
                     "Blanc"
-                  ],
-                  "bonne": 1,
-                  "indice": "Relis ce que porte Soline.",
-                  "extrait": "Soline porte un pantalon marron et une chemise blanche."
+                  ]
                 },
                 {
                   "question": "Que font les enfants dans le jardin ?",
+                  "indice": "Cherche le jeu des enfants.",
+                  "extrait": "Les enfants font des rondes dans le jardin avec maman.",
+                  "bonne": 0,
                   "choix": [
                     "Des rondes",
                     "Du vélo",
                     "Une sieste"
-                  ],
-                  "bonne": 0,
-                  "indice": "Cherche le jeu des enfants.",
-                  "extrait": "Les enfants font des rondes dans le jardin avec maman."
+                  ]
                 },
                 {
                   "question": "Où mon oncle danse-t-il et chante-t-il ?",
+                  "indice": "Relis la phrase de mon oncle.",
+                  "extrait": "Mon oncle danse et chante dans le salon.",
+                  "bonne": 2,
                   "choix": [
                     "Dans la cour",
                     "Dans la rue",
                     "Dans le salon"
-                  ],
-                  "bonne": 2,
-                  "indice": "Relis la phrase de mon oncle.",
-                  "extrait": "Mon oncle danse et chante dans le salon."
+                  ]
                 },
                 {
                   "question": "Quels oiseaux sont dans la cour ?",
+                  "indice": "Cherche les deux noms d’oiseaux.",
+                  "extrait": "Les pintades et les dindons sont dans la cour.",
+                  "bonne": 1,
                   "choix": [
                     "Des roses et des chats",
                     "Des pintades et des dindons",
                     "Des poules et des canards"
-                  ],
-                  "bonne": 1,
-                  "indice": "Cherche les deux noms d’oiseaux.",
-                  "extrait": "Les pintades et les dindons sont dans la cour."
+                  ]
                 },
                 {
                   "question": "Quel animal le serpent veut-il attaquer ?",
+                  "indice": "Lis la fin du texte.",
+                  "extrait": "Le serpent rampe le long du chemin pour attaquer le chaton insouciant.",
+                  "bonne": 0,
                   "choix": [
                     "Le chaton",
                     "La pintade",
                     "Le dindon"
-                  ],
-                  "bonne": 0,
-                  "indice": "Lis la fin du texte.",
-                  "extrait": "Le serpent rampe le long du chemin pour attaquer le chaton insouciant."
+                  ]
                 }
               ]
             },
@@ -7575,62 +7771,62 @@
             },
             "maze": {
               "actif": true,
-              "mode": "phrases",
               "trous": [],
+              "mode": "phrases",
               "phrases": [
                 {
                   "phrase": "Soline porte un pantalon ___.",
+                  "bonne": 0,
                   "choix": [
                     "marron",
                     "blanche",
                     "insouciant"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Les enfants font des ___ dans le jardin.",
+                  "bonne": 0,
                   "choix": [
                     "rondes",
                     "pintades",
                     "dindons"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Mon oncle chante dans le ___.",
+                  "bonne": 0,
                   "choix": [
                     "salon",
                     "chaton",
                     "pantalon"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Les pintades et les ___ sont dans la cour.",
+                  "bonne": 0,
                   "choix": [
                     "dindons",
                     "pantalon",
                     "serpent"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Le serpent rampe le long du ___.",
+                  "bonne": 0,
                   "choix": [
                     "chemin",
                     "chaton",
                     "pantalon"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Le serpent veut attaquer le ___.",
+                  "bonne": 0,
                   "choix": [
                     "chaton",
                     "pantalon",
                     "salon"
-                  ],
-                  "bonne": 0
+                  ]
                 }
               ]
             }
@@ -7697,58 +7893,58 @@
               "questions": [
                 {
                   "question": "Quel problème a le bateau d’Argo ?",
+                  "indice": "Relis les premiers mots du récit.",
+                  "extrait": "Dans son joli bateau qui prend l’eau,",
+                  "bonne": 0,
                   "choix": [
                     "Il prend l’eau",
                     "Il n’a plus de voile",
                     "Il n’a plus de moteur"
-                  ],
-                  "bonne": 0,
-                  "indice": "Relis les premiers mots du récit.",
-                  "extrait": "Dans son joli bateau qui prend l’eau,"
+                  ]
                 },
                 {
                   "question": "Qu’accroche Argo pour être vu ?",
+                  "indice": "Cherche ce qu’il décide d’accrocher.",
+                  "extrait": "décide d’accrocher un drapeau.",
+                  "bonne": 2,
                   "choix": [
                     "Une corde",
                     "Une ancre",
                     "Un drapeau"
-                  ],
-                  "bonne": 2,
-                  "indice": "Cherche ce qu’il décide d’accrocher.",
-                  "extrait": "décide d’accrocher un drapeau."
+                  ]
                 },
                 {
                   "question": "Quels objets Argo prend-il ?",
+                  "indice": "Relis la deuxième phrase.",
+                  "extrait": "Il prend son couteau et un marteau",
+                  "bonne": 0,
                   "choix": [
                     "Un couteau et un marteau",
                     "Une carte et une lampe",
                     "Un seau et une pelle"
-                  ],
-                  "bonne": 0,
-                  "indice": "Relis la deuxième phrase.",
-                  "extrait": "Il prend son couteau et un marteau"
+                  ]
                 },
                 {
                   "question": "Qui Argo espère-t-il voir passer ?",
+                  "indice": "Cherche qui pourrait voir son drapeau.",
+                  "extrait": "Il espère qu’un paquebot verra son drapeau",
+                  "bonne": 1,
                   "choix": [
                     "Un koala",
                     "Un paquebot",
                     "Un vélo"
-                  ],
-                  "bonne": 1,
-                  "indice": "Cherche qui pourrait voir son drapeau.",
-                  "extrait": "Il espère qu’un paquebot verra son drapeau"
+                  ]
                 },
                 {
                   "question": "Quel conseil est écrit sur le drapeau ?",
+                  "indice": "Lis les mots écrits sur le drapeau.",
+                  "extrait": "Parfois il vaut mieux prendre son auto !",
+                  "bonne": 2,
                   "choix": [
                     "Prendre un vélo",
                     "Rester sur le cargo",
                     "Prendre son auto"
-                  ],
-                  "bonne": 2,
-                  "indice": "Lis les mots écrits sur le drapeau.",
-                  "extrait": "Parfois il vaut mieux prendre son auto !"
+                  ]
                 }
               ]
             },
@@ -7768,62 +7964,62 @@
             },
             "maze": {
               "actif": true,
-              "mode": "phrases",
               "trous": [],
+              "mode": "phrases",
               "phrases": [
                 {
                   "phrase": "Argo navigue sur un ___ qui prend l’eau.",
+                  "bonne": 0,
                   "choix": [
                     "bateau",
                     "marteau",
                     "drapeau"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Le pirate accroche un ___ pour être vu.",
+                  "bonne": 0,
                   "choix": [
                     "drapeau",
                     "couteau",
                     "marteau"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Il prend son couteau et un ___.",
+                  "bonne": 0,
                   "choix": [
                     "marteau",
                     "paquebot",
                     "cargo"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Il monte en haut de son ___.",
+                  "bonne": 0,
                   "choix": [
                     "cargo",
                     "couteau",
                     "drapeau"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Il espère qu’un ___ verra son drapeau.",
+                  "bonne": 0,
                   "choix": [
                     "paquebot",
                     "marteau",
                     "couteau"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Le drapeau conseille de prendre son ___ plutôt que le bateau.",
+                  "bonne": 0,
                   "choix": [
                     "auto",
                     "marteau",
                     "couteau"
-                  ],
-                  "bonne": 0
+                  ]
                 }
               ]
             }
@@ -7890,58 +8086,58 @@
               "questions": [
                 {
                   "question": "Quand Simon va-t-il nourrir les lapins ?",
+                  "indice": "Relis les premiers mots.",
+                  "extrait": "Chaque matin, mon cousin Simon",
+                  "bonne": 0,
                   "choix": [
                     "Chaque matin",
                     "Chaque soir",
                     "Une fois par mois"
-                  ],
-                  "bonne": 0,
-                  "indice": "Relis les premiers mots.",
-                  "extrait": "Chaque matin, mon cousin Simon"
+                  ]
                 },
                 {
                   "question": "Avec qui Simon va-t-il nourrir les lapins ?",
+                  "indice": "Lis la fin de la première phrase.",
+                  "extrait": "les lapins avec sa maman.",
+                  "bonne": 1,
                   "choix": [
                     "Avec son oncle",
                     "Avec sa maman",
                     "Avec un guide"
-                  ],
-                  "bonne": 1,
-                  "indice": "Lis la fin de la première phrase.",
-                  "extrait": "les lapins avec sa maman."
+                  ]
                 },
                 {
                   "question": "Combien de petits lapereaux découvre-t-il ?",
+                  "indice": "Cherche le nombre devant nouveaux petits lapereaux.",
+                  "extrait": "il découvre quatorze nouveaux petits lapereaux.",
+                  "bonne": 2,
                   "choix": [
                     "Quatre",
                     "Dix",
                     "Quatorze"
-                  ],
-                  "bonne": 2,
-                  "indice": "Cherche le nombre devant nouveaux petits lapereaux.",
-                  "extrait": "il découvre quatorze nouveaux petits lapereaux."
+                  ]
                 },
                 {
                   "question": "Contre qui les lapereaux se serrent-ils ?",
+                  "indice": "Relis la phrase après leur découverte.",
+                  "extrait": "Ils se serrent contre leur maman lapin.",
+                  "bonne": 0,
                   "choix": [
                     "Leur maman lapin",
                     "Simon",
                     "Un autre animal"
-                  ],
-                  "bonne": 0,
-                  "indice": "Relis la phrase après leur découverte.",
-                  "extrait": "Ils se serrent contre leur maman lapin."
+                  ]
                 },
                 {
                   "question": "Pourquoi les lapereaux restent-ils au chaud ?",
+                  "indice": "Lis la dernière phrase.",
+                  "extrait": "Ils vont rester au chaud pendant longtemps car ils n’ont pas encore de poil.",
+                  "bonne": 1,
                   "choix": [
                     "Parce qu’ils ont froid dehors",
                     "Parce qu’ils n’ont pas encore de poil",
                     "Parce qu’ils jouent"
-                  ],
-                  "bonne": 1,
-                  "indice": "Lis la dernière phrase.",
-                  "extrait": "Ils vont rester au chaud pendant longtemps car ils n’ont pas encore de poil."
+                  ]
                 }
               ]
             },
@@ -7961,62 +8157,62 @@
             },
             "maze": {
               "actif": true,
-              "mode": "phrases",
               "trous": [],
+              "mode": "phrases",
               "phrases": [
                 {
                   "phrase": "Simon met son pantalon et son ___.",
+                  "bonne": 0,
                   "choix": [
                     "veston",
                     "poil",
                     "chaud"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Chaque matin, Simon nourrit les ___.",
+                  "bonne": 0,
                   "choix": [
                     "lapins",
                     "veston",
                     "pantalon"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Il découvre quatorze petits ___.",
+                  "bonne": 0,
                   "choix": [
                     "lapereaux",
                     "pantalon",
                     "veston"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Les petits se serrent contre leur ___.",
+                  "bonne": 0,
                   "choix": [
                     "maman",
                     "veston",
                     "pantalon"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Ils restent au ___ car ils n’ont pas de poil.",
+                  "bonne": 0,
                   "choix": [
                     "chaud",
                     "veston",
                     "pantalon"
-                  ],
-                  "bonne": 0
+                  ]
                 },
                 {
                   "phrase": "Les lapereaux n’ont pas encore de ___.",
+                  "bonne": 0,
                   "choix": [
                     "poil",
                     "veston",
                     "pantalon"
-                  ],
-                  "bonne": 0
+                  ]
                 }
               ]
             }
@@ -8026,5 +8222,5 @@
     }
   ],
   "corpusVersion": 4,
-  "publieLe": "2026-11-16T14:20:18.680Z"
+  "publieLe": "2026-11-20T12:48:09.427Z"
 }
